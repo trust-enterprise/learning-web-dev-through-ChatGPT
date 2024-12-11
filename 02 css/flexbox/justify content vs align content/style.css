@@ -1,21 +1,25 @@
 body, ul{
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 nav{
     display: flex;
     flex-direction: row;
     align-items: center; /* Use align-items instead of align-content for centering */
-    justify-content: space-between; /* Space around on nav */
+    justify-content: space-evenly; /* Space around on nav */
     padding-top: 1.4rem;
     width: 100%; /* Ensures nav takes full width of the screen */
 }
 
+#logo{
+    border: 2px solid red;
+}
 #navLinks{
+    border: 2px solid ;
     display: flex;
     gap: 20px;
     list-style: none;
-    width: 100%; /* Ensure this takes full available width */
+    width: auto; /* Ensure this takes full available width */
 }
  
 
