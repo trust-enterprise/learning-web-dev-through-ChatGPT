@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <h2>CURRENCY CONVERTER</h2>
+    <form action="">
+        <!-- currency to convert -->
+        <label for="currency">CURRENCY</label>
+        <select name="" id="currency">
+            <option value="usd">DOLLAR</option>
+            <option value="euro">EURO</option>
+        </select>   <br>
+
+        <!-- amount to be converted -->
+        <label for="amountToConvert">Amount to Convert</label>
+        <input type="number" name="" id="amountToConvert">  <br>
+
+        <!-- converted amount -->
+        <label for="convertedAmount">Into INR</label>
+        <input type="number" id="convertedAmount">
+
+    </form>
+
+    <h2><font color="red">Learning</font></h2>
+    <ol>
+        <li>'change' in event listener is used to get the value of form elements like drop-menu, radio button and checkbox when the cursor is moved out of there.</li>
+        <li>'input' in event listener is used to track real-time changes in a textbox</li>
+        <li>'.value' is used to set a value inside input field (instead of textContent)</li>
+        <li>entire 'style.textContent' will be replaced with '.value'</li>
+    </ol>
+    <script> 
+        //event listeners
+        document.getElementById('currency').addEventListener('change', currencyConverter)
+        document.getElementById('amountToConvert').addEventListener('input',currencyConverter)
+        
+
+        //define conversion rate
+        const conversionRate = {usd: 100, euro: 200}
+
+        //define conversion function
+        function currencyConverter(){
+            //access DOM elements
+            let currencyToConvert = document.getElementById('currency').value;
+            let amountToConvert = document.getElementById('amountToConvert').value;
+            let convertedAmount = document.getElementById('convertedAmount')
+
+            if ( !isNaN(amountToConvert) && amountToConvert !== ""){
+                let converted = (amountToConvert * conversionRate[currencyToConvert]).toFixed(2);
+                convertedAmount.value = converted;
+            }else{
+                convertedAmount.value = "0";
+            }
+        }
+ 
+    </script>
+</body>
+</html>
