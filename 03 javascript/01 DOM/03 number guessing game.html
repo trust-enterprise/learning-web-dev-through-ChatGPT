@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>NUMBER GUESSING GAME</h2> <hr>
+    <form action="">
+        <label for="secretNum">Enter a secret number</label>
+        <input type="number" name="secretNum" id="secretNum"> <br><br>
+
+        <label for="guessNum">Enter a guess number</label>
+        <input type="number" name="" id="guessNum"> <br><br>
+
+        <input type="button" value="Check you guess" id="checkBtn"> <br><br>
+
+        <span id="numsEntered"></span>
+
+        <span id="result"></span>
+    </form>
+
+    <script>
+        //adding evenet listener to checking button
+        let checkGuessBtn = document.getElementById('checkBtn')
+        checkGuessBtn.addEventListener('click', guessNumMatch)
+
+        //initializing result & numsEntered 
+        let result = document.getElementById('result');
+        let numsEntered = document.getElementById('numsEntered')
+        let numsEnteredArr =  [];
+
+        //function to check guess
+        function guessNumMatch(event){
+
+            //constraint for no. of attempts
+            let attempt = 0;
+            while(attempt < 5){
+
+                attempt++;
+
+                //access elements
+                let secretNum = parseFloat(document.getElementById('secretNum').value);
+                let guessNum = parseFloat(document.getElementById('guessNum').value);
+                
+                //validity check
+                if(isNaN(secretNum)||isNaN(guessNum)||secretNum==0){
+                    result.textContent = `Pls enter valid input`;
+                }else{
+                    //display guessedNum array
+                    numsEntered.textContent = numsEnteredArr.push(guessNum);
+
+                    if(secretNum === guessNum){
+                        result.textContent = `You WON! The secret number is ${secretNum}`
+                    }else{
+                        result.textContent = "Pls try again"
+                    }
+                }
+            }
+            result.textContent = `Attempts over. The secret number is ${secretNum}`;
+
+        }
+    </script>
+</body>
+</html>
