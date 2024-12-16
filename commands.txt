@@ -25,4 +25,38 @@ git log --oneline
 
 
 
+LINKED IN POST FORMAT
+
+Dear Reader,
+
+
+
+
+Issues encountered were:
+
+
+
+
+Learnings were:
+
+
+
+
+
+Resource used:
+
+
+
+
+
+Hashnode post on learning:
+
+
+
+
+GitHub link:
+
+To repository:  
+
+
 
