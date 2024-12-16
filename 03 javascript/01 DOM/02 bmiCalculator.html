@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h3>BMI Calculator</h3> <hr>
+    <form action="">
+        <label for="weight">weight in kg</label>
+        <input type="number" name="" id="weight" value="40"> <br>
+        <label for="height">height in m</label>
+        <input type="number" name="" id="height" value="1.5"> <br>
+        <input type="submit" value="" id="calculate"><br><br>
+        <span id="result"></span>
+    </form>
+
+    <script>
+        function calculateBMI(){
+            let height = document.body.getElementById('height');
+            let weight = document.body.getElementById('weight');
+            let calculate = document.body.getElementById('calculate');
+            let result= document.body.getElementById('result');
+
+            if(isNaN(weight) || isNaN(height) || weight == "" || height == "" || height == 0){
+                result.textContent = "Enter valid input"
+            }else{
+                let bmi = height/weight**2;
+                
+                result.textContent = bmi;
+
+                if(bmi < 18.5){
+                    result.textContent += "underweight"
+                }else if(bmi <= 24.9){
+                    result.textContent += "normal weight"
+                }else if(bmi <= 29.9 ){
+                    result.textContent += "overweight"
+                }else{
+                    result.textContent += "obesity";
+                }
+
+            }
+            
+        }
+    </script>
+</body>
+</html>
