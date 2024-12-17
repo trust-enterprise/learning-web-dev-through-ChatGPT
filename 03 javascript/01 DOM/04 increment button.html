@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span id="display">Click a button</span> <br>
+    <button id="btnAdd">increment</button>
+    <button id="btnSub">decrement</button>
+    <button id="btnCustom">custom</button>
+    <button id="reset">reset</button>
+    
+    <script>
+        //access elements
+        let display = document.getElementById('display');
+        let btnAdd = document.getElementById('btnAdd');
+        let btnSub = document.getElementById('btnSub');
+        let btnCustom = document.getElementById('btnCustom');
+        let reset = document.getElementById('reset');
+
+        //initialize display Value
+        let displayValue = 0;
+
+        //add event listener to buttons
+        btnAdd.addEventListener('click', () => { 
+            display.textContent = ++displayValue
+        })
+
+        btnSub.addEventListener('click', () => {
+            display.textContent = --displayValue
+        })
+
+        btnCustom.addEventListener('click', () => {
+            let customValue = Number(prompt('enter new value '));
+            displayValue = customValue;
+            display.textContent = displayValue;
+        })
+
+        reset.addEventListener('click', () => {
+            displayValue = 0;
+            display.textContent = displayValue;
+        })
+    </script>
+</body>
+</html>
