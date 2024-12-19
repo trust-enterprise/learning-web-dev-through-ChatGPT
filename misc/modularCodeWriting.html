@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="message">You have 5 attempts</h1>
+    <button id="clickButton">Click Me</button>
+    <button id="resetButton" disabled>Restart</button>
+
+    <hr>
+
+    <font color="red"><h3 align="center">Learning</h3></font>
+    <ol>
+        <li>modular writing of main  subsidiary functions</li>
+        <li>button state management</li>
+        <li>control flow of global variable within functions</li>
+    </ol>
+
+    <script>
+        //initialize global var
+        let attempts = 5;
+
+        //get DOM elements
+        let message = document.getElementById('message');
+        let clickButton = document.getElementById('clickButton');
+        let resetButton = document.getElementById('resetButton');
+
+        // -- event listeners
+        clickButton.addEventListener('click', handleClick);
+        resetButton.addEventListener('click', handleReset);
+
+        // -- main functions
+        
+        //click me button function
+        function handleClick(){
+            attempts--;
+
+            if (attempts > 0){
+                updateMsg(`You have ${attempts} attempts left`)
+                
+            } else {
+                updateMsg(`Attempts over. Click 'Restart' button.`)
+                enableBtn(resetButton)
+                disableBtn(clickButton)
+            }
+        }
+
+        //reset button function
+        function handleReset(){
+            attempts = 5
+            updateMsg(`You have ${attempts} attempts`)
+            enableBtn(clickButton)
+            disableBtn(resetButton)
+        }
+
+        //message updating function
+        function updateMsg(text){
+            message.textContent = text;
+        }
+
+        //enable display button 
+        function enableBtn(button){
+            button.disabled = false;
+        }
+        
+        //disable display button 
+        function disableBtn(button){
+            button.disabled = true;
+        }
+    </script>
+</body>
+</html>

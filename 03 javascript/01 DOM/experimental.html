@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4 id="generatedNum">number generated is</h4> 
+    <script>
+        let random = Math.floor(Math.random()*5 + 1)
+        let generatedNum = document.getElementById('generatedNum');
+        generatedNum.textContent += random;
+    </script>
+</body>
+</html>

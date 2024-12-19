@@ -3,45 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attempt Counter</title>
+    <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1 id="message">You have 5 attempts</h1>
-        <button id="clickButton">Click Me</button>
-        <button id="resetButton" disabled>Restart</button>
-    </div>
+    <h1>yuhhoooo! kudos for your guess :)</h1>
+    DON'T LOOOK HERE ->>><b id="generatedNum"></b>
+    <hr>
+    <h3 id="msg">attempts left: 5</h3>
+    <label for="guessNum">enter your guess bw 1 to 5</label>
+    <input type="number" name="" id="guessNum">
+    <br><br>
+    <div id="entryRecord">
+        <b>numbers entered</b>:
+        <span id="guessedArr"><b></b></span> 
+    </div><br><br>
+    <button id="checkGuessBtn">check guess</button>
+    <button id="resetBtn" disabled>restart</button>
+    <hr>
+
+    <font color="red"><h3 align="center">Learnings</h3></font>
+    <ol>
+        <li>event driven input value should be placed under event handler function</li>
+        <li>id of a DOM element can be same as id for HTML element, but must differ from function name</li>
+        <li>style.display: "true/false" (erases or adds block space) vs style.visibility: "hidden/visible" (maintains block space))</li>
+    </ol>
 
     <script>
-        // Access elements
-        const message = document.getElementById('message');
-        const clickButton = document.getElementById('clickButton');
-        const resetButton = document.getElementById('resetButton');
-
-        // Initialize variables
+    
+        //init global var
         let attempts = 5;
+        let numArr = [];
+        let random = Math.floor(Math.random()*5 + 1) //generates random no. bw 1 to 5
 
-        // Function to handle clicks
-        clickButton.addEventListener('click', () => {
-            if (attempts > 0) {
-                attempts--;
-                message.textContent = `You have ${attempts} attempts`;
+        //get DOM elements
+        let generatedNum = document.getElementById('generatedNum');
+        let msg = document.getElementById('msg');        
+        let entryRecord = document.getElementById('entryRecord');
+        let guessedArr = document.getElementById('guessedArr');
+        let checkGuessBtn = document.getElementById('checkGuessBtn');
+        let resetBtn = document.getElementById('resetBtn');
+        
+                
+        //display generated num
+        generatedNum.textContent += " " + random;
+                    
+        //hide entry record
+        entryRecord.style.visibility = "hidden";
 
-                if (attempts === 0) {
-                    message.textContent = 'Attempts over, press restart';
-                    clickButton.disabled = true; // Disable click button
-                    resetButton.disabled = false; // Enable reset button
-                }
+        // event listeners
+        checkGuessBtn.addEventListener('click', checkGuess)
+        resetBtn.addEventListener('click', reset)
+
+        //-- MAIN FUNCTIONS
+
+        //handle checkGuessBtn
+        function checkGuess(){
+            
+            if (attempts > 0){
+                let guessNum = parseInt(document.getElementById('guessNum').value);
+
+                --attempts;
+                console.log(`attempts value ${attempts}`)
+                entryRecord.style.visibility = "visible";
+
+                if(isNaN(guessNum)){
+                    updateMsg(`attempts left: ${attempts}; enter valid guess`);
+                    updateGuessArr(guessNum);                    
+                }else{
+                    if(guessNum == random){
+                        updateMsg(`you won! Wow! your lucky number is ${random}`)
+                        updateGuessArr(guessNum);
+                        disableBtn(checkGuessBtn);
+                        enableBtn(resetBtn);
+                    }else{
+                        updateMsg(`attempts left: ${attempts}; pls try again`)
+                        updateGuessArr(guessNum)
+                    }
+                }   
             }
-        });
+            
+            //check if attempts is 0
+            if(attempts === 0){
+                updateMsg(`game over! kudos for next time..`)
+                disableBtn(checkGuessBtn);
+                enableBtn(resetBtn);
+            }
+        }
 
-        // Function to handle reset
-        resetButton.addEventListener('click', () => {
-            attempts = 5; // Reset attempts
-            message.textContent = 'You have 5 attempts';
-            clickButton.disabled = false; // Enable click button
-            resetButton.disabled = true; // Disable reset button
-        });
+
+        //handle reset
+        function reset(){
+            attempts = 5;
+            msg.textContent = `attempts left: 5`;
+            
+            numArr = [];
+            guessedArr.textContent = '';
+            entryRecord.style.display = "none";
+
+            random = Math.floor(Math.random()*5 + 1) //generates random no. bw 1 to 5
+            generatedNum.textContent = " " + random;                        
+            enableBtn(checkGuessBtn);
+            disableBtn(resetBtn);
+        }
+
+        //-- SUBSIDIARY FUNCTIONS
+
+        // main msg display
+        function updateMsg(text){
+            msg.textContent = text;
+        }
+
+        //enable btn
+        function enableBtn(button){
+            button.disabled = false;
+        }
+
+        //disable btn
+        function disableBtn(button){
+            button.disabled = true;
+        }
+
+        //update guessedArray
+        function updateGuessArr(num){    
+            numArr.push(num);    
+            guessedArr.textContent = numArr.join(', ');
+        }
     </script>
 </body>
 </html>
