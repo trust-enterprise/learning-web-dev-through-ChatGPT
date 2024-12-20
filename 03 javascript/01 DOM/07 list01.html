@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Shopping list</h3><hr>
+    <button id="showBtn">show items</button>
+    <button id="hideBtn" disabled>hide items</button>
+    <ul id="list"></ul>
+
+    <font color="red"><h3 align="center">Learnings</h3></font>
+    <ol>
+        <li>to disable/enable a button in js, btn.disabled == true/false is used</li>
+        <li>to disable/enable an html element in js, ele.style.display == true/false is used</li>
+        <li>forgot that map needs a return keyword when a function is passed inside as parameter</li>
+    </ol>
+    <script>
+        //get DOM ele
+        let list  = document.getElementById('list');
+        let showBtn  = document.getElementById('showBtn')
+        let hideBtn  = document.getElementById('hideBtn')
+
+        //init item arr
+        let itemArr = ['egg', 'cake', 'ice cream', 'rope', 'jog shoes']
+
+        //use map() to modify item arr
+        let itemArrModified = itemArr.map( itemName =>  'item '+itemName  )
+
+        //event listener
+        showBtn.addEventListener('click', show)
+        hideBtn.addEventListener('click', hide)
+
+        //--MAIN FUNCTIONS
+
+        //show()
+        function show(){
+            
+            //use forEach to add li to list
+            itemArrModified.forEach(item => {
+                const li = document.createElement('li')
+                li.textContent = item;
+                list.appendChild(li);
+            })
+
+            toggleBtnVisibility()
+        }
+
+        //hide()
+        function hide(){
+            list.innerHTML = "";
+
+            toggleBtnVisibility()
+        }
+        
+        //--SIDE FUNCTION
+
+        //toggle button display
+        function toggleBtnVisibility(){
+            if (showBtn.disabled){
+                showBtn.disabled = false;
+                hideBtn.disabled = true;
+            }else{
+                showBtn.disabled = true;
+                hideBtn.disabled = false;
+            }
+        }
+    
+    </script>
+</body>
+</html>

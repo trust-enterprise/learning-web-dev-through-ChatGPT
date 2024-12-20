@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>To Do Karlooo...</h3> <hr>
+    <label for="task">task</label>    
+    <input type="text" name="" id="task"> 
+    <button id="addTask">bas add kar lo ab</button> <br><br>
+    <ol id="taskList"></ol>
+
+    <script>
+        //init global var
+
+
+        //access DOM ele
+        let addTask = document.getElementById('addTask');
+        let taskList = document.getElementById('taskList');
+        let delTask = document.getElementById('delTask');
+
+        //event listeners
+        addTask.addEventListener('click', taskAddKaro)
+        delTask.addEventListener('click', (taskX) => {taskDelKaro(taskX)} )
+        
+        //PRIMARY FUNCTIONS
+        function taskAddKaro(){
+            
+            let task = String(document.getElementById('task').value);
+            let li = document.createElement('li')
+            li.textContent = task;
+
+            
+            let delTask = document.createElement('button')
+            delTask.classList.add('delete')
+            delTask.textContent = "delete karo";
+
+            li.appendChild(delTask);
+
+            taskList.appendChild(li);
+        }
+
+        //SECONDARY FUNCTIONS
+    </script>
+</body>
+</html>

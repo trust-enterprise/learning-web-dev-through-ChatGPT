@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Paragraph Coloring</h2><hr>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a, totam, nemo rem dignissimos sed voluptatibus eligendi soluta blanditiis aspernatur, exercitationem est ducimus! Tempora!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a, totam, nemo rem dignissimos sed voluptatibus eligendi soluta blanditiis aspernatur, exercitationem est ducimus! Tempora!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a, totam, nemo rem dignissimos sed voluptatibus eligendi soluta blanditiis aspernatur, exercitationem est ducimus! Tempora!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a, totam, nemo rem dignissimos sed voluptatibus eligendi soluta blanditiis aspernatur, exercitationem est ducimus! Tempora!</p>
+
+    <button id="colorChangeBtn">clik me to change color</button>
+
+    <script>
+        //init global var
+
+        //get DOM ele
+        let paraArr = document.querySelectorAll('.para');
+        let colorChangeBtn = document.getElementById('colorChangeBtn');
+
+        //event listener
+        colorChangeBtn.addEventListener('click', changeParaColor);
+
+        //--MAIN FUNCTION
+        function changeParaColor(){
+            let i=0;
+            let range = '0123456789ABCDEF';
+
+            while (i< paraArr.length){
+                
+                let color = '#';
+                let x = 0;
+                for (x=0; x<6; x++){
+                    color+= range[Math.floor(Math.random()*16)]
+                }
+                paraArr[i].style.color = color;
+                i++;
+            }
+        }
+    </script>
+</body>
+</html>
