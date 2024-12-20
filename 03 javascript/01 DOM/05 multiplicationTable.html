@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>multiplication table</h2> <hr>
+    <label for="num">enter a number</label>
+    <input type="number" name="" id="num">
+    <br><br>
+    <input type="button" value="generate multiplication table" id="tableBtn">
+    <div id="tableArea"></div>
+
+    <h2 align="center"><font color="red">learning</font></h2>
+    <ol>
+        <li>you don't use quotes while appending a child to an element</li>
+        <li>use of 'return false' for validation check</li>
+    </ol>
+    <script>
+        //init global var
+
+        //get DOM ele
+        let tableBtn = document.getElementById('tableBtn');
+        let tableArea = document.getElementById('tableArea');
+        
+        //event listeners
+        tableBtn.addEventListener('click', () => {
+            let num = parseInt(document.getElementById('num').value);
+            generateMultiplicationTable(num)
+        });
+
+        // --MAIN FUNCTION
+        function generateMultiplicationTable(num){
+            if (!validateNum(num)) return;
+            
+            tableArea.innerHTML = "";
+            let i = 1;
+            for (i = 1; i<=10; i++){
+                let li = document.createElement('li');
+                li.textContent = `${num} x ${i} = ${num*i} `;
+                tableArea.appendChild(li);
+            }
+        }
+
+        // --SIDE FUNCTION
+        function validateNum(num){
+            if(isNaN(num)){
+                tableArea.textContent = "enter valid number"
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
