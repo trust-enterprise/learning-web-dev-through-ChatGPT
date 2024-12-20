@@ -12,6 +12,15 @@
     <button id="addTask">bas add kar lo ab</button> <br><br>
     <ol id="taskList"></ol>
 
+    <font color="red"><h3 align="center">Learnings</h3></font>
+    <ol>
+        <li>lexical scope: how far a variable is visible</li>
+        <li>closure: mechanism in which inner function is able to access its parents variables</li>
+        <li>parent: is the <b>immediate</b> parent of current child</li>
+        <li>functionality too can be added to an added element</li>
+        <li>'this' context of regular function is to its parent object & changes as per its call from respective parent object (thus shows different username on output)</li>
+        <li>'this' context of arrow function remains fixed and is same as the 'this' context of its parent (follows inheritence)</li>
+    </ol>
     <script>
         //init global var
 
@@ -23,23 +32,40 @@
 
         //event listeners
         addTask.addEventListener('click', taskAddKaro)
-        delTask.addEventListener('click', (taskX) => {taskDelKaro(taskX)} )
+         
         
         //PRIMARY FUNCTIONS
         function taskAddKaro(){
             
             let task = String(document.getElementById('task').value);
+            
+            //validation check
+            if(task.trim() ===""){
+                alert('enter a task');
+                return;
+            }
+            
+            //create li
             let li = document.createElement('li')
             li.textContent = task;
 
-            
-            let delTask = document.createElement('button')
-            delTask.classList.add('delete')
-            delTask.textContent = "delete karo";
+            //create delete button           
+            let delTaskBtn = document.createElement('button') 
+            delTaskBtn.textContent = "delete karo";
 
-            li.appendChild(delTask);
+            //add delete button to li
+            li.appendChild(delTaskBtn);
 
+            //add li to taskList
             taskList.appendChild(li);
+
+            //empty textbox
+            document.getElementById('task').value= '';
+
+            //add delete functionality
+            delTaskBtn.addEventListener('click',() => {
+                taskList.removeChild(li);
+            })
         }
 
         //SECONDARY FUNCTIONS

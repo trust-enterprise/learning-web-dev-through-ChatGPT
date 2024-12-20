@@ -11,7 +11,7 @@
     <input type="number" name="" id="num">
     <br><br>
     <input type="button" value="generate multiplication table" id="tableBtn">
-    <div id="tableArea"></div>
+    <ul style="list-style: none;" id="tableArea"></ul>
 
     <h2 align="center"><font color="red">learning</font></h2>
     <ol>
@@ -39,9 +39,11 @@
             let i = 1;
             for (i = 1; i<=10; i++){
                 let li = document.createElement('li');
-                li.textContent = `${num} x ${i} = ${num*i} `;
+                li.textContent = `${num} x ${i} = ${num*i} `; 
                 tableArea.appendChild(li);
             }
+
+            eraseTextBox()
         }
 
         // --SIDE FUNCTION
@@ -51,6 +53,10 @@
                 return false;
             }
             return true;
+        }
+
+        function eraseTextBox(){
+            document.getElementById('num').value = '';
         }
     </script>
 </body>
