@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>DOM wala Form</h3> <hr>
+    <form action="">
+        name:   <input type="tel" name="" id="name"> <br>
+        hobby:  <input type="checkbox" name="hobby" value="cricket" id="cricket">cricket 
+        <input type="checkbox" name="hobby" value="swim" id="swim">swimming <br>
+        gender: <input type="radio" name="gender" id="m" value="male" >M <input type="radio" name="gender" id="f" value="female">F <br>
+        country: 
+        <select name="" id="country">
+            <option value="usa">usa</option>
+            <option value="ind">india</option>
+            <option value="aus">australia</option>
+        </select> <br> <br>
+        <input type="button" onclick="getOutput()" value="submit">
+
+        <h3 id="output"></h3>
+    
+        <h2 align="center"><font color="red">learning</font></h2>
+        <ol>
+            <li>add parentheses to function's name when writing it to onclick</li>
+            <li><strong>optional chaining ?.</strong> returns 'undefined' & skips adding value from that radio button when returning the selected value</li>
+            <li>setting checkbox items into array, and displaying each of those properly formatted values </li>
+        </ol>
+        
+        <script>
+            //--PRIMARY FUNCTION
+            function getOutput(){
+                //get DOM ele
+                let name = document.getElementById('name').value; //'get element by' returns HTML collection
+                let hobby = Array.from(document.querySelectorAll('input[name="hobby"]:checked')).map(item => item.value).join(', '); //'query selector all' returns nodelist
+                let gender = document.querySelectorAll('input[name="gender"]')?.value || 'not selected'; //optional chain used
+                let country = document.querySelector('#country').value;
+                let output = document.getElementById('output');
+
+                //display output
+                output.innerHTML = `<strong>name : </strong> ${name} <br>
+                                    <strong>hobby : </strong> ${hobby} <br>
+                                    <strong>gender : </strong> ${gender} <br>
+                                    <strong>country : </strong> ${country} <br>`; 
+
+            }
+        </script>
+        
+    </form>
+</body>
+</html>
