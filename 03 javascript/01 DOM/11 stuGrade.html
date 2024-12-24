@@ -12,38 +12,103 @@
     </style>
 </head>
 <body>
-    <h2>Student Grade Grader</h2>
+    <h2>Student Grade Grader</h2><hr>
     <table border="1" cellpadding="10">
         <tr>
             <th>name</th>
-            <th>class</th>
-            <th>eng</th>
-            <th>lang 2</th>
-            <th>mat</th>
-            <th>sci</th>
-            <th>sst</th>
-            <th>tot</th>
-            <th>%</th>
-            <th>grade</th>
+            <td><input type="text" value="" name="" id="name"></td>
         </tr>
         <tr>
-            <td><input type="text" value="name" name="" id=""></td>
-            <td><input type="text" value="class" name="" id=""></td>
-            <td><input type="number" value="eng" name="" id=""></td>
-            <td><input type="number" value="lang2" name="" id=""></td>
-            <td><input type="number" value="mat" name="" id=""></td>
-            <td><input type="number" value="sci" name="" id=""></td>
-            <td><input type="number" value="sst" name="" id=""></td>
-            <td><input type="number" value="tot" name="" id="tot"></td>
-            <td><input type="number" value="" name="" id="percentage"></td>
-            <td><input type="text" value="" name="" id="grade"></td>
+            <th>class</th><td><input type="text" value="" name="" id="class"></td>
         </tr>
+        <tr>
+            <th>eng</th><td><input type="number" value="eng" name="" id="eng" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <th>lang 2</th><td><input type="number" value="lang2" name="" id="lang2" min="0" max="100"></td>
+        </tr>    
+        <tr>
+            <th>mat</th><td><input type="number" value="mat" name="" id="mat" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <th>sci</th><td><input type="number" value="sci" name="" id="sci" min="0" max="100"></td>
+        </tr>    
+        <tr>
+            <th>sst</th><td><input type="number" value="sst" name="" id="sst" min="0" max="100"></td>
+        </tr>    
+    </table> <br>
 
+        <input type="button" value="calculate" id="calculateGrade" onclick="gradeCalculation()">
+        <input type="button" value="reset" id="reset" onclick="resetForm()">
+        
         <h3 id="output"></h3>
 
+        <h2 align="center"><font color="red">learning</font></h2>
+        <ol>
+            <li>even the input from number box is actually a string</li> 
+            <li>use '.value.trim()' while taking value from textbox input</li>
+        </ol>
         <script>
-            
-        </script>
-    </table>
+            //-- PRIMARY FUNCTION 
+
+            function gradeCalculation(){
+                //get DOM ele
+                let stuName = document.getElementById('name').value.trim();
+                let stuClass = document.getElementById('class').value.trim();
+                let eng = Number(document.getElementById('eng').value);
+                let lang2 = Number(document.getElementById('lang2').value);
+                let mat = Number(document.getElementById('mat').value);
+                let sci = Number(document.getElementById('sci').value);
+                let sst = Number(document.getElementById('sst').value);
+                let output = document.getElementById('output');
+                
+                //init global var
+                let total, percentage = 0;
+                let grade = '' ;  
+
+                //validation check
+                if(!stuName || !stuName){
+                    output.innerHTML = `<font color="red">pls enter name & class</font>`;
+                    return
+                }
+
+                //find total and percentage
+                total = eng + lang2 + mat + sci + sst;
+                percentage = (total/5).toFixed(2);
+                
+                //find grade
+                if(percentage >= 81 && percentage <= 100){
+                    grade = 'A'
+                }else if(percentage >= 61){
+                    grade = 'B'
+                }else if(percentage >= 51){
+                    grade = 'C'
+                }else if(percentage >= 33){
+                    grade = 'D'
+                }else{
+                    grade = 'E'
+                }
+ 
+                //display output
+                output.innerHTML = `<font color="green">
+                                        <strong>${stuName}</strong> has scored ${percentage} with grade ${grade} in class ${stuClass}
+                                    </font>`
+            }
+
+            function resetForm() {
+                // Clear all input fields
+                document.getElementById('name').value = '';
+                document.getElementById('class').value = '';
+                document.getElementById('eng').value = '';
+                document.getElementById('lang2').value = '';
+                document.getElementById('mat').value = '';
+                document.getElementById('sci').value = '';
+                document.getElementById('sst').value = '';
+                
+                // Clear output
+                document.getElementById('output').innerHTML = '';
+            }
+
+        </script> 
 </body>
 </html>
