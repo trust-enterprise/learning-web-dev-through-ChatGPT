@@ -3,97 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Book</title>
+    <title>Image Upload</title>
 </head>
 <body>
-    <h2>Contact Book Me Save Kar Lo...</h2>
-    <hr>
-    <table border="1" cellpadding="8">
-        <tr>
-            <th>Name</th>
-            <th>Phone</th>
-        </tr>
-        <tr>
-            <td><input type="text" id="inputName" placeholder="Enter name"></td>
-            <td><input type="number" id="inputPhone" placeholder="Enter phone no."></td>
-        </tr>
-    </table><br>
 
-    <button onclick="addContact()">Add Contact</button>
-    <button onclick="deleteContact()">Delete All Contacts</button>
-
-    <div>
-        <input type="text" id="searchBox" placeholder="Search contacts..." oninput="searchContacts()">
-    </div>
-
-    <div id="output">
-        <b>Contact List:</b>
-        <ol id="contactList"></ol>
+    <h2>Upload an Image</h2>
+    
+    <!-- Image upload form -->
+    <input type="file" id="imageInput" multiple accept="image/*" onchange="displayImage()">
+    
+    <br><br>
+    
+    <!-- Div to display the image -->
+    <div id="imageContainer">
+        <img id="displayedImage" src="" alt="No image selected" style="max-width: 100%; max-height: 400px;">
     </div>
 
     <script>
-        let contacts = []; // Store all contacts
-
-        const contactList = document.getElementById('contactList');
-        const searchBox = document.getElementById('searchBox');
-        const output = document.getElementById('output');
-
-        output.style.display = 'none'; // Initially hide the output section
-
-        function addContact() {
-            const name = document.getElementById('inputName').value.trim();
-            const phone = document.getElementById('inputPhone').value.trim();
-
-            if (!name || !phone) {
-                alert('Enter valid input');
-                return;
+        // Function to display the image dynamically
+        function displayImage() {
+            // Get the file input element
+            const fileInput = document.getElementById('imageInput');
+            
+            // Check if a file is selected
+            if (fileInput.files && fileInput.files[0]) {
+                const file = fileInput.files[0];
+                
+                // Create a new FileReader object to read the image
+                const reader = new FileReader();
+                
+                // When the file is loaded, set the src of the image to the file URL
+                reader.onload = function(e) {
+                    const image = document.getElementById('displayedImage');
+                    image.src = e.target.result;
+                };
+                
+                // Read the file as a data URL
+                reader.readAsDataURL(file);
             }
-
-            const newContact = { name, phone };
-            contacts.push(newContact); // Add new contact to the array
-            updateContactList(contacts);   // Update the list display
-
-            document.getElementById('inputName').value = '';
-            document.getElementById('inputPhone').value = '';
-            output.style.display = 'block';
-        }
-
-        function deleteContact() {
-            contacts = []; // Clear the array
-            updateContactList(contacts); // Clear the list
-            output.style.display = 'none';
-        }
-
-        function searchContacts() {
-            const query = searchBox.value.trim().toLowerCase();
-
-            if (!query) {
-                updateContactList(contacts); // Show full list if search is cleared
-                return;
-            }
-
-            const filteredContacts = contacts.filter(contact =>
-                contact.name.toLowerCase().includes(query) || 
-                contact.phone.includes(query)
-            );
-
-            updateContactList(filteredContacts);
-        }
-
-        function updateContactList(contactArray) {
-            contactList.innerHTML = ''; // Clear the list
-
-            contactArray.forEach((contact, index) => {
-                const li = document.createElement('li');
-                li.innerHTML = `${contact.name} - ${contact.phone} <button onclick="deleteSingleContact(${index})">Delete</button>`;
-                contactList.appendChild(li);
-            });
-        }
-
-        function deleteSingleContact(index) {
-            contacts.splice(index, 1); // Remove contact from the array
-            updateContactList(contacts); // Update the displayed list
         }
     </script>
+
 </body>
 </html>
