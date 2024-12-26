@@ -1,48 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Tabs Example</title>
+    <title>Document</title>
 </head>
 <body>
-
-    <div class="tabs-container">
-        <!-- Tabs Navigation -->
-        <ul class="tabs">
-            <li class="tab-link active" data-tab="tab-1">Tab 1</li>
-            <li class="tab-link" data-tab="tab-2">Tab 2</li>
-            <li class="tab-link" data-tab="tab-3">Tab 3</li>
-        </ul>
-
-        <!-- Tab Content -->
-        <div id="tab-1" class="tab-content" style="display: block;">
-            <p>This is Tab 1 content.</p>
-        </div>
-        <div id="tab-2" class="tab-content" style="display: none;">
-            <p>This is Tab 2 content.</p>
-        </div>
-        <div id="tab-3" class="tab-content" style="display: none;">
-            <p>This is Tab 3 content.</p>
-        </div>
-    </div>
-
+    <h2>Image Previewer</h2><hr>
+    <b>Choose images to preview</b>
+    <input type="file" name="" id="imageInput" accept="image/*" multiple onchange="previewImages()">
+    <div id="previewContainer" style="display: flex; flex-wrap: wrap; margin: 20px;gap:14px"></div>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const tabs = document.querySelectorAll('.tab-link');
-            tabs.forEach(tab => {
-                tab.addEventListener('click', function(e) {
-                    const targetTab = e.target.getAttribute('data-tab');
-                    tabs.forEach(tab => tab.classList.remove('active'));
-                    document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
-                    
-                    e.target.classList.add('active');
-                    document.getElementById(targetTab).style.display = 'block';
-                });
-            });
-        });
-    </script>
+        //
+        let previewContainer = document.getElementById('previewContainer')
 
+        //--PRIMARY FUNC
+        function previewImages(){
+            let imageInput = document.getElementById('imageInput');
+
+            let fileArray = Array.from(imageInput.files);
+
+            fileArray.forEach(file => {
+                let reader = new FileReader();
+
+                reader.readAsDataURL(file);
+
+                reader.onload = (loadEvent)=>{
+                    let encodedData = loadEvent.target.result;
+
+                    let img = document.createElement('img');
+                    img.src = encodedData;
+                    img.style.height = '140px';
+                    previewContainer.appendChild(img);
+                }
+            })
+        }
+    </script>
 </body>
 </html>
