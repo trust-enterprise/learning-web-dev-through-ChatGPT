@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=button], ol li button{
+            margin-left: 10px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h3>To Do Fir se kar lo..</h3><hr>
+    <input type="text" name="" id="textbox" placeholder="enter an item.."> <br><br>
+    <input type="button" value="add item" id="addBtn" onclick="addItem()">
+    <input type="button" value="delete all" id="deleteAllBtn" onclick="deleteAllItems()">
+    
+    <ol id="output"></ol>
+
+    <script>
+        //init global var
+
+        //get DOM ele
+        let addBtn = document.getElementById('addBtn');
+        let deleteAllBtn = document.getElementById('deleteAllBtn');
+        let output = document.getElementById('output');
+        
+        //--PRIMARY FUNCTION
+        
+        function addItem(){
+            let input = String(document.getElementById('textbox').value).trim();
+
+            //validation check
+            if(input === ""){
+                alert(`pls enter an item`);
+                return;
+            }
+
+            //create li, add delete button to it, and add item to list
+            let li = document.createElement('li');
+            li.textContent = input;
+
+            let deleteBtn = document.createElement('button');
+            deleteBtn.textContent = 'delete';
+                        
+            li.appendChild(deleteBtn);
+            output.appendChild(li); 
+
+            //EVENT DELEGATION part to an delete item
+            output.addEventListener('click',(e) => {
+                if(e.target.tagName === 'BUTTON'){
+                    output.removeChild(e.target.parentNode);
+                }
+            })
+        }
+
+        function deleteAllItems(){
+            output.innerHTML = '';
+        }
+ 
+    </script>
+</body>
+</html>
