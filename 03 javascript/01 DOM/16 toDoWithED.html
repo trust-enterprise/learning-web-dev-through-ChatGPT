@@ -19,6 +19,8 @@
     
     <ol id="output"></ol>
 
+    <h2 align="center"><font color="red">learning</font></h2>
+    <li>you can't pass a js object like button to inner html; you have to append it</li>
     <script>
         //init global var
 
@@ -54,6 +56,9 @@
                     output.removeChild(e.target.parentNode);
                 }
             })
+
+            //clear textbox
+            input.textContent = '';
         }
 
         function deleteAllItems(){
