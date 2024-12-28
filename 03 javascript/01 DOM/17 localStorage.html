@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Add Notes to Local </h2><hr>
+    <textarea name="" id="notesPane" placeholder="enter your text here.." cols="30" rows="10"></textarea>
+    <br>
+    <button id="addNoteBtn">add note</button>
+    <button id="deleteAllNotesBtn">delete all notes</button><br><br>
+    <div id="notesContainer"></div>
+
+    <script>
+        //get DOM ele
+        let  notesPane = document.getElementById('notesPane')
+        let  addNoteBtn = document.getElementById('addNoteBtn')
+        let deleteAllNotesBtn  = document.getElementById('deleteAllNotesBtn')
+        let notesContainer  = document.getElementById('notesContainer')
+
+        //--PRIMARY FUNCTIONS
+
+        //load notes from local storage (browser) on refresh
+        document.addEventListener('DOMContentLoaded', loadNotes)
+
+        //add note from notesPane to local and ui
+        addNoteBtn.addEventListener('click', ()=>{
+            let noteToAdd = notesPane.value.trim()
+            
+            if(!noteToAdd){
+                alert(`add notes to be added`)
+                return
+            }
+
+            //save note to local storage
+            let notesArr = getNotesFromLocal()
+            notesArr.push(noteToAdd)
+            saveNotesToStorage(notesArr)
+
+            //add note to UI
+            addNoteToUI(noteToAdd)
+            notesPane.value = ''    //empties notes pane
+        })
+
+        //delete note from local and ui
+        deleteAllNotesBtn.addEventListener('click', ()=>{
+            localStorage.setItem('allNotes',JSON.stringify([]))            
+            notesContainer.innerHTML = ''
+        })
+
+
+        //--SECONDARY FUNCTIONS
+        function getNotesFromLocal(){
+            return JSON.parse(localStorage.getItem('noteKey'))||[]
+        }
+
+        function addNoteToLocal(noteToAdd){
+            let noteToAdd = 
+        }
+    </script>
+
+</body>
+</html>
