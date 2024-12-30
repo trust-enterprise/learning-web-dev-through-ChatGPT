@@ -10,14 +10,14 @@
     <div id="productCatalogue"></div><br><hr>
     <h3>Cart Preview</h3>
     <div id="cartContainer"></div>
-    <button id="clrCartBtn" onclick="clearCart()">clear cart</button>
+    <button id="clrCartBtn" onclick="clrCart()">clear cart</button>
 
     <script>
         //init global var
         const product = [
             {id: 1, name: 'product1', price: 100},
-            {id: 2, name: 'product1', price: 200},
-            {id: 3, name: 'product1', price: 300}
+            {id: 2, name: 'product2', price: 200},
+            {id: 3, name: 'product3', price: 300}
         ]
         let cartArr = getCartFromLocal()
 
@@ -29,7 +29,7 @@
         //-- PRIMARY FUNCTIONS
             loadProducts()
 
-            if(cartContainer.childElementCount.length === 0){
+            if(cartContainer.childElementCount  === 0){
                 cartContainer.textContent = `no items in cart`
             }else{
                 cartContainer.textContent = ''
@@ -47,24 +47,27 @@
             function loadProducts(){
                 product.forEach(prod => {
                     let prodDiv = document.createElement('div')
-                    prodDiv.textContent = `${prod.id} ${prod.name} for $ ${prod.price}`
+                    prodDiv.textContent = `${prod.id} ${prod.name} for $${prod.price}`
                     let addBtn = document.createElement('button')
                     addBtn.textContent =   `add to cart`
+                    addBtn.style.marginLeft = '14px'
                     addBtn.onclick = () => addToCart(prod)
                     prodDiv.appendChild(addBtn)
-                    cartContainer.appendChild(prodDiv)
+                    productCatalogue.appendChild(prodDiv)
                 })
             }
 
             //display cart items in cart container
             function displayCartItems(cartArr){
+                cartContainer.textContent = ''
                 cartArr.forEach(prod => {
                     let prodDiv = document.createElement('div')
-                    prodDiv.textContent = `${prod.id} ${prod.name} for $ ${prod.price} x ${prod.quantity}`
-                    let addBtn = document.createElement('button')
-                    addBtn.textContent =   `remove`
-                    addBtn.onclick = () => removeFromCart(prod)
-                    prodDiv.appendChild(addBtn)
+                    prodDiv.textContent = `${prod.id} ${prod.name} for $ ${prod.price} x ${prod.qty}`
+                    let removeBtn = document.createElement('button')
+                    removeBtn.textContent =   `remove`
+                    removeBtn.style.marginLeft = '14px'
+                    removeBtn.onclick = () => removeFromCart(prod)
+                    prodDiv.appendChild(removeBtn)
                     cartContainer.appendChild(prodDiv)
                 })
             }
@@ -74,11 +77,13 @@
                 let existingProd = cartArr.find(cartArrProd => cartArrProd.id === prod.id)
 
                 if(!existingProd){
-                    cartArr.push(...prod, qty = 1)
+                    cartArr.push({...prod, qty : 1})
                     localStorage.setItem('cart', JSON.stringify(cartArr))
                     displayCartItems(cartArr)
                 }else{
-                    prod.qty +=1
+                    existingProd.qty +=1
+                    localStorage.setItem('cart', JSON.stringify(cartArr))
+                    displayCartItems(cartArr)
                 }
             }
 
