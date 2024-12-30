@@ -6,35 +6,94 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Image Previewer</h2><hr>
-    <b>Choose images to preview</b>
-    <input type="file" name="" id="imageInput" accept="image/*" multiple onchange="previewImages()">
-    <div id="previewContainer" style="display: flex; flex-wrap: wrap; margin: 20px;gap:14px"></div>
+    <h2>Shopping Cart</h2><hr>
+    <div id="productCatalogue"></div><br><hr>
+    <h3>Cart Preview</h3>
+    <div id="cartContainer"></div>
+    <button id="clrCartBtn" onclick="clearCart()">clear cart</button>
+
     <script>
-        //
-        let previewContainer = document.getElementById('previewContainer')
+        //init global var
+        const product = [
+            {id: 1, name: 'product1', price: 100},
+            {id: 2, name: 'product1', price: 200},
+            {id: 3, name: 'product1', price: 300}
+        ]
+        let cartArr = getCartFromLocal()
 
-        //--PRIMARY FUNC
-        function previewImages(){
-            let imageInput = document.getElementById('imageInput');
+        //get DOM ele
+        let productCatalogue = document.getElementById('productCatalogue')
+        let cartContainer = document.getElementById('cartContainer')
+        // let  = document.getElementById('')
 
-            let fileArray = Array.from(imageInput.files);
+        //-- PRIMARY FUNCTIONS
+            loadProducts()
 
-            fileArray.forEach(file => {
-                let reader = new FileReader();
+            if(cartContainer.childElementCount.length === 0){
+                cartContainer.textContent = `no items in cart`
+            }else{
+                cartContainer.textContent = ''
+                displayCartItems(cartArr)
+            }
 
-                reader.readAsDataURL(file);
+            function clrCart(){
+                cartContainer.textContent = 'no items in cart' 
+                localStorage.setItem('cart', JSON.stringify([]))
+            }
 
-                reader.onload = (loadEvent)=>{
-                    let encodedData = loadEvent.target.result;
+        //-- SECONDARY FUNCTIONS
+            
+            //display products
+            function loadProducts(){
+                product.forEach(prod => {
+                    let prodDiv = document.createElement('div')
+                    prodDiv.textContent = `${prod.id} ${prod.name} for $ ${prod.price}`
+                    let addBtn = document.createElement('button')
+                    addBtn.textContent =   `add to cart`
+                    addBtn.onclick = () => addToCart(prod)
+                    prodDiv.appendChild(addBtn)
+                    cartContainer.appendChild(prodDiv)
+                })
+            }
 
-                    let img = document.createElement('img');
-                    img.src = encodedData;
-                    img.style.height = '140px';
-                    previewContainer.appendChild(img);
+            //display cart items in cart container
+            function displayCartItems(cartArr){
+                cartArr.forEach(prod => {
+                    let prodDiv = document.createElement('div')
+                    prodDiv.textContent = `${prod.id} ${prod.name} for $ ${prod.price} x ${prod.quantity}`
+                    let addBtn = document.createElement('button')
+                    addBtn.textContent =   `remove`
+                    addBtn.onclick = () => removeFromCart(prod)
+                    prodDiv.appendChild(addBtn)
+                    cartContainer.appendChild(prodDiv)
+                })
+            }
+
+            //add product to cart
+            function addToCart(prod){
+                let existingProd = cartArr.find(cartArrProd => cartArrProd.id === prod.id)
+
+                if(!existingProd){
+                    cartArr.push(...prod, qty = 1)
+                    localStorage.setItem('cart', JSON.stringify(cartArr))
+                    displayCartItems(cartArr)
+                }else{
+                    prod.qty +=1
                 }
-            })
-        }
+            }
+
+            //remove product from cart
+            function removeFromCart(prod){
+                let updatedCartArr = cartArr.filter(cartArrProd => prod.id !== cartArrProd.id)
+                displayCartItems(updatedCartArr)
+                localStorage.removeItem('cart')
+                localStorage.setItem('cart', JSON.stringify(updatedCartArr))
+            }
+
+            //load product array from local storage
+            function getCartFromLocal(){
+                return JSON.parse(localStorage.getItem('cart'))||[]
+            }
     </script>
 </body>
 </html>

@@ -20,10 +20,11 @@
     <script>
         //init global var
         let product = [
-            {id:1, name:'product1', price: $100},
-            {id:2, name:'product2', price: $200},
-            {id:3, name:'product3', price: $300}
+            {id:1, name:'product1', price: 100},
+            {id:2, name:'product2', price: 200},
+            {id:3, name:'product3', price: 300}
         ]
+        let cartDetails = getCartFromLocal()
 
         //get DOM ele
         let productContainer = document.getElementById('productContainer')
@@ -34,26 +35,24 @@
         //--PRIMARY FUNCTIONS
 
         document.addEventListener('DOMContentLoaded', ()=>{
+            displayProducts()
+
             //access existing cart if any
             let cartDetails = getCartFromLocal()
 
             if(cartDetails.length === 0){
                 alert(`your cart is empty`)
             }else{
-                displayCartDetails(cartDetails)
+                cartContainer.textContent = ''
+                displayCartOnUI(cartDetails)
             }
-        })
+        }) 
 
         //--SECONDARY FUNCTIONS
 
-        //accessing cart details from browser (local)
-        function getCartFromLocal(){
-            return JSON.parse(localStorage.getItem('cartItems')) || []
-        }
-
-        //display cart items on ui
-        function displayCartDetails(cartDetails){
-            cartDetails.forEach(product => {
+        //display products to choose from 
+        function displayProducts(){
+            product.forEach(product => {
                 let productDiv = document.createElement('div')
                 productDiv.textContent = `${product.id}. ${product.name} : $${product.price}`
                 let addToCartBtn = document.createElement('button')
@@ -64,12 +63,25 @@
                 cartContainer.appendChild(productDiv)
             })
         }
-
+        
+        //display the cart products from local on ui
+        function displayCartOnUI(cartDetails){ 
+            cartDetails.forEach(localProd => {
+                let cartItemDiv = document.createElement('div')
+                div.textContent =  `${product.id}. ${product.name} : $${product.price}x${product.quantity}`
+                let removeProductBtn = document.createElement('button')
+                removeProductBtn.textContent = `remove`
+                removeProductBtn.style.marginLeft = '15px'
+                removeProductBtn.onclick = ()=> removeProduct(product)
+                cartItemDiv.appendChild(removeProductBtn)
+                cartContainer.appendChild(cartItemDiv)
+            })
+        }
+        
         //add a single product to cart
         function addToCart(product){
-            let cartDetails = getCartFromLocal()
-
-            //add product to local, or increase existing one already in cart
+            
+            //add product to local, or increase existing count if already in cart
             let existingProduct = cartDetails.find(cartItem => cartItem.id === product.id)
             if(!existingProduct){
                 cartDetails.push({...product, quantity:1})
@@ -77,22 +89,33 @@
             }else{
                 product.quantity +=1;
             }
+            
+            displayCartOnUI(product)
+        }
+        
+        //remove a product from cart and local
+        function removeProduct(product){
+            //update local 
+            let updatedCartPostRemoval = cartDetails.filter(localProd => localProd.id !== product.id)
+            sendCartDetailsToLocal(updatedCartPostRemoval)
 
-            //display cart items
-            let cartItemDiv = document.createElement('div')
-            div.textContent =  `${product.id}. ${product.name} : $${product.price}x${product.quantity}`
-            let removeProductBtn = document.createElement('button')
-            removeProductBtn.textContent = `remove`
-            removeProductBtn.style.marginLeft = '15px'
-            removeProductBtn.onclick = ()=> removeProductFromCart(product)
-            cartItemDiv.appendChild(removeProductBtn)
-            cartContainer.appendChild(cartItemDiv)
+            //update ui 
+            displayCartDetails(updatedCartPostRemoval)
+            if(cartContainer.childElementCount.length === 0){
+                cartContainer.textContent = 'no items in the cart'
+            } 
+        }
+
+        //accessing cart details from browser (local)
+        function getCartFromLocal(){
+            return JSON.parse(localStorage.getItem('cartItems')) || []
         }
 
         //send cart details to local storage
         function sendCartDetailsToLocal(cartDetails){
             localStorage.setItem('cartItems',JSON.stringify(cartDetails))
         }
+
     </script>
 </body>
 </html>
