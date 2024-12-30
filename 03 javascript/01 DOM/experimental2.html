@@ -19,86 +19,93 @@
             {id: 2, name: 'product2', price: 200},
             {id: 3, name: 'product3', price: 300}
         ]
-        let cartArr = getCartFromLocal()
-
+        
         //get DOM ele
         let productCatalogue = document.getElementById('productCatalogue')
         let cartContainer = document.getElementById('cartContainer')
-        // let  = document.getElementById('')
+    
+        
+        
+    
+        
+        //initialize ui
+        loadProductCatalogue()
 
-        //-- PRIMARY FUNCTIONS
-            loadProducts()
+        loadCart()
 
-            if(cartContainer.childElementCount  === 0){
-                cartContainer.textContent = `no items in cart`
+        function clrCart(){
+            cartContainer.textContent = 'no items in cart' 
+            localStorage.setItem('cart', JSON.stringify([]))
+        }
+
+        //add product to cart
+        function addToCart(prod){
+            let existingProd = cartArr.find(cartArrProd => cartArrProd.id === prod.id)
+
+            if(!existingProd){
+                cartArr.push({...prod, qty : 1})
+                localStorage.setItem('cart', JSON.stringify(cartArr))
+                displayCartItems(cartArr)
             }else{
-                cartContainer.textContent = ''
+                existingProd.qty +=1
+                localStorage.setItem('cart', JSON.stringify(cartArr))
                 displayCartItems(cartArr)
             }
+        }
 
-            function clrCart(){
-                cartContainer.textContent = 'no items in cart' 
-                localStorage.setItem('cart', JSON.stringify([]))
-            }
+        if(cartContainer.childElementCount  === 0){
+            cartContainer.textContent = `no items in cart`
+        }else{
+            cartContainer.textContent = ''
+            displayCartItems(cartArr)
+        }
 
-        //-- SECONDARY FUNCTIONS
-            
-            //display products
-            function loadProducts(){
-                product.forEach(prod => {
-                    let prodDiv = document.createElement('div')
-                    prodDiv.textContent = `${prod.id} ${prod.name} for $${prod.price}`
-                    let addBtn = document.createElement('button')
-                    addBtn.textContent =   `add to cart`
-                    addBtn.style.marginLeft = '14px'
-                    addBtn.onclick = () => addToCart(prod)
-                    prodDiv.appendChild(addBtn)
-                    productCatalogue.appendChild(prodDiv)
-                })
-            }
+        
+        //display products
+        function loadProductCatalogue(){
+            product.forEach(prod => {
+                let prodDiv = document.createElement('div')
+                prodDiv.textContent = `${prod.id} ${prod.name} for $${prod.price}`
+                let addBtn = document.createElement('button')
+                addBtn.textContent =   `add to cart`
+                addBtn.style.marginLeft = '14px'
+                addBtn.onclick = () => addToCart(prod)
+                prodDiv.appendChild(addBtn)
+                productCatalogue.appendChild(prodDiv)
+            })
+        }
 
-            //display cart items in cart container
-            function displayCartItems(cartArr){
-                cartContainer.textContent = ''
-                cartArr.forEach(prod => {
-                    let prodDiv = document.createElement('div')
-                    prodDiv.textContent = `${prod.id} ${prod.name} for $ ${prod.price} x ${prod.qty}`
-                    let removeBtn = document.createElement('button')
-                    removeBtn.textContent =   `remove`
-                    removeBtn.style.marginLeft = '14px'
-                    removeBtn.onclick = () => removeFromCart(prod)
-                    prodDiv.appendChild(removeBtn)
-                    cartContainer.appendChild(prodDiv)
-                })
-            }
+        //remove product from cart
+        function removeFromCart(prod){
+            let updatedCartArr = cartArr.filter(cartArrProd => prod.id !== cartArrProd.id)
+            displayCartItems(updatedCartArr)
+            localStorage.removeItem('cart')
+            localStorage.setItem('cart', JSON.stringify(updatedCartArr))
+        }
 
-            //add product to cart
-            function addToCart(prod){
-                let existingProd = cartArr.find(cartArrProd => cartArrProd.id === prod.id)
+        //display cart items in cart container
+        function displayCartItems(cartArr){
+            cartContainer.textContent = ''
+            cartArr.forEach(prod => {
+                let prodDiv = document.createElement('div')
+                prodDiv.textContent = `${prod.id} ${prod.name} for $ ${prod.price} x ${prod.qty}`
+                let removeBtn = document.createElement('button')
+                removeBtn.textContent =   `remove`
+                removeBtn.style.marginLeft = '14px'
+                removeBtn.onclick = () => removeFromCart(prod)
+                prodDiv.appendChild(removeBtn)
+                cartContainer.appendChild(prodDiv)
+            })
+        }
 
-                if(!existingProd){
-                    cartArr.push({...prod, qty : 1})
-                    localStorage.setItem('cart', JSON.stringify(cartArr))
-                    displayCartItems(cartArr)
-                }else{
-                    existingProd.qty +=1
-                    localStorage.setItem('cart', JSON.stringify(cartArr))
-                    displayCartItems(cartArr)
-                }
-            }
+        
 
-            //remove product from cart
-            function removeFromCart(prod){
-                let updatedCartArr = cartArr.filter(cartArrProd => prod.id !== cartArrProd.id)
-                displayCartItems(updatedCartArr)
-                localStorage.removeItem('cart')
-                localStorage.setItem('cart', JSON.stringify(updatedCartArr))
-            }
+        
 
-            //load product array from local storage
-            function getCartFromLocal(){
-                return JSON.parse(localStorage.getItem('cart'))||[]
-            }
+        //load product array from local storage
+        function getCartFromLocal(){
+            return JSON.parse(localStorage.getItem('cart'))||[]
+        }
     </script>
 </body>
 </html>
