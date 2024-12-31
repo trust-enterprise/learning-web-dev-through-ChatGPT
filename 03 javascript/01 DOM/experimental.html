@@ -6,67 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <b>enter a nested array</b><br>
-    <input type="text" name="" id="inputArr" placeholder="[1,[2,[3,4],5],6]"><br><br>
-    <div id="outputContainer">
-        <b>output array</b><br>
-        <div id="outputArr"></div>
-    </div>
-    <button id="flattenArrBtn">flatten array</button>
-    <br><br>*nested array sample: [1,[2,[3,4],5],6]
-
-    <h2 align="center"><font color="red">learning</font></h2>
-    <ol>
-        <li>in js, 'let result, testArr = [];' is not same as 'let result = [], testArr = [];'</li>
-        <li>origArr.concat() creates a new array; to modify original array using concat, try origArr = origArr.concat()</li>
-    </ol>
-    <script>
-        
-         
-        //get DOM ele
-        let outputArr = document.getElementById('outputArr')
-        let flattenArrBtn = document.getElementById('flattenArrBtn')
-        let outputContainer = document.getElementById('outputContainer')
-
-        outputContainer.style.display = 'none'
-
-        //event listenere
-        flattenArrBtn.addEventListener('click', flattenArray)
-            
-        function flattenArray(){  
-            //get latest array
-            let inputArr = document.getElementById('inputArr').value.trim()
-            
-            let testArr = [] //init result array
-            
-            //convert string input into array
-            try{
-                testArr = JSON.parse(inputArr)
-            }catch(error){
-                outputArr.textContent = 'enter a valid array' ;                
-                outputContainer.style.display = 'block';        
-                return
-            }
-
-            //flattening process
-            function flatten(testArr){
-                let result = []
-                for(let i of testArr){
-                    if(!Array.isArray(i)){
-                        result.push(i)
-                    }else{
-                        result = result.concat(flatten(i))
-                    }
-                }
-                return result
-            }
-            
-            result = flatten(testArr)
-            outputArr.textContent = result ;               //add output
-            outputContainer.style.display = 'block';       //show output
-            document.getElementById('inputArr').value = '' //empty up textbox
-            
-        }
-    </script>
+    
 </body>
 </html>
