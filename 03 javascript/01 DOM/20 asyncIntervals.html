@@ -7,31 +7,35 @@
 </head>
 <body>
     <h2>Asynchronous Intervals<b></b> </h2><hr>
-    <ol></ol>
-    kaise hain aap sabhi?
+    <span>kaise hain aap sabhi?</span> <br><br>
+    <button id="greetStartBtn">start greeting</button>
+    <button id="greetStopBtn">stop greeting</button><br>
+    <ol></ol> <br>
+    
     <h2 align="center"><font color="red">learning</font></h2><hr>
     <ol>
         <li>string can't be appended; so better place it inside an element to be appended later</li>
-
+        <li>'handler' is basically a callback function (which may be anonymous, or a reference to a function defined outside)</li>
+        <li>setTimeout, clearTimeout, setInterval, clearInterval</li>
     </ol>
+
     <script>
+        //get DOM ele
         let list = document.querySelector('ol')
+        let span = document.querySelector('span')
         let dotArea = document.querySelector('b')
+        let greetStartBtn = document.querySelector('#greetStartBtn')
+        let greetStopBtn = document.querySelector('#greetStopBtn')
+        
+        //init global var
+        let greetIntervalID
         let maxDotCount = 3
         let currentDotCount = 0
         let dotFull = false
-        //LI adder
-        let addLI = setInterval(() => {
-            let li = document.createElement('li')
-            li.textContent = `hello ji..`
-            list.appendChild(li)
-        },1000)
-
-        //LI limiter
-        setTimeout(() => {
-            clearInterval(addLI)
-        }, 5000)
         
+        //hide span ele
+        span.style.visibility = 'hidden'
+
         //dot blinker
         setInterval(() => {
 
@@ -43,10 +47,34 @@
                 dotArea.textContent += '.'
                 currentDotCount++
                 if(currentDotCount == maxDotCount)  dotFull = true
-            }
-
-            blinkDots()
+            } 
         }, 500) 
+
+        //this won't ever get executed
+        let visibilityInterval = setTimeout(() => {
+            span.style.visibility = 'visible'
+        }, 2000)
+
+        clearInterval(visibilityInterval, 1000)
+
+        //event listener
+        greetStartBtn.addEventListener('click', greetingStarts)
+
+        function greetingStarts(){
+            greetIntervalID = setInterval(() => {
+                                    let li = document.createElement('li')
+                                    li.textContent = `hello ji..`
+                                    list.appendChild(li)
+                                },1000)
+        }
+
+        //event listener
+        greetStopBtn.addEventListener('click', greetingStops)
+        
+        function greetingStops(){
+            clearInterval(greetIntervalID)
+        }
+        
     </script>
 </body>
 </html>
