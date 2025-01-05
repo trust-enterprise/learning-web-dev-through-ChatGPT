@@ -29,8 +29,8 @@
         
         //init global var
         let greetIntervalID
-        let maxDotCount = 3
-        let currentDotCount = 0
+        
+        let currentDotCount = 0 
         let dotFull = false
         
         //hide span ele
@@ -38,15 +38,22 @@
 
         //dot blinker
         setInterval(() => {
-
+            let maxDotCount = Math.floor(Math.random()*5+2)
             if(dotFull){
                 dotArea.textContent = ''
                 currentDotCount = 0
                 dotFull = false
             }else{
-                dotArea.textContent += '.'
-                currentDotCount++
-                if(currentDotCount == maxDotCount)  dotFull = true
+                if(currentDotCount == maxDotCount){
+                    dotFull = true
+                }else if (currentDotCount > maxDotCount){
+                    dotFull = true
+                }else{
+                    dotArea.textContent += '.'
+                    currentDotCount++   
+                }
+
+
             } 
         }, 500) 
 
