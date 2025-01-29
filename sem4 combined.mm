@@ -7,11 +7,12 @@
 <node CREATED="1713703400779" ID="ID_475119770" MODIFIED="1738092655938" TEXT="poor infra; outdate curr &amp; trg method; gender; ltd access to higher ed; low quality ed; corruptn"/>
 </node>
 <node CREATED="1711398312631" ID="ID_1594136197" MODIFIED="1713702766818" TEXT="unit 1">
-<node CREATED="1711398315670" ID="ID_1255691497" MODIFIED="1738092525880" TEXT="challenges reltd to conventional educatn">
+<node CREATED="1711398315670" ID="ID_1255691497" MODIFIED="1738172170727" TEXT="challenges reltd to conventional educatn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1713714079964" FOLDED="true" ID="ID_1334642155" MODIFIED="1738120553070" TEXT="features of pre-primary/ primary/ secondary/ higher ed ">
+<node CREATED="1713714079964" FOLDED="true" ID="ID_1334642155" MODIFIED="1738172608488" TEXT="features of pre-primary/ primary/ secondary/ higher ed ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1713714116908" ID="ID_990715944" MODIFIED="1713714123732" TEXT="age grp">
-<node CREATED="1713714123732" ID="ID_93278704" MODIFIED="1713714155860" TEXT="3-6 yrs/ 6-11 yrs/ 11-16 yrs/ 17 &amp; above"/>
+<node CREATED="1713714123732" ID="ID_93278704" MODIFIED="1738172430240" TEXT="3-6 yrs/ 6-11 yrs/ 11-18 yrs/ 18 &amp; above"/>
 </node>
 <node CREATED="1713714164411" ID="ID_54484425" MODIFIED="1713714166828" TEXT="focus">
 <node CREATED="1713714166828" ID="ID_487250234" MODIFIED="1713714245436" TEXT="play-based learng/ basic literacy/ comprehensiv curr wid many subj/ specialized subj &amp; advanced learng"/>
@@ -23,7 +24,7 @@
 <node CREATED="1713714343060" ID="ID_247565278" MODIFIED="1713714417275" TEXT="child centered/ t-directed instructn/ lectures+grp work+prac/ lecutre+seminar+workshop+resrch proj"/>
 </node>
 <node CREATED="1713714452835" ID="ID_1150615903" MODIFIED="1713714458979" TEXT="duration">
-<node CREATED="1713714458979" ID="ID_108459188" MODIFIED="1713714502226" TEXT="variable/ 5yrs (class 1-5)/ 6 yrs (class 6-10)/ variable"/>
+<node CREATED="1713714458979" ID="ID_108459188" MODIFIED="1738172589471" TEXT="variable/ 5yrs (class 1-5)/ 7 yrs (class 6-12)/ variable"/>
 </node>
 <node CREATED="1713714504963" ID="ID_1791268193" MODIFIED="1713714508491" TEXT="learng env">
 <node CREATED="1713714508491" ID="ID_496778527" MODIFIED="1713714582449" TEXT="nurturing &amp; informal/ structured classroom with disci/ struc classr with acad rigor/ includes classr+lablib"/>
@@ -35,29 +36,36 @@
 <node CREATED="1713717280945" ID="ID_1986385713" MODIFIED="1713717356367" TEXT="into primary school/ into sec school with complex subj/ into higher ed or vocational traing/ into career"/>
 </node>
 </node>
-<node CREATED="1711398358542" FOLDED="true" ID="ID_433272846" MODIFIED="1738121762076" TEXT="problems of pre-primary ed">
+<node CREATED="1738172337560" FOLDED="true" ID="ID_1293353518" MODIFIED="1738176699794" TEXT="challenges in ed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738172610831" ID="ID_1977246146" MODIFIED="1738172887999" TEXT="1) lack of quality ed; 2) financial prob; 3) lack of prac knowl; 4) poor infra; 5) shortage of qualified t"/>
+<node CREATED="1738172717095" ID="ID_431988663" MODIFIED="1738172889039" TEXT="6) overburdened stu; 7) rote learng sys; 8) ltd career guidance; 9) outdated curr; 10) parental press"/>
+<node CREATED="1738172771216" ID="ID_322499394" MODIFIED="1738172950501" TEXT="11) lack of soft skills 12) techno gap 13) ineffectv ass sys 14) ltd research oppor 15) lang barrier "/>
+<node CREATED="1738172951503" ID="ID_604043401" MODIFIED="1738172952362" TEXT="16) inequality in ed facilities"/>
+</node>
+<node CREATED="1711398358542" FOLDED="true" ID="ID_433272846" MODIFIED="1738175401699" TEXT="problems of pre-primary ed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1713702239027" ID="ID_129317787" MODIFIED="1738120566355" TEXT="defn: initial stage of formal ed to children of age 3 to 6 yrs; class nursery to ukg"/>
 <node CREATED="1738119539558" ID="ID_1045631095" MODIFIED="1738119667382" TEXT="focus: basic literacy (read, write); numeracy; play based learng (game), motor skill (run), school ready for cls 1"/>
-<node CREATED="1713703904601" FOLDED="true" ID="ID_145823940" MODIFIED="1738121761308" TEXT="problems">
+<node CREATED="1713703904601" ID="ID_145823940" MODIFIED="1738172960230" TEXT="problems">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1738119680494" ID="ID_840598662" MODIFIED="1738121056565" TEXT="general">
+<node CREATED="1738119680494" ID="ID_840598662" MODIFIED="1738173241898" TEXT="general: 1, 2, 4, 5, 6, 12, 15, 16">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1711427397338" ID="ID_555713870" MODIFIED="1738121046036" TEXT="prob/ soln/ reference or eg">
+<node CREATED="1711427397338" ID="ID_555713870" MODIFIED="1738173034582" TEXT="challenge no./ prob/ soln/ reference or eg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1738118758856" ID="ID_1858672733" MODIFIED="1738118806743" TEXT="trained t/ regular trg prog/ CBSE ToT under nep2020; 15k for 15lacs"/>
-<node CREATED="1738118820391" ID="ID_1899415308" MODIFIED="1738118859669" TEXT="infra/ invest in classr+playgrnd+tools/ anganwadi centres under ICDS scheme"/>
-<node CREATED="1738118866992" ID="ID_492825287" MODIFIED="1738118905467" TEXT="uneven access/ open more sch in remote ar/ Samagra Siksha Abhiyan for remote early ed"/>
-<node CREATED="1738118914591" ID="ID_1586653461" MODIFIED="1738118965115" TEXT="low awareness/ aw campaigns for parents/ Poshan Abhiyan for early childhood &amp; nutritn"/>
-<node CREATED="1738118974719" ID="ID_1452060110" MODIFIED="1738119004092" TEXT="high stu-t ratio/ recruit more t/ kerala&apos;s ECCE model for small classroom size"/>
+<node CREATED="1738173103222" ID="ID_1686243288" MODIFIED="1738173536234" TEXT="1. lack of quality ed; Train t in interactive teachg tec; Use play-based learning, storytelling for engaging kids"/>
+<node CREATED="1738119177543" ID="ID_286177517" MODIFIED="1738173520519" TEXT="2. financial prob/ subsidy/ free ECCE (Early Childhood Care and Education 0-8yrs) under RTE Act"/>
+<node CREATED="1738118820391" ID="ID_1899415308" MODIFIED="1738173505880" TEXT="4. poor infra/ invest in classr+playgrnd+tools/ anganwadi centres under ICDS scheme"/>
+<node CREATED="1738173581086" ID="ID_947534556" MODIFIED="1738173639872" TEXT="5. shortage of qualified t/ give more t traing prog / hire trained early childhood educators"/>
+<node CREATED="1738173654678" ID="ID_1484717081" MODIFIED="1738173732012" TEXT="6. overburdened stu/ make curr more age-appropriate/ focus on play based basic literacy and numeracy"/>
+<node CREATED="1738173745702" ID="ID_1953115846" MODIFIED="1738173788425" TEXT="12. techno gap/&#x9;introduce digital res like interactive apps/ use ed apps like ABCmouse "/>
+<node CREATED="1738173801853" ID="ID_1535488166" MODIFIED="1738173844398" TEXT="15 language barrier/ teach in the local language with gradual english intro/ use bilingual books+apps"/>
+<node CREATED="1738173855829" ID="ID_1545925991" MODIFIED="1738173960256" TEXT="16. inequality in ed/ give free or subsidized ed for marginalized grps/ Samagra Siksha Abhiyan for remote ed"/>
+<node CREATED="1738119214663" ID="ID_797062797" MODIFIED="1738175399411" TEXT="health &amp; safety/ enforce hygiene &amp; safety std/ UNICEF india guidelines for safe learng env"/>
 <node CREATED="1738119047575" ID="ID_179515244" MODIFIED="1738119105585" TEXT="lack of std curr/ implement std uniform curr nationwide/ NEP2020 recommends it nationwide"/>
-<node CREATED="1738119115223" ID="ID_1539839801" MODIFIED="1738119170019" TEXT="rote learning/ focus on play &amp; activity based learng/ montessori &amp; waldorf methods for creativity"/>
-<node CREATED="1738119177543" ID="ID_286177517" MODIFIED="1738119293103" TEXT="affordability issue/ subsidy/ free ECCE (Early Childhood Care and Education 0-8yrs) under RTE Act"/>
-<node CREATED="1738119214663" ID="ID_797062797" MODIFIED="1738119368313" TEXT="health &amp; safety/ enforce hygiene &amp; safety std/ UNICEF india guidelines for safe learng env"/>
-<node CREATED="1738119376671" ID="ID_781002379" MODIFIED="1738119467489" TEXT="govt neglect/ budget/ under ICDS (Integrated Child Development Services 0-6yrs+mother) &amp; NEP2020"/>
 </node>
-<node CREATED="1731506461421" ID="ID_1550698613" MODIFIED="1738121054877" TEXT="wrt to assessment">
+<node CREATED="1731506461421" FOLDED="true" ID="ID_1550698613" MODIFIED="1738173100808" TEXT="wrt to assessment">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1731506467454" ID="ID_163871926" MODIFIED="1738121049429" TEXT="prob/ soln/ reference or eg">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -71,26 +79,46 @@
 </node>
 </node>
 </node>
-<node CREATED="1711398371654" ID="ID_1265591696" MODIFIED="1738120491012" TEXT="problems of primary ed">
+<node CREATED="1711398371654" FOLDED="true" ID="ID_1265591696" MODIFIED="1738175394499" TEXT="problems of primary ed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1713702239027" ID="ID_109236893" MODIFIED="1738120627075" TEXT="defn: first stage of formal ed for ages 6 to 11 yrs; gives foundatn for further learng"/>
 <node CREATED="1738119539558" ID="ID_1212125204" MODIFIED="1738120729141" TEXT="focus: basic literacy (r,w); numeracy; foundatinal learng for higher ed; holistic dev, activity based learng; values"/>
-<node CREATED="1713703904601" FOLDED="true" ID="ID_355839234" MODIFIED="1738121754413" TEXT="problems">
-<node CREATED="1711427397338" ID="ID_1357217202" MODIFIED="1738121040886" TEXT="prob/ soln/ reference or eg">
+<node CREATED="1713703904601" ID="ID_355839234" MODIFIED="1738173262755" TEXT="problems: 1, 2, 4, 5, 6, 10, 12, 13">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738173059606" ID="ID_906628027" MODIFIED="1738173061733" TEXT="challenge no./ prob/ soln/ reference or eg ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1738119115223" ID="ID_1299305786" MODIFIED="1738119170019" TEXT="rote learning/ focus on play &amp; activity based learng/ montessori &amp; waldorf methods for creativity"/>
-<node CREATED="1738120399998" ID="ID_1759592952" MODIFIED="1738121182502" TEXT="overemphasis on marks/ focus on skill dev/ UNICEF&apos;s Child-Friendly Schools: focus on learng over grades"/>
-<node CREATED="1738121293956" ID="ID_952706862" MODIFIED="1738121384172" TEXT="lack of holistic dev/ assess creativity, social, emotnl skill/ Reggio Emilia approach: Focuses on all-round dev"/>
+<node CREATED="1738174178165" ID="ID_51738047" MODIFIED="1738174829500" TEXT="1. lack of Quality Ed/ Standardize t traing &amp; improve textbook/ Curr update for practical content"/>
+<node CREATED="1738174189764" ID="ID_294524934" MODIFIED="1738174911818" TEXT="2. Financial Problems/ Govt funding &amp; subsidized fee for low-income families/ Midday meal scheme for  attend"/>
+<node CREATED="1738174200949" ID="ID_982012259" MODIFIED="1738174986565" TEXT="4. Poor Infra/ Upgrade classrm facility + provide necc resources/ Govt building projects for new school buildng"/>
+<node CREATED="1738174213428" ID="ID_767128902" MODIFIED="1738175041034" TEXT="5. Shortage of Qualified T/ Traing t in modern pedag methods/ T workshop on stu-centric teachg practices"/>
+<node CREATED="1738174223180" ID="ID_315364630" MODIFIED="1738175087325" TEXT="6. overburdened Stu/ design balanced &amp; achievable curr/ Reduce workload, focus on foundational subj"/>
+<node CREATED="1738174233924" ID="ID_899034093" MODIFIED="1738175222673" TEXT="7. Rote Learng Sys/ make active learng thru projects &amp; discusn/ Grp discusn, creative activities for undersg"/>
+<node CREATED="1738174246413" ID="ID_1912330719" MODIFIED="1738175281981" TEXT="8. lack of Soft Skills Traing/ includ life skills into curr/ School clubs focusing on leadership, teamwork"/>
+<node CREATED="1738174264493" ID="ID_1834143488" MODIFIED="1738175376081" TEXT="16. inequality in Ed/ scholarshp, free textbook, transportatn for disadvan stu/ Govt ed schemes for rural stu"/>
+<node CREATED="1738119115223" ID="ID_1299305786" MODIFIED="1738175386348" TEXT="rote learning/ focus on play &amp; activity based learng/ montessori &amp; waldorf methods for creativity"/>
 <node CREATED="1738120173774" ID="ID_1440083782" MODIFIED="1738120224308" TEXT="standardized testng for all/ adopt individualizd ass strat/ UNICEF recom adapting to indiv needs"/>
-<node CREATED="1738120091654" ID="ID_1455567676" MODIFIED="1738121452796" TEXT="lack of tr t; train t in child friendly ass methods; NISHTHA Training Program: Improves t ass skill"/>
-<node CREATED="1738121454213" ID="ID_1409301799" MODIFIED="1738121567642" TEXT="neglect of non-acad skill/ nclude sports+art+life skill in ass/ ICSE Curr: encourages ass of co-curri activities"/>
-<node CREATED="1738121346500" ID="ID_542743766" MODIFIED="1738121656443" TEXT="parental misunderstdg/ educate&apos;em on imp of ass of holistic dev/ commu aw campaign by govt prog"/>
 <node CREATED="1738121667452" ID="ID_1576924838" MODIFIED="1738121693457" TEXT="t bias/ use rubrics &amp; std tools/ Cambridge Assessment Tools: Promote fair and uniform evaluation"/>
-<node CREATED="1738121703443" ID="ID_1766870989" MODIFIED="1738121740049" TEXT="digital integn/ invest in infra/ Diksha App: Supports digital tools for individualized ass"/>
 </node>
-<node CREATED="1711398388398" ID="ID_953994461" MODIFIED="1738092461511" TEXT="universalizatn of primary ed">
+<node CREATED="1711398388398" FOLDED="true" ID="ID_953994461" MODIFIED="1738174751055" TEXT="universalizatn of primary ed (upto class 5)">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738159147880" ID="ID_1896090367" MODIFIED="1738159181348" TEXT="defn: ensuring free, compulsory, quality ed for all children (6-14 yrs)"/>
+<node CREATED="1738159186391" ID="ID_529395329" MODIFIED="1738159223259" TEXT="legal framework: Right to Education  (RTE) Act, 2009"/>
+<node CREATED="1738159228135" FOLDED="true" ID="ID_1718874006" MODIFIED="1738169169372" TEXT="key initiatives">
+<node CREATED="1738159244953" ID="ID_317273840" MODIFIED="1738159262745" TEXT="Sarva Shiksha Abhiyan (SSA): infra, t training, and enrollment drives">
+<node CREATED="1713718104312" ID="ID_1220647454" MODIFIED="1713718159427" TEXT="2001 starts; 2018 renamed samagra shiksha abhiyan; free &amp; compulsory ed to 6-14 yrs"/>
+<node CREATED="1713718012657" ID="ID_339725379" MODIFIED="1738159508124" TEXT="focus: universalztn of elementary ed (upto cls 8); bridge social &amp; gender gap; quality improvmnt &amp; infra dev"/>
+</node>
+<node CREATED="1738159273383" ID="ID_853912106" MODIFIED="1738159284964" TEXT="Mid-Day Meal Scheme: improves attendance + nutrition">
+<node CREATED="1738159597448" ID="ID_1558530961" MODIFIED="1738159639451" TEXT="1995 starts; gives free cooked meals to school children in Classes 1-8 in govt &amp; govt-aided schools"/>
+<node CREATED="1738159655481" ID="ID_1056433129" MODIFIED="1738159671082" TEXT="11 crore+ stu; rice/wheat, dal, vegetables, and milk, ensuring minimum calorie &amp; protein intake"/>
+<node CREATED="1738159702248" ID="ID_1989625890" MODIFIED="1738159762986" TEXT="impact: enrollment inc; dropout dec; better stu health &amp; conc"/>
+</node>
+<node CREATED="1738159295568" ID="ID_1026251860" MODIFIED="1738159305219" TEXT="Beti Bachao, Beti Padhao: focus on girls&#x2019; ed">
+<node CREATED="1738159829135" ID="ID_933768496" MODIFIED="1738159868763" TEXT="2015 starts by govt to address declining child sex ratio + promote girls&apos; ed &amp; empowerment."/>
+<node CREATED="1738159879664" ID="ID_1468836100" MODIFIED="1738159927019" TEXT="obj: prevent female foeticide; ensure ed &amp; skill dev for girls; improve gender equality"/>
+</node>
+</node>
 <node CREATED="1713702466994" ID="ID_294438765" MODIFIED="1713717524146" TEXT="efforts made &amp; barriers faced">
 <node CREATED="1711428228463" ID="ID_1143779231" MODIFIED="1711428235772" TEXT="access to ed">
 <node CREATED="1711428372511" ID="ID_592819857" MODIFIED="1711428438893" TEXT="efforts: RTE Act 2009+free compulsory ed to 6 to 14yrs; barrier: poverty; child labor; inadequate infra "/>
@@ -117,35 +145,75 @@
 <node CREATED="1711429120100" ID="ID_591612098" MODIFIED="1711429199938" TEXT="requires robust framework; B: corruptn in res distributn, bureaucratic delays, low awareness"/>
 </node>
 </node>
-<node CREATED="1713702432850" ID="ID_504237330" MODIFIED="1713702444616" TEXT="sarva shiksha abhiyan SSA">
-<node CREATED="1713703904601" ID="ID_624456128" MODIFIED="1713703907254" TEXT="problems">
-<node CREATED="1711427397338" ID="ID_1097676826" MODIFIED="1713713828366" TEXT="ltd school availability + toys + intro"/>
-</node>
-<node CREATED="1713718104312" ID="ID_1220647454" MODIFIED="1713718159427" TEXT="2001 starts; 2018 renamed samagra shiksha abhiyan; free &amp; compulsory ed to 6-14 yrs"/>
-<node CREATED="1713718012657" ID="ID_339725379" MODIFIED="1713718101327" TEXT="focus: universalztn of elementary ed; bridge social &amp; gender gap; quality improvmnt &amp; infra dev"/>
 </node>
 </node>
-</node>
-<node CREATED="1711398402662" ID="ID_1490656355" MODIFIED="1738092538408" TEXT="probs of secondary ed">
+<node CREATED="1711398402662" FOLDED="true" ID="ID_1490656355" MODIFIED="1738176124602" TEXT="probs of secondary ed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738154587876" ID="ID_748339777" MODIFIED="1738154658171" TEXT="class 6-12; age 11-18"/>
+<node CREATED="1738154630375" ID="ID_47779600" MODIFIED="1738154725235" TEXT="focus on crit thinkg; prob solv; skill dev, career preprtn; board exams"/>
+<node CREATED="1738154735447" ID="ID_1752882942" MODIFIED="1738173282655" TEXT="problems: 1, 2, 3, 6, 7, 8, 9, 10, 11, 13, 15, 16">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738173076167" ID="ID_500067966" MODIFIED="1738173079838" TEXT="challenge no./ prob/ soln/ reference or eg ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738174349981" ID="ID_1962018452" MODIFIED="1738175588456" TEXT="1. lack of Quality Ed/ Set up regular t traing &amp; standardized exam/ Continuous professional development for t"/>
+<node CREATED="1738174370717" ID="ID_1523437793" MODIFIED="1738175675736" TEXT="2. financial Prob/ scholarships for higher ed/ govt scholarship prog like EWS (Econ Weaker Sec)"/>
+<node CREATED="1738174378981" ID="ID_1906429460" MODIFIED="1738175737075" TEXT="3. Lack of Prac Knowl/ implement vocational course alongside traditional subj/ e.g., carpentry, coding"/>
+<node CREATED="1738174387509" ID="ID_1507765320" MODIFIED="1738175869158" TEXT="6. Overburdened Stu/ simplify syll &amp; encourage self-learng/ introduce project-based ass instead of exams"/>
+<node CREATED="1738174397964" ID="ID_266339747" MODIFIED="1738175928827" TEXT="7. rote Learng Sys/ Use prob-solvng &amp; critical thinking ex/ Real-life prob-solving session like case studies"/>
+<node CREATED="1738174407348" ID="ID_1696555015" MODIFIED="1738175971689" TEXT="8. Ltd Career Guidance/ Introduce career counseling services/ Career fairs, counseling sessions for stu"/>
+<node CREATED="1738174416933" ID="ID_850982759" MODIFIED="1738176041450" TEXT="9. Outdated Curr/ Revise curr regularly for industry demand/ Introduce coding, digital literacy, &amp; STEM subj"/>
+<node CREATED="1738174433309" ID="ID_1094966704" MODIFIED="1738176119789" TEXT="10. Parental Press/ Educate parents abt mental health/ Parenting workshop to help manage academic stress "/>
+<node CREATED="1738155270990" ID="ID_1694304359" MODIFIED="1738155363193" TEXT="gap bw theory &amp; prac/ encourage real world proj or internship/ CBSE Applied Learng Project &amp; Internship Prog"/>
+<node CREATED="1738154766103" ID="ID_477069317" MODIFIED="1738154827267" TEXT="neglect of vocational skill/ integrate skill based ass/ CBSE skill ed initiative"/>
+</node>
 <node CREATED="1713702503099" ID="ID_1763533438" MODIFIED="1713702527362" TEXT="muladiyar committee 1952-53">
 <node CREATED="1713718356648" ID="ID_845749901" MODIFIED="1713718563854" TEXT="recomm est of directorate of adult ed; called for coordinatn bw govt &amp; NGOs; also integn with nat dev goals"/>
 <node CREATED="1713718429535" ID="ID_423942910" MODIFIED="1713718475012" TEXT="stressed vocational traing &amp; functional literacy; community involvmnt; vernacular lang usage; "/>
 </node>
-<node CREATED="1713718734607" ID="ID_594593104" MODIFIED="1713718752570" TEXT="rashtriya madhyamik shiksha abhiyan RMSA"/>
-<node CREATED="1713718665975" ID="ID_1432202269" MODIFIED="1713718671507" TEXT="soln efforts">
-<node CREATED="1713718717392" ID="ID_636797958" MODIFIED="1713718717392" TEXT=""/>
+<node CREATED="1713718734607" ID="ID_594593104" MODIFIED="1713718752570" TEXT="rashtriya madhyamik shiksha abhiyan RMSA">
+<node CREATED="1738169315765" ID="ID_276062725" MODIFIED="1738169574562" TEXT="2009 start; improve access, quality, equity in secondary ed (Clas 9-10); merged with  SSA in 2018 "/>
+<node CREATED="1738169376315" ID="ID_591144067" MODIFIED="1738169513913" TEXT="includ new sec sch in underprivileg ar; update existng sch infra (digital); recruit tr t; scholarshp to dec dropout"/>
+</node>
+<node CREATED="1738169582907" ID="ID_1051755025" MODIFIED="1738169585173" TEXT="Samagra Shiksha Abhiyan (SSA) ">
+<node CREATED="1738169910507" ID="ID_976507155" MODIFIED="1738169968475" TEXT="obj: give holistic &amp; inclusive ed from pre-primary to Class 12 by ensuring access, equity, and quality."/>
+<node CREATED="1738169634227" ID="ID_746986731" MODIFIED="1738169782776" TEXT="launched 2018; merges 3 schemes- ">
+<node CREATED="1738169782776" ID="ID_1892409272" MODIFIED="1738169878582" TEXT="Sarva Shiksha Abhiyan (SSA),  (Class 1 to 8, ages 6-14 years)"/>
+<node CREATED="1738169785307" ID="ID_446061867" MODIFIED="1738169864595" TEXT="Rashtriya Madhyamik Shiksha Abhiyan (RMSA) &#x2013; Secondary Education (Classes 9-10, ages 14-18 years)"/>
+<node CREATED="1738169800491" ID="ID_1271761516" MODIFIED="1738169811367" TEXT="Teacher Education (TE) &#x2013; Teacher training &amp; quality improvement"/>
+</node>
+<node CREATED="1738169970547" ID="ID_101167692" MODIFIED="1738170060353" TEXT="impact: inc enrollmnt; dec dropout; better t traing; digital learng; more inclusive ed sys"/>
 </node>
 </node>
-<node CREATED="1711398408150" ID="ID_1857784977" MODIFIED="1738092539720" TEXT="probs of higher ed">
+<node CREATED="1711398408150" FOLDED="true" ID="ID_1857784977" MODIFIED="1738176687978" TEXT="probs of higher ed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738170239867" ID="ID_28810388" MODIFIED="1738170373378" TEXT="defn: refers to post-secondary ed at colleges, univ, &amp; institutes for diploma, degrees, research qualifictn"/>
+<node CREATED="1738170393586" ID="ID_1205204735" MODIFIED="1738170505029" TEXT="regulated by: UGC (Univ Grants Commsn); AICTE (All India Council for Tech Ed); NMC (Nat Med Commsn)"/>
+<node CREATED="1738170514170" ID="ID_1568445373" MODIFIED="1738170584755" TEXT="focus on: vocational traing; ug ed; pg ed; doctoral study; prof &amp; technical ed; distance learng"/>
+<node CREATED="1738154735447" ID="ID_462227216" MODIFIED="1738173314969" TEXT="problems: 1, 2, 3, 7, 8, 9, 11, 12, 13, 14, 15, 16">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738173086630" ID="ID_1045545642" MODIFIED="1738173088911" TEXT="challenge no./ prob/ soln/ reference or eg ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1738174534780" ID="ID_1986154862" MODIFIED="1738176211028" TEXT="1. Lack of Quality Ed/ Update curr &amp; use real-world case studies/&#x9;Case studies, industry-based proj in syll"/>
+<node CREATED="1738174549316" ID="ID_240573258" MODIFIED="1738176254773" TEXT="2. financial Prob/ scholarship, loans, work-study prog/ Govt+private scholarships like Tata Scholarship"/>
+<node CREATED="1738174559068" ID="ID_1170386812" MODIFIED="1738176311381" TEXT="3. Lack of Prac Knowl/ Focus on hands-on learng &amp; internship/ Internship prog in industry"/>
+<node CREATED="1738174569349" ID="ID_731583867" MODIFIED="1738176378980" TEXT="6. Ltd Career Guidance/ Career services &amp; industry netwng prog/ Alumni netw for guidance + job placements"/>
+<node CREATED="1738174586500" ID="ID_475063371" MODIFIED="1738176444431" TEXT="7. Outdated Curr/ industry expert for course updatn/ Collab with industries to update course content"/>
+<node CREATED="1738174589092" ID="ID_242401659" MODIFIED="1738176591613" TEXT="11. Lack of Soft Skills Traing/ add comm, leadershp, criti-think workshop/ Public speak club &amp; leadshp prog"/>
+<node CREATED="1738174605685" ID="ID_651935414" MODIFIED="1738176643934" TEXT="12. techno Gap/ Integrate modern techno into classrooms &amp; resrch lab/ Use virtual labs, AI-based platform"/>
+<node CREATED="1738174620444" ID="ID_23018895" MODIFIED="1738176681469" TEXT="16. Inequality in Ed/ financial support for underrepresented stu/ Free online courses (e.g., Coursera, edX) "/>
+<node CREATED="1738170898233" ID="ID_957230562" MODIFIED="1738176685954" TEXT="ltd tech usage/ smart class; ai driven learng/ SWAYAM, NPTEL "/>
+<node CREATED="1738170758066" ID="ID_1855984839" MODIFIED="1738170792359" TEXT="weak research/ inc funding + global collab/ UGC Fellowships"/>
 </node>
-<node CREATED="1711398335574" ID="ID_940832225" MODIFIED="1738092528071" TEXT="challenges reltd to policy initiatives in eductn">
+</node>
+</node>
+<node CREATED="1711398335574" ID="ID_940832225" MODIFIED="1738176703041" TEXT="challenges reltd to policy initiatives in eductn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1738092592863" ID="ID_1864671240" MODIFIED="1738092595988" TEXT="meaning"/>
-<node CREATED="1711398417510" ID="ID_653827559" MODIFIED="1738092588343" TEXT="sarva shiksa abhiyaan SSA aka samagr shiksha abhiyan">
+<node CREATED="1738092592863" ID="ID_1864671240" MODIFIED="1738171172113" TEXT="means challenges in making &amp; implementing ed policies that improve learning, access, and quality of ed"/>
+<node CREATED="1711398417510" ID="ID_653827559" MODIFIED="1738170113157" TEXT="sarva shiksa abhiyaan SSA ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738171349705" ID="ID_1565769607" MODIFIED="1738171349705" TEXT=""/>
 </node>
 <node CREATED="1711398445582" ID="ID_352493106" MODIFIED="1738092588343" TEXT="right of children for free &amp; compulsory ed act, 2009">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
