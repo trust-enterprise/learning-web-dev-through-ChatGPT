@@ -9,7 +9,7 @@
 <node CREATED="1711398312631" ID="ID_1594136197" MODIFIED="1713702766818" TEXT="unit 1">
 <node CREATED="1711398315670" ID="ID_1255691497" MODIFIED="1738092525880" TEXT="challenges reltd to conventional educatn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1713714079964" ID="ID_1334642155" MODIFIED="1738091531540" TEXT="features of pre-primary/ primary/ secondary/ higher ed ">
+<node CREATED="1713714079964" FOLDED="true" ID="ID_1334642155" MODIFIED="1738120553070" TEXT="features of pre-primary/ primary/ secondary/ higher ed ">
 <node CREATED="1713714116908" ID="ID_990715944" MODIFIED="1713714123732" TEXT="age grp">
 <node CREATED="1713714123732" ID="ID_93278704" MODIFIED="1713714155860" TEXT="3-6 yrs/ 6-11 yrs/ 11-16 yrs/ 17 &amp; above"/>
 </node>
@@ -35,23 +35,60 @@
 <node CREATED="1713717280945" ID="ID_1986385713" MODIFIED="1713717356367" TEXT="into primary school/ into sec school with complex subj/ into higher ed or vocational traing/ into career"/>
 </node>
 </node>
-<node CREATED="1711398358542" ID="ID_433272846" MODIFIED="1738092714878" TEXT="problems of pre-primary ed">
+<node CREATED="1711398358542" FOLDED="true" ID="ID_433272846" MODIFIED="1738121762076" TEXT="problems of pre-primary ed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1713702239027" ID="ID_129317787" MODIFIED="1713703896082" TEXT="defn: initial stage of formal ed to children of age 3 to 6 yrs"/>
-<node CREATED="1713703904601" ID="ID_145823940" MODIFIED="1713703907254" TEXT="problems">
-<node CREATED="1711427397338" ID="ID_555713870" MODIFIED="1713713828366" TEXT="ltd school availability + toys + intro"/>
-<node CREATED="1731506461421" ID="ID_1550698613" MODIFIED="1731506467454" TEXT="wrt to assessment">
-<node CREATED="1731506467454" ID="ID_163871926" MODIFIED="1731506492237" TEXT="non standardised ass method across school+"/>
-</node>
-</node>
-<node CREATED="1713703663538" ID="ID_995458890" MODIFIED="1713703669329" TEXT="soln by nep 2020">
-<node CREATED="1713703669329" ID="ID_1695688281" MODIFIED="1713713877823" TEXT="universalizatn of early childhud care &amp; ed (ECCE) for children upto age 8 by 2025; est more anganwadi centr"/>
-<node CREATED="1713703717322" ID="ID_1643394671" MODIFIED="1713713864298" TEXT="training pre-primary t; campaign on parental+community involvemnt in early childhood ed"/>
-</node>
-</node>
-<node CREATED="1711398371654" FOLDED="true" ID="ID_1265591696" MODIFIED="1738092607825" TEXT="problems of primary ed">
+<node CREATED="1713702239027" ID="ID_129317787" MODIFIED="1738120566355" TEXT="defn: initial stage of formal ed to children of age 3 to 6 yrs; class nursery to ukg"/>
+<node CREATED="1738119539558" ID="ID_1045631095" MODIFIED="1738119667382" TEXT="focus: basic literacy (read, write); numeracy; play based learng (game), motor skill (run), school ready for cls 1"/>
+<node CREATED="1713703904601" FOLDED="true" ID="ID_145823940" MODIFIED="1738121761308" TEXT="problems">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1713702251395" ID="ID_402169198" MODIFIED="1713713933614" TEXT="defn of primary ed: first stage of formal ed for ages 6 to 11 yrs; gives foundatn for further learng"/>
+<node CREATED="1738119680494" ID="ID_840598662" MODIFIED="1738121056565" TEXT="general">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1711427397338" ID="ID_555713870" MODIFIED="1738121046036" TEXT="prob/ soln/ reference or eg">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738118758856" ID="ID_1858672733" MODIFIED="1738118806743" TEXT="trained t/ regular trg prog/ CBSE ToT under nep2020; 15k for 15lacs"/>
+<node CREATED="1738118820391" ID="ID_1899415308" MODIFIED="1738118859669" TEXT="infra/ invest in classr+playgrnd+tools/ anganwadi centres under ICDS scheme"/>
+<node CREATED="1738118866992" ID="ID_492825287" MODIFIED="1738118905467" TEXT="uneven access/ open more sch in remote ar/ Samagra Siksha Abhiyan for remote early ed"/>
+<node CREATED="1738118914591" ID="ID_1586653461" MODIFIED="1738118965115" TEXT="low awareness/ aw campaigns for parents/ Poshan Abhiyan for early childhood &amp; nutritn"/>
+<node CREATED="1738118974719" ID="ID_1452060110" MODIFIED="1738119004092" TEXT="high stu-t ratio/ recruit more t/ kerala&apos;s ECCE model for small classroom size"/>
+<node CREATED="1738119047575" ID="ID_179515244" MODIFIED="1738119105585" TEXT="lack of std curr/ implement std uniform curr nationwide/ NEP2020 recommends it nationwide"/>
+<node CREATED="1738119115223" ID="ID_1539839801" MODIFIED="1738119170019" TEXT="rote learning/ focus on play &amp; activity based learng/ montessori &amp; waldorf methods for creativity"/>
+<node CREATED="1738119177543" ID="ID_286177517" MODIFIED="1738119293103" TEXT="affordability issue/ subsidy/ free ECCE (Early Childhood Care and Education 0-8yrs) under RTE Act"/>
+<node CREATED="1738119214663" ID="ID_797062797" MODIFIED="1738119368313" TEXT="health &amp; safety/ enforce hygiene &amp; safety std/ UNICEF india guidelines for safe learng env"/>
+<node CREATED="1738119376671" ID="ID_781002379" MODIFIED="1738119467489" TEXT="govt neglect/ budget/ under ICDS (Integrated Child Development Services 0-6yrs+mother) &amp; NEP2020"/>
+</node>
+<node CREATED="1731506461421" ID="ID_1550698613" MODIFIED="1738121054877" TEXT="wrt to assessment">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1731506467454" ID="ID_163871926" MODIFIED="1738121049429" TEXT="prob/ soln/ reference or eg">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738120024990" ID="ID_1592611954" MODIFIED="1738120079499" TEXT="academics over holistic focus/ include social,cognitv,emotnl dev/ nep2020 emphasis on holistic ed"/>
+<node CREATED="1738120091654" ID="ID_1230820074" MODIFIED="1738120172661" TEXT="lack of tr t; train t in child friendly ass methods; NCTE guidelines for ECCE (Early Childhood Care Education)"/>
+<node CREATED="1738120173774" ID="ID_157998164" MODIFIED="1738120224308" TEXT="standardized testng for all/ adopt individualizd ass strat/ UNICEF recom adapting to indiv needs"/>
+<node CREATED="1738120232062" ID="ID_1970073870" MODIFIED="1738120333080" TEXT="stressful &amp; rigid evaln/ flexible, play based obsrvn tec/ montessori &amp; reggio emilia: observn based ass method"/>
+<node CREATED="1738120334406" ID="ID_585733470" MODIFIED="1738120398960" TEXT="inconsistent ass tools/ dev std, age appropriate tools/ NCERT ELDS (Early Learning Development Standards)"/>
+<node CREATED="1738120399998" ID="ID_1480927739" MODIFIED="1738120454565" TEXT="overemphasis on marks/ focus on skill dev/ waldorf ed: focus on learng progress, avoids grades"/>
+</node>
+</node>
+</node>
+<node CREATED="1711398371654" ID="ID_1265591696" MODIFIED="1738120491012" TEXT="problems of primary ed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1713702239027" ID="ID_109236893" MODIFIED="1738120627075" TEXT="defn: first stage of formal ed for ages 6 to 11 yrs; gives foundatn for further learng"/>
+<node CREATED="1738119539558" ID="ID_1212125204" MODIFIED="1738120729141" TEXT="focus: basic literacy (r,w); numeracy; foundatinal learng for higher ed; holistic dev, activity based learng; values"/>
+<node CREATED="1713703904601" FOLDED="true" ID="ID_355839234" MODIFIED="1738121754413" TEXT="problems">
+<node CREATED="1711427397338" ID="ID_1357217202" MODIFIED="1738121040886" TEXT="prob/ soln/ reference or eg">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738119115223" ID="ID_1299305786" MODIFIED="1738119170019" TEXT="rote learning/ focus on play &amp; activity based learng/ montessori &amp; waldorf methods for creativity"/>
+<node CREATED="1738120399998" ID="ID_1759592952" MODIFIED="1738121182502" TEXT="overemphasis on marks/ focus on skill dev/ UNICEF&apos;s Child-Friendly Schools: focus on learng over grades"/>
+<node CREATED="1738121293956" ID="ID_952706862" MODIFIED="1738121384172" TEXT="lack of holistic dev/ assess creativity, social, emotnl skill/ Reggio Emilia approach: Focuses on all-round dev"/>
+<node CREATED="1738120173774" ID="ID_1440083782" MODIFIED="1738120224308" TEXT="standardized testng for all/ adopt individualizd ass strat/ UNICEF recom adapting to indiv needs"/>
+<node CREATED="1738120091654" ID="ID_1455567676" MODIFIED="1738121452796" TEXT="lack of tr t; train t in child friendly ass methods; NISHTHA Training Program: Improves t ass skill"/>
+<node CREATED="1738121454213" ID="ID_1409301799" MODIFIED="1738121567642" TEXT="neglect of non-acad skill/ nclude sports+art+life skill in ass/ ICSE Curr: encourages ass of co-curri activities"/>
+<node CREATED="1738121346500" ID="ID_542743766" MODIFIED="1738121656443" TEXT="parental misunderstdg/ educate&apos;em on imp of ass of holistic dev/ commu aw campaign by govt prog"/>
+<node CREATED="1738121667452" ID="ID_1576924838" MODIFIED="1738121693457" TEXT="t bias/ use rubrics &amp; std tools/ Cambridge Assessment Tools: Promote fair and uniform evaluation"/>
+<node CREATED="1738121703443" ID="ID_1766870989" MODIFIED="1738121740049" TEXT="digital integn/ invest in infra/ Diksha App: Supports digital tools for individualized ass"/>
+</node>
 <node CREATED="1711398388398" ID="ID_953994461" MODIFIED="1738092461511" TEXT="universalizatn of primary ed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1713702466994" ID="ID_294438765" MODIFIED="1713717524146" TEXT="efforts made &amp; barriers faced">
