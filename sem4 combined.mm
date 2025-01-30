@@ -210,19 +210,75 @@
 </node>
 <node CREATED="1711398335574" ID="ID_940832225" MODIFIED="1738176703041" TEXT="challenges reltd to policy initiatives in eductn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1738092592863" ID="ID_1864671240" MODIFIED="1738171172113" TEXT="means challenges in making &amp; implementing ed policies that improve learning, access, and quality of ed"/>
-<node CREATED="1711398417510" ID="ID_653827559" MODIFIED="1738170113157" TEXT="sarva shiksa abhiyaan SSA ">
+<node CREATED="1738092592863" ID="ID_1864671240" MODIFIED="1738212548228" TEXT="means challenges in making &amp; implementing ed policies that improve access, learning and quality of ed"/>
+<node CREATED="1711398417510" FOLDED="true" ID="ID_653827559" MODIFIED="1738224841532" TEXT="sarva shiksa abhiyaan SSA ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1738171349705" ID="ID_1565769607" MODIFIED="1738171349705" TEXT=""/>
-</node>
-<node CREATED="1711398445582" ID="ID_352493106" MODIFIED="1738092588343" TEXT="right of children for free &amp; compulsory ed act, 2009">
+<node CREATED="1738171349705" ID="ID_1565769607" MODIFIED="1738213082436" TEXT="Aspect/ Details/ Challenges Addressed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1711398474038" ID="ID_1293628102" MODIFIED="1738092588343" TEXT="minimum levels of learning MLL">
+<node CREATED="1738213092740" ID="ID_119206620" MODIFIED="1738220881966" TEXT="Intro/ 2001: aim- Univrsl Elery Ed(UEE); 6-14 yrs; undr RTE Act, 09/ ineq in Ed, ensur free+complsry ed for all"/>
+<node CREATED="1738213107717" ID="ID_635128562" MODIFIED="1738221029179" TEXT="Obj/ Improve acc+retentn+quality; gender &amp; social gaps; inclusv ed/ Quality Ed; Inequality; Infra"/>
+<node CREATED="1738213117405" ID="ID_642580122" MODIFIED="1738221128798" TEXT="Infra Dev/ Constrc new school+classrm+separate toilet+drink h20+boundry walls/ Infra; basic facilities"/>
+<node CREATED="1738213128038" ID="ID_696819632" MODIFIED="1738221243346" TEXT="T Traing+Recruitmnt/ focus on t recruitmnt+traing+dev/ Shortage of Qualified Teachers "/>
+<node CREATED="1738213139101" ID="ID_1348121375" MODIFIED="1738221420080" TEXT="Curr &amp; Learng Meth/ Focus on activ-bas learng+ICT integn for concept undersng/ Rote; Outdated Curr, Prac"/>
+<node CREATED="1738213152607" ID="ID_1142925440" MODIFIED="1738221619336" TEXT="Ass &amp; Learng Outcome/ focus on CCE than traditionl exam/ Ineffec Ass Sys by reducing rote-based exams."/>
+<node CREATED="1738213172479" ID="ID_892369557" MODIFIED="1738222366857" TEXT="Equity &amp; Inclusn/ focus on SC/ST+minrty+girls+CWSN thru scholrshps, residentl school,/ Ineq; Lang Barrier"/>
+<node CREATED="1738213182136" ID="ID_396462247" MODIFIED="1738222506608" TEXT="Use of Techno/&#x9;smart classrm+digi learng tool+online t traing/ Techno Gap; acc to digi  res"/>
+<node CREATED="1738213191656" ID="ID_703355095" MODIFIED="1738224544958" TEXT="Communty Participtn/ SMC+local govt+NGO participatn for accountablty/ corruptn, monitoring, efficiency"/>
+<node CREATED="1738213200185" ID="ID_1507544470" MODIFIED="1738224627148" TEXT="Funding/ jointly funded by Central+State for mid-day meal, free textbks, uniform, scholarshps/ Financial Prob"/>
+<node CREATED="1738213208313" ID="ID_1079124488" MODIFIED="1738224716827" TEXT="Gender &amp; Social Inclusn/ Kasturba G Balika Vidyal (KGBV) for margin girls ed/  Parent Press, Gender Gap "/>
+<node CREATED="1738213216992" ID="ID_644070590" MODIFIED="1738224839070" TEXT="Resrch &amp; Innovn/ ed resrch, innovn in pedagogy, skill-based ed/&#x9;Ltd Resrch Oppor, Lack of Soft Skill Traing."/>
+</node>
+<node CREATED="1711398445582" ID="ID_352493106" MODIFIED="1738224843908" TEXT="right of children for free &amp; compulsory ed act, 2009">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738171349705" ID="ID_1270494025" MODIFIED="1738213082436" TEXT="Aspect/ Details/ Challenges Addressed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1711398485646" ID="ID_1879099573" MODIFIED="1738092588343" TEXT="millenium development goals MDGs">
+<node CREATED="1738214053011" ID="ID_269340023" MODIFIED="1738224997109" TEXT="Intro/  RTE Act ensures free + compulsry ed for children aged 6-14 yrs/ Inequality in Education "/>
+<node CREATED="1738214064684" ID="ID_959951477" MODIFIED="1738225046325" TEXT="Obj:  Universl access, quality ed, no discriminatn in school/ Quality Ed, Inequality in Education"/>
+<node CREATED="1738214075548" ID="ID_1871032162" MODIFIED="1738225106652" TEXT="Key Provisn/ Right to free ed, no detention till Cls 8, inclusn of margin grp/ Financial Prob, Inequality"/>
+<node CREATED="1738214085997" ID="ID_1689536200" MODIFIED="1738225198457" TEXT="Curr &amp; Learng/ Focus on child-centric, activ-based learng than rote/ Rote Learng Sys, less Prac Knowl"/>
+<node CREATED="1738214097093" ID="ID_323903926" MODIFIED="1738225301525" TEXT="Infra Dev/ mandates basic facilities like classrooms, toilets, drinking water/ Poor Infra"/>
+<node CREATED="1738214114165" ID="ID_572719334" MODIFIED="1738225356206" TEXT="T Recruitmnt &amp; Traing/ Requires qualifd t, traing, t-stu ratio of 1:30/ Shortage of Qualified T"/>
+<node CREATED="1738214115806" ID="ID_1022595183" MODIFIED="1738225406079" TEXT="Ass Sys/ CCE replaces marks-based exams/  Ineffec Ass Sys "/>
+<node CREATED="1738214127477" ID="ID_1883249938" MODIFIED="1738225484295" TEXT="Inclusn of margin Grps/ 25% reservn for weaker sec in private sch/ Inequality in Ed"/>
+<node CREATED="1738214142086" ID="ID_467082752" MODIFIED="1738214151659" TEXT="Financial Support  Government funds for school development and support to poor families.  Financial Problems"/>
+<node CREATED="1738214152070" ID="ID_776711002" MODIFIED="1738214161419" TEXT="Technological Integration  Promotes digital learning and smart classrooms.  Technological Gap"/>
+<node CREATED="1738214161807" ID="ID_1322794926" MODIFIED="1738214171611" TEXT="Challenges in Implementation  Issues with teacher shortages, lack of resources, and low learning outcomes.  Lack of Quality Education, Shortage of Qualified Teachers"/>
+<node CREATED="1738214171968" ID="ID_1657806585" MODIFIED="1738214182372" TEXT="Impact &amp; Way Forward  Improved enrollment rates, but challenges in quality education remain. Needs better monitoring and policy reforms.  Lack of Quality Education, Ineffective Assessment System"/>
+</node>
+<node CREATED="1711398474038" FOLDED="true" ID="ID_1293628102" MODIFIED="1738220334962" TEXT="minimum levels of learning MLL">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738171349705" ID="ID_1263133731" MODIFIED="1738213082436" TEXT="Aspect/ Details/ Challenges Addressed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738214280523" ID="ID_770029166" MODIFIED="1738214291519" TEXT="Introduction  MLL sets minimum learning standards for students in primary education.  Lack of Quality Education"/>
+<node CREATED="1738214291875" ID="ID_770904002" MODIFIED="1738214301840" TEXT="Objectives  Ensure basic literacy, numeracy, and essential skills for all students.  Lack of Practical Knowledge, Inequality in Education"/>
+<node CREATED="1738214302162" ID="ID_110858081" MODIFIED="1738214315273" TEXT="Key Features  Defines grade-wise learning outcomes to measure student progress.  Ineffective Assessment System"/>
+<node CREATED="1738214315612" ID="ID_279058087" MODIFIED="1738214326976" TEXT="Curriculum &amp; Pedagogy  Promotes activity-based and competency-based learning.  Rote Learning System, Lack of Practical Knowledge"/>
+<node CREATED="1738214327355" ID="ID_126538014" MODIFIED="1738214337529" TEXT="Assessment System  Emphasizes continuous evaluation instead of rote-based exams.  Ineffective Assessment System"/>
+<node CREATED="1738214338037" ID="ID_163412753" MODIFIED="1738214348441" TEXT="Teacher Training &amp; Recruitment  Requires trained teachers to implement MLL effectively.  Shortage of Qualified Teachers"/>
+<node CREATED="1738214349285" ID="ID_1753688377" MODIFIED="1738214361306" TEXT="Infrastructure &amp; Resources  Schools must have basic facilities to support MLL implementation.  Poor Infrastructure"/>
+<node CREATED="1738214361710" ID="ID_1975580000" MODIFIED="1738214372085" TEXT="Technological Integration  Encourages digital tools for assessment and learning support.  Technological Gap"/>
+<node CREATED="1738214381606" ID="ID_1755010122" MODIFIED="1738214382506" TEXT="Parental &amp; Community Involvement  Focus on awareness programs to involve parents in learning.  Parental Pressure, Limited Career Guidance"/>
+<node CREATED="1738214382846" ID="ID_258819047" MODIFIED="1738214395727" TEXT="Challenges in Implementation  Uneven adoption, teacher shortages, outdated materials, and low monitoring.  Lack of Quality Education, Outdated Curriculum"/>
+<node CREATED="1738214396111" ID="ID_950886937" MODIFIED="1738214406019" TEXT="Impact &amp; Way Forward  Improved focus on learning outcomes, but needs stronger implementation and monitoring.  Lack of Quality Education, Ineffective Assessment System"/>
+</node>
+<node CREATED="1711398485646" FOLDED="true" ID="ID_1879099573" MODIFIED="1738220656524" TEXT="millenium development goals MDGs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738171349705" ID="ID_1757237064" MODIFIED="1738213082436" TEXT="Aspect/ Details/ Challenges Addressed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738220337678" ID="ID_1255675249" MODIFIED="1738220347289" TEXT="Introduction&#x9;MDGs are eight global goals aimed to reduce poverty, improve education, and promote sustainability.&#x9;Lack of Quality Education, Inequality in Education"/>
+<node CREATED="1738220347592" ID="ID_990376854" MODIFIED="1738220358066" TEXT="Objectives&#x9;The goals aim to achieve universal education, gender equality, health improvement, and environmental sustainability.&#x9;Lack of Quality Education, Financial Problems, Inequality in Education"/>
+<node CREATED="1738220358432" ID="ID_1301761915" MODIFIED="1738220367198" TEXT="Eradicate Extreme Poverty &amp; Hunger&#x9;Reduce by half the number of people living on less than $1 a day and reduce hunger.&#x9;Financial Problems, Inequality in Education"/>
+<node CREATED="1738220379820" ID="ID_732033871" MODIFIED="1738220381094" TEXT="Achieve Universal Primary Education&#x9;Ensure all children complete primary schooling.&#x9;Lack of Quality Education, Overburdened Students"/>
+<node CREATED="1738220381611" ID="ID_239059052" MODIFIED="1738220390550" TEXT="Promote Gender Equality &amp; Empower Women&#x9;Eliminate gender disparities in education and increase women&#x2019;s participation in workforce and politics.&#x9;Parental Pressure, Inequality in Education"/>
+<node CREATED="1738220391562" ID="ID_1796131402" MODIFIED="1738220399383" TEXT="Reduce Child Mortality&#x9;Reduce under-five mortality by two-thirds.&#x9;Lack of Quality Education, Ineffective Assessment System"/>
+<node CREATED="1738220399939" ID="ID_1273113658" MODIFIED="1738220408208" TEXT="Improve Maternal Health&#x9;Reduce maternal mortality and achieve universal access to reproductive health.&#x9;Lack of Quality Education, Technological Gap"/>
+<node CREATED="1738220409050" ID="ID_326981311" MODIFIED="1738220419460" TEXT="Combat HIV/AIDS, Malaria, &amp; Other Diseases&#x9;Halt the spread of diseases like HIV/AIDS and malaria, and increase treatment access.&#x9;Poor Infrastructure, Technological Gap"/>
+<node CREATED="1738220420043" ID="ID_113972431" MODIFIED="1738220427623" TEXT="Ensure Environmental Sustainability&#x9;Promote sustainable development by protecting natural resources and improving access to clean water.&#x9;Poor Infrastructure, Technological Gap"/>
+<node CREATED="1738220428292" ID="ID_1768116836" MODIFIED="1738220436656" TEXT="Develop Global Partnerships&#x9;Develop a partnership to address issues like fair trade, debt relief, and technology access for developing countries.&#x9;Inequality in Education, Technological Gap"/>
 </node>
 </node>
 </node>
