@@ -910,8 +910,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1711398878438" FOLDED="true" ID="ID_1817143972" MODIFIED="1738257732424" POSITION="right" TEXT="403_gender, school &amp; society">
-<node CREATED="1711398883831" FOLDED="true" ID="ID_1828284508" MODIFIED="1738257732424" TEXT="unit 1: sex &amp; gender">
+<node CREATED="1711398878438" ID="ID_1817143972" MODIFIED="1738344661174" POSITION="right" TEXT="403_gender, school &amp; society">
+<node CREATED="1711398883831" ID="ID_1828284508" MODIFIED="1738344664757" TEXT="unit 1: sex &amp; gender">
+<node CREATED="1738344905724" ID="ID_960080935" MODIFIED="1738344911013" TEXT="Sex vs Gender&#x9;Sex: biological (male/female). Gender: social roles and identity"/>
 <node CREATED="1711399661991" ID="ID_244814867" MODIFIED="1711399676492" TEXT="psychological &amp; sociological perspectives"/>
 <node CREATED="1711399681254" FOLDED="true" ID="ID_1603427272" MODIFIED="1738257732424" TEXT="radical feminism">
 <node CREATED="1711399694803" ID="ID_1775347343" MODIFIED="1711399696309" TEXT="gender"/>
