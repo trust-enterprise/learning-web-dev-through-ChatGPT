@@ -1,12 +1,12 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1711397906764" ID="ID_640741513" MODIFIED="1738257732424" TEXT="sem4">
-<node CREATED="1711400283366" FOLDED="true" ID="ID_1125908194" MODIFIED="1738257714202" POSITION="right" TEXT="401_challenges &amp; issues of ed in india">
+<node CREATED="1711400283366" ID="ID_1125908194" MODIFIED="1738293589960" POSITION="right" TEXT="401_challenges &amp; issues of ed in india">
 <node CREATED="1713703312427" FOLDED="true" ID="ID_1816654061" MODIFIED="1738257714155" TEXT="intro">
 <node CREATED="1713703317258" ID="ID_937694441" MODIFIED="1713703400331" TEXT="access to quality ed; socio-economic disparity; t shortage; less training; high dropout rate"/>
 <node CREATED="1713703400779" ID="ID_475119770" MODIFIED="1738092655938" TEXT="poor infra; outdate curr &amp; trg method; gender; ltd access to higher ed; low quality ed; corruptn"/>
 </node>
-<node CREATED="1711398312631" FOLDED="true" ID="ID_1594136197" MODIFIED="1738257714171" TEXT="unit 1">
+<node CREATED="1711398312631" FOLDED="true" ID="ID_1594136197" MODIFIED="1738293609749" TEXT="unit 1">
 <node CREATED="1711398315670" FOLDED="true" ID="ID_1255691497" MODIFIED="1738257714171" TEXT="challenges reltd to conventional educatn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1713714079964" FOLDED="true" ID="ID_1334642155" MODIFIED="1738257714171" TEXT="features of pre-primary/ primary/ secondary/ higher ed ">
@@ -208,7 +208,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1711398335574" FOLDED="true" ID="ID_940832225" MODIFIED="1738257714171" TEXT="challenges reltd to policy initiatives in eductn">
+<node CREATED="1711398335574" ID="ID_940832225" MODIFIED="1738293590023" TEXT="challenges reltd to policy initiatives in eductn">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1738092592863" ID="ID_1864671240" MODIFIED="1738212548228" TEXT="means challenges in making &amp; implementing ed policies that improve access, learning and quality of ed"/>
 <node CREATED="1711398417510" FOLDED="true" ID="ID_653827559" MODIFIED="1738257714171" TEXT="sarva shiksa abhiyaan SSA ">
@@ -230,7 +230,7 @@
 <node CREATED="1738213208313" ID="ID_1079124488" MODIFIED="1738224716827" TEXT="Gender &amp; Social Inclusn/ Kasturba G Balika Vidyal (KGBV) for margin girls ed/  Parent Press, Gender Gap "/>
 <node CREATED="1738213216992" ID="ID_644070590" MODIFIED="1738224839070" TEXT="Resrch &amp; Innovn/ ed resrch, innovn in pedagogy, skill-based ed/&#x9;Ltd Resrch Oppor, Lack of Soft Skill Traing."/>
 </node>
-<node CREATED="1711398445582" FOLDED="true" ID="ID_352493106" MODIFIED="1738257714171" TEXT="right of children for free &amp; compulsory ed act, 2009">
+<node CREATED="1711398445582" FOLDED="true" ID="ID_352493106" MODIFIED="1738293602230" TEXT="right of children for free &amp; compulsory ed act, 2009">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1738171349705" ID="ID_1270494025" MODIFIED="1738213082436" TEXT="Aspect/ Details/ Challenges Addressed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -249,7 +249,7 @@
 <node CREATED="1738214161807" ID="ID_1322794926" MODIFIED="1738242357810" TEXT="Chall in Implemntn/ Issues with t shortage+res lack+low learng outcome/ lack of Quality Ed, Qualified T shortg"/>
 <node CREATED="1738214171968" ID="ID_1657806585" MODIFIED="1738242513483" TEXT="Impact+Way Forw/  better enroll rate but chall in quality ed remain; Needs monitrng+policy reforms/ 1 prob"/>
 </node>
-<node CREATED="1711398474038" FOLDED="true" ID="ID_1293628102" MODIFIED="1738257714171" TEXT="minimum levels of learning MLL">
+<node CREATED="1711398474038" FOLDED="true" ID="ID_1293628102" MODIFIED="1738293606367" TEXT="minimum levels of learning MLL">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1738171349705" ID="ID_1263133731" MODIFIED="1738213082436" TEXT="Aspect/ Details/ Challenges Addressed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -363,142 +363,143 @@
 </node>
 </node>
 </node>
-<node CREATED="1711398633062" FOLDED="true" ID="ID_1347138650" MODIFIED="1738257714186" TEXT="unit 3: other aspects">
-<node CREATED="1711398637038" FOLDED="true" ID="ID_1717506922" MODIFIED="1738257714186" TEXT="language prob in india">
+<node CREATED="1711398633062" FOLDED="true" ID="ID_1347138650" MODIFIED="1738297757213" TEXT="unit 3: other aspects">
+<node CREATED="1711398637038" FOLDED="true" ID="ID_1717506922" MODIFIED="1738296380616" TEXT="language prob in india">
 <node CREATED="1738253753942" ID="ID_18110978" MODIFIED="1738253773158" TEXT="Aspect/ Challenge/ Possible Soln">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1738253818870" ID="ID_1518213641" MODIFIED="1738253901353" TEXT="Medium of Instruction&#x9;Non-English speakers face learning gaps&#x9;Bilingual education models"/>
-<node CREATED="1738253901917" ID="ID_1189796655" MODIFIED="1738253911022" TEXT="Home vs. School Language&#x9;Mismatch weakens understanding&#x9;Mother tongue-based early education"/>
-<node CREATED="1738253911493" ID="ID_20410255" MODIFIED="1738253920248" TEXT="Employment Barrier&#x9;English dominance limits jobs&#x9;Regional + English skill training"/>
-<node CREATED="1738253920733" ID="ID_522309963" MODIFIED="1738253930098" TEXT="Higher Education Access&#x9;Competitive exams favor English speakers&#x9;Local language materials &amp; exams"/>
-<node CREATED="1738253930870" ID="ID_1319955274" MODIFIED="1738253948475" TEXT="Dropout Rates&#x9;Complex language in textbooks&#x9;Simplified, multilingual content"/>
-<node CREATED="1738253948798" ID="ID_1248698191" MODIFIED="1738253958699" TEXT="National Integration&#x9;Language divide fuels regionalism&#x9;Multilingual, inclusive curriculum"/>
-<node CREATED="1738253959086" ID="ID_849406079" MODIFIED="1738253969130" TEXT="Loss of Indigenous Languages&#x9;Tribal/local languages neglected&#x9;Inclusion in school syllabus"/>
-<node CREATED="1738253969501" ID="ID_376958150" MODIFIED="1738253980256" TEXT="Standardization vs. Diversity&#x9;One-language policies create tension&#x9;Flexible language choices"/>
-<node CREATED="1738253980613" ID="ID_5460907" MODIFIED="1738253989016" TEXT="Digital Learning Gap&#x9;English-dominated content excludes many&#x9;More regional language resources"/>
-<node CREATED="1738253989373" ID="ID_1010310847" MODIFIED="1738253999305" TEXT="Lack of Language Teachers&#x9;Poor teaching quality affects learning&#x9;Multilingual teacher training"/>
+<node CREATED="1738253818870" ID="ID_1518213641" MODIFIED="1738293652389" TEXT="Medium of Instruction/ Non-English speakers face learning gaps/ Bilingual ed models"/>
+<node CREATED="1738253901917" ID="ID_1189796655" MODIFIED="1738296211314" TEXT="Home vs. Sch Lang/ Mismatch weakens understanding/ Mother tongue-based early education"/>
+<node CREATED="1738253911493" ID="ID_20410255" MODIFIED="1738296225020" TEXT="Employment Barrier/ English dominance limits jobs/ Regional + English skill training"/>
+<node CREATED="1738253920733" ID="ID_522309963" MODIFIED="1738296239111" TEXT="Higher Education Access/ Competitive exams favor English speakers/ Local language materials &amp; exams"/>
+<node CREATED="1738253930870" ID="ID_1319955274" MODIFIED="1738296313198" TEXT="Dropout Rates/&#x9;Complex language in textbooks/ multilingual content"/>
+<node CREATED="1738253948798" ID="ID_1248698191" MODIFIED="1738296301811" TEXT="National Integration/ Language divide fuels regionalism/ Multilingual curriculum"/>
+<node CREATED="1738253959086" ID="ID_849406079" MODIFIED="1738296286203" TEXT="Loss of Indigenous Languages/&#x9;Tribal/local languages neglected/ Inclusion in school syllabus"/>
+<node CREATED="1738253969501" ID="ID_376958150" MODIFIED="1738296336964" TEXT="Standardization vs. Diversity/ One-language policies create tension/ Flexible language choices"/>
+<node CREATED="1738253980613" ID="ID_5460907" MODIFIED="1738296361137" TEXT="Digital Learning Gap/ English-dominated content excludes many&#x9;/ More regional language resources"/>
+<node CREATED="1738253989373" ID="ID_1010310847" MODIFIED="1738296379524" TEXT="Lack of Language Teachers/ Poor teaching quality affects learning/ Multilingual teacher training"/>
 </node>
-<node CREATED="1711398660791" FOLDED="true" ID="ID_1852262758" MODIFIED="1738257714186" TEXT="probs of distance &amp; open learning">
-<node CREATED="1738254138982" ID="ID_273864316" MODIFIED="1738254139872" TEXT="Distance learning is education where students and teachers are separated by location"/>
-<node CREATED="1738254140485" ID="ID_1851557921" MODIFIED="1738254147291" TEXT="open learning provides flexible entry without strict prerequisites."/>
+<node CREATED="1711398660791" FOLDED="true" ID="ID_1852262758" MODIFIED="1738296820319" TEXT="probs of distance &amp; open learning">
+<node CREATED="1738254138982" ID="ID_273864316" MODIFIED="1738296412386" TEXT="Distance learning: ed where stu &amp; t are separated by location"/>
+<node CREATED="1738254140485" ID="ID_1851557921" MODIFIED="1738296433316" TEXT="open learning: gives flexible entry without strict prerequisites."/>
 <node CREATED="1738254151053" ID="ID_84668744" MODIFIED="1738254248342" TEXT="eg IGNOU provides both distance learng program &amp; keep it flexible with age &amp; restrictn to make it open learng"/>
 <node CREATED="1738254250877" ID="ID_1658762822" MODIFIED="1738254284749" TEXT="Aspect/ Issue/ Solution">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1738254309949" ID="ID_1795215961" MODIFIED="1738254418360" TEXT="Quality of Education&#x9;Standardization issues, lack of credibility&#x9;Strict accreditation &amp; monitoring"/>
-<node CREATED="1738254418949" ID="ID_1021175189" MODIFIED="1738254429829" TEXT="Limited Practical Exposure&#x9;Lack of hands-on learning in courses&#x9;Virtual labs, internship"/>
-<node CREATED="1738254430396" ID="ID_923361303" MODIFIED="1738254443024" TEXT="Technological Barriers&#x9;Poor internet, digital divide&#x9;Affordable devices, better connectivity"/>
-<node CREATED="1738254443485" ID="ID_984216617" MODIFIED="1738254453263" TEXT="Student Engagement&#x9;Low interaction, passive learning&#x9;Interactive sessions, mentorship"/>
-<node CREATED="1738254461613" ID="ID_818920700" MODIFIED="1738254463216" TEXT="Assessment &amp; Evaluation&#x9;Risk of malpractice, credibility issues&#x9;AI-based proctoring, better exam patterns"/>
-<node CREATED="1738254463845" ID="ID_1688314396" MODIFIED="1738254474941" TEXT="Employability Concerns&#x9;Employers prefer regular degrees&#x9;Industry tie-ups, skill-based training"/>
-<node CREATED="1738254483245" ID="ID_590158935" MODIFIED="1738254484839" TEXT="Regional Disparities&#x9;Urban-rural gap in access to resources&#x9;Local study centers, vernacular content"/>
-<node CREATED="1738254485309" ID="ID_1964347334" MODIFIED="1738254496812" TEXT="Self-Discipline Challenges&#x9;High dropout rates due to lack of motivation&#x9;Structured schedules, counseling"/>
-<node CREATED="1738254497405" ID="ID_266801682" MODIFIED="1738254507839" TEXT="Recognition &amp; Equivalence&#x9;Distance degrees seen as inferior&#x9;Awareness campaigns, policy reforms"/>
-<node CREATED="1738254508565" ID="ID_292820217" MODIFIED="1738254518457" TEXT="Faculty &amp; Support System&#x9;Lack of proper guidance &amp; doubt-solving&#x9;More tutors, better student support"/>
+<node CREATED="1738254309949" ID="ID_1795215961" MODIFIED="1738296472663" TEXT="Quality of Education/ Standardization issues for credibility/ Strict accreditation &amp; monitoring"/>
+<node CREATED="1738254418949" ID="ID_1021175189" MODIFIED="1738296498017" TEXT="Limited Practical Exposure/ Lack of hands-on learning in courses/ Virtual labs, internship"/>
+<node CREATED="1738254430396" ID="ID_923361303" MODIFIED="1738296664862" TEXT="Technological Barriers/ Poor internet, digital divide/ better connectivity, Affordable devices"/>
+<node CREATED="1738254443485" ID="ID_984216617" MODIFIED="1738296630608" TEXT="Stu Engagement/ Low interaction, passive learning/ Interactive sessions "/>
+<node CREATED="1738254461613" ID="ID_818920700" MODIFIED="1738296654182" TEXT="Assessment &amp; Evaluation/ Risk of malpractice/&#x9;AI-based proctoring, better exam patterns"/>
+<node CREATED="1738254463845" ID="ID_1688314396" MODIFIED="1738296689418" TEXT="Employability Concerns/ Employers prefer regular degrees/ Industry tie-ups, skill-based training"/>
+<node CREATED="1738254483245" ID="ID_590158935" MODIFIED="1738296720297" TEXT="Regional Disparities/ Urban-rural gap in access to resources/ Local study centers, vernacular content"/>
+<node CREATED="1738254485309" ID="ID_1964347334" MODIFIED="1738296750057" TEXT="Self-Discipline Challenges/ High dropout rates due to lack of motivation/ Structured schedules, counseling"/>
+<node CREATED="1738254497405" ID="ID_266801682" MODIFIED="1738296778745" TEXT="Recognition &amp; Equivalence/ Distance degrees seen as inferior/ policy reforms"/>
+<node CREATED="1738254508565" ID="ID_292820217" MODIFIED="1738296818619" TEXT="Faculty &amp; Support System/ Lack of proper guidance &amp; doubt-solving/ Discord platform, peer learng"/>
 </node>
-<node CREATED="1711398682078" FOLDED="true" ID="ID_756726153" MODIFIED="1738257714186" TEXT="probs of examinatn sys in educatn">
+<node CREATED="1711398682078" FOLDED="true" ID="ID_756726153" MODIFIED="1738297185779" TEXT="probs of examinatn sys in educatn">
 <node CREATED="1738255191524" ID="ID_480785815" MODIFIED="1738255203980" TEXT="Aspect/ Issue/ Solution">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1738255204251" ID="ID_1820952311" MODIFIED="1738255226559" TEXT="Rote Learning focused exam&#x9;Focus on memorization over understanding&#x9;Concept-based, application-oriented exams"/>
-<node CREATED="1738255227252" ID="ID_483393179" MODIFIED="1738255238614" TEXT="Stress &amp; Mental Pressure&#x9;High stakes lead to anxiety &amp; burnout&#x9;Continuous assessment, counseling"/>
-<node CREATED="1738255239779" ID="ID_64020425" MODIFIED="1738255251301" TEXT="Cheating &amp; Malpractice&#x9;Widespread unfair means in exams&#x9;AI-based proctoring, strict monitoring"/>
-<node CREATED="1738255251596" ID="ID_1129609580" MODIFIED="1738255262451" TEXT="Evaluation Errors&#x9;Subjectivity &amp; errors in manual checking&#x9;Digital evaluation, moderation system"/>
-<node CREATED="1738255262723" ID="ID_608664056" MODIFIED="1738255273719" TEXT="Mark-Centric System&#x9;Prioritizes grades over skills&#x9;Holistic assessment, skill-based grading"/>
-<node CREATED="1738255274044" ID="ID_434099799" MODIFIED="1738255285678" TEXT="Inequality in Access&#x9;Rural students lack coaching &amp; resources&#x9;Equitable facilities, digital inclusion"/>
-<node CREATED="1738255285956" ID="ID_595064426" MODIFIED="1738255294796" TEXT="Outdated Question Patterns&#x9;Tests memory, not problem-solving&#x9;Case-study &amp; competency-based questions"/>
-<node CREATED="1738255295099" ID="ID_1092902806" MODIFIED="1738255305541" TEXT="Delayed Results&#x9;Long result processing time&#x9;Automated scoring, real-time evaluation"/>
-<node CREATED="1738255305859" ID="ID_1883339111" MODIFIED="1738255316219" TEXT="Lack of Practical Assessment&#x9;Focus only on theory, ignores skills&#x9;More practical &amp; project-based exams"/>
-<node CREATED="1738255316916" ID="ID_1010149896" MODIFIED="1738255328526" TEXT="Mismatch with Industry Needs&#x9;Exams don&#x2019;t assess real-world skills&#x9;Vocational integration, industry-driven testing"/>
+<node CREATED="1738255204251" ID="ID_1820952311" MODIFIED="1738296886533" TEXT="Rote Learning focused exam/ FO memorizn over conceptual understndng/ applicn-based exam"/>
+<node CREATED="1738255227252" ID="ID_483393179" MODIFIED="1738296909726" TEXT="Stress &amp; Mental Press/ High stakes lead to anxiety &amp; burnout/ Continuous assessment, counseling"/>
+<node CREATED="1738255239779" ID="ID_64020425" MODIFIED="1738296941648" TEXT="Cheating &amp; Malpractice/ Widespread unfair means in exams/ AI-based proctoring, strict monitoring"/>
+<node CREATED="1738255251596" ID="ID_1129609580" MODIFIED="1738297018697" TEXT="Evaluation Error/ Subjectivity &amp; error in manual checking/ Digital evaluation system"/>
+<node CREATED="1738255262723" ID="ID_608664056" MODIFIED="1738296983518" TEXT="Mark-Centric System/ Prioritizes grades over skills/ skill-based grading"/>
+<node CREATED="1738255274044" ID="ID_434099799" MODIFIED="1738297044217" TEXT="Inequality in Access/ Rural students lack coaching &amp; resources/ digital inclusion"/>
+<node CREATED="1738255285956" ID="ID_595064426" MODIFIED="1738297065018" TEXT="Outdated Question Pattern/ Tests memory, not problem-solving/ Case-study &amp; competency-based questions"/>
+<node CREATED="1738255295099" ID="ID_1092902806" MODIFIED="1738297120874" TEXT="Delayed Results/ Long result processing time/ Automated evaluation"/>
+<node CREATED="1738255305859" ID="ID_1883339111" MODIFIED="1738297142453" TEXT="Lack of Prac Assessment/ Focus only on theory, ignores skills/ More practical &amp; project-based exams"/>
+<node CREATED="1738255316916" ID="ID_1010149896" MODIFIED="1738297181762" TEXT="Mismatch with Industry Needs/ no ass on real-world skill/ Vocational integn, industry-driven ass"/>
 </node>
-<node CREATED="1711398703990" FOLDED="true" ID="ID_588892851" MODIFIED="1738257714186" TEXT="probs of teacher educatn sys">
-<node CREATED="1738255629740" ID="ID_1294530080" MODIFIED="1738255660482" TEXT="prepares individuals for the teaching profession through training programs, certifications, and degrees. It is regulated by the National Council for Teacher Education (NCTE); eg: TETs, B.Ed"/>
+<node CREATED="1711398703990" FOLDED="true" ID="ID_588892851" MODIFIED="1738297755572" TEXT="probs of teacher educatn sys">
+<node CREATED="1738255629740" ID="ID_1294530080" MODIFIED="1738297261748" TEXT="prepares individuals for the teaching profession thru traing prog, certificn, degrees.  "/>
+<node CREATED="1738297262365" ID="ID_1678529399" MODIFIED="1738297263147" TEXT="regulated by the National Council for Teacher Education (NCTE); eg: TETs, B.Ed"/>
 <node CREATED="1738255191524" ID="ID_1062734032" MODIFIED="1738255203980" TEXT="Aspect/ Issue/ Solution">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1738255662123" ID="ID_1666971418" MODIFIED="1738255702620" TEXT="Outdated Curriculum&#x9;Lacks modern pedagogy &amp; tech integration&#x9;Regular syllabus updates, tech-based teaching"/>
-<node CREATED="1738255703139" ID="ID_196565470" MODIFIED="1738255713687" TEXT="Theoretical Focus&#x9;Less emphasis on practical teaching skills&#x9;More classroom training, internships"/>
-<node CREATED="1738255714587" ID="ID_1625846698" MODIFIED="1738255723389" TEXT="Poor Training Quality&#x9;Many institutions lack proper faculty&#x9;Strict accreditation, faculty training"/>
-<node CREATED="1738255723667" ID="ID_1832054395" MODIFIED="1738255732523" TEXT="Lack of Continuous Learning&#x9;No regular skill enhancement programs&#x9;Mandatory refresher courses, workshops"/>
-<node CREATED="1738255732843" ID="ID_1525052220" MODIFIED="1738255742549" TEXT="Inefficient Assessment&#x9;Focus on exams, not teaching aptitude&#x9;Classroom-based performance evaluation"/>
-<node CREATED="1738255742843" ID="ID_224192893" MODIFIED="1738255751892" TEXT="Shortage of Qualified Teachers&#x9;High demand, low supply of trained educators&#x9;More training institutes, scholarships"/>
-<node CREATED="1738255752211" ID="ID_1145576865" MODIFIED="1738255760757" TEXT="Low Attractiveness of Teaching&#x9;Poor salary &amp; growth prospects deter talent&#x9;Better pay, career advancement opportunities"/>
-<node CREATED="1738255761059" ID="ID_1675558725" MODIFIED="1738255777589" TEXT="Neglect of Soft Skills&#x9;Weak focus on communication &amp; leadership&#x9;Personality development, leadership training"/>
-<node CREATED="1738255770619" ID="ID_1313339811" MODIFIED="1738255787773" TEXT="Lack of Research &amp; Innovation&#x9;Minimal focus on educational research&#x9;Research grants, innovation hubs"/>
-<node CREATED="1738255788099" ID="ID_1011621907" MODIFIED="1738255797941" TEXT="Regional Disparities&#x9;Quality gap between urban &amp; rural areas&#x9;Special rural teacher training programs"/>
+<node CREATED="1738255662123" ID="ID_1666971418" MODIFIED="1738297316816" TEXT="Outdated Curr/ Lacks modern pedagogy &amp; tech integn/ Regular curr updates, digi integn"/>
+<node CREATED="1738255703139" ID="ID_196565470" MODIFIED="1738297436592" TEXT="Theoretical Focus/ Less emphasis on practical teaching skills/ More classroom training, internships"/>
+<node CREATED="1738255714587" ID="ID_1625846698" MODIFIED="1738297455547" TEXT="Poor Training Quality/ Many institutions lack proper faculty/ Strict accreditation, faculty training"/>
+<node CREATED="1738255723667" ID="ID_1832054395" MODIFIED="1738297508959" TEXT="Lack of Conti Learng/ No regular skill enhancement prog/ Mandatory workshops"/>
+<node CREATED="1738255732843" ID="ID_1525052220" MODIFIED="1738297529600" TEXT="Inefficient Ass/ Focus on exams, not teaching aptitude/ Classroom-based performance evaluation"/>
+<node CREATED="1738255742843" ID="ID_224192893" MODIFIED="1738297640470" TEXT="Shortage of Qualified T/ High demand, low supply of trained educators/ More scholarships for traing"/>
+<node CREATED="1738255752211" ID="ID_1145576865" MODIFIED="1738297686664" TEXT="Low Attractiveness/ Poor salary+growth prospects deter talent/ Better pay, career oppor"/>
+<node CREATED="1738255761059" ID="ID_1675558725" MODIFIED="1738297715592" TEXT="Neglect of Soft Skills/ Weak focus on comm &amp; leadershp/ Personality dev, leadership traing"/>
+<node CREATED="1738255770619" ID="ID_1313339811" MODIFIED="1738297734331" TEXT="Lack of Research &amp; Innovn/ Minimal focus on educational research/ Research grants, innovation hubs"/>
+<node CREATED="1738255788099" ID="ID_1011621907" MODIFIED="1738297753285" TEXT="Regional Disparities/ Quality gap between urban &amp; rural areas/ Special rural teacher training programs"/>
 </node>
 </node>
-<node CREATED="1711398721358" FOLDED="true" ID="ID_1471198733" MODIFIED="1738257714202" TEXT="unit 4: issues in educatn &amp; teacher">
-<node CREATED="1711398749983" FOLDED="true" ID="ID_1884234682" MODIFIED="1738257714186" TEXT="role &amp; strategies">
+<node CREATED="1711398721358" ID="ID_1471198733" MODIFIED="1738297759149" TEXT="unit 4: issues in educatn &amp; teacher">
+<node CREATED="1711398749983" FOLDED="true" ID="ID_1884234682" MODIFIED="1738298803713" TEXT="role &amp; strategies">
 <node CREATED="1738256051219" ID="ID_588190890" MODIFIED="1738256067947" TEXT="Aspect/ Role of Teacher/ Strategies Employed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1738256069274" ID="ID_190732487" MODIFIED="1738256083233" TEXT="Knowledge Facilitator&#x9;Imparts subject expertise &amp; critical thinking&#x9;Use of real-life examples, interactive methods"/>
-<node CREATED="1738256083530" ID="ID_853379378" MODIFIED="1738256096484" TEXT="Mentor &amp; Guide&#x9;Provides emotional &amp; career guidance&#x9;One-on-one mentoring, career counseling"/>
-<node CREATED="1738256096778" ID="ID_861758886" MODIFIED="1738256107233" TEXT="Innovator in Teaching&#x9;Adopts new methods &amp; technology&#x9;Flipped classroom, gamification, digital tools"/>
-<node CREATED="1738256107562" ID="ID_1682994667" MODIFIED="1738256123534" TEXT="Value Educator&#x9;Inculcates moral &amp; ethical values&#x9;Storytelling, case studies, classroom discussions"/>
-<node CREATED="1738256123834" ID="ID_878354329" MODIFIED="1738256134597" TEXT="Inclusive Educator&#x9;Supports diverse learning needs&#x9;Differentiated instruction, special accommodations"/>
-<node CREATED="1738256134946" ID="ID_1066489550" MODIFIED="1738256145722" TEXT="Skill Developer&#x9;Focuses on practical &amp; vocational skills&#x9;Project-based learning, hands-on activities"/>
-<node CREATED="1738256146010" ID="ID_1697112965" MODIFIED="1738256159875" TEXT="Classroom Manager&#x9;Maintains discipline &amp; engagement&#x9;Active monitoring, student participation strategies"/>
-<node CREATED="1738256160395" ID="ID_604154439" MODIFIED="1738256172450" TEXT="Evaluator &amp; Assessor&#x9;Measures student progress &amp; understanding&#x9;Formative assessments, peer evaluations"/>
-<node CREATED="1738256173634" ID="ID_1861463904" MODIFIED="1738256183854" TEXT="Lifelong Learner&#x9;Upgrades knowledge &amp; pedagogy regularly&#x9;Attends workshops, collaborates with peers"/>
-<node CREATED="1738256184218" ID="ID_1152976379" MODIFIED="1738256195718" TEXT="Effective Communicator&#x9;Ensures clear &amp; engaging instruction&#x9;Clarity in speech, use of multiple teaching aids"/>
+<node CREATED="1738256069274" ID="ID_190732487" MODIFIED="1738297861289" TEXT="Knowl Facilitator/ Imparts subject expertise &amp; critical thinkng/ Use of real-life eg, interactive meth"/>
+<node CREATED="1738256083530" ID="ID_853379378" MODIFIED="1738297885493" TEXT="Mentor &amp; Guide/ Provides emotional &amp; career guidance/ mentoring, career counseling"/>
+<node CREATED="1738256096778" ID="ID_861758886" MODIFIED="1738297925226" TEXT="Innovator in Teaching/ Adopts new methods &amp; techno/ Flipped classroom, gamification, digital tools"/>
+<node CREATED="1738256107562" ID="ID_1682994667" MODIFIED="1738297959467" TEXT="Value Educator/ teaches moral &amp; ethical values/&#x9;Storytelling, case studies "/>
+<node CREATED="1738256123834" ID="ID_878354329" MODIFIED="1738297985105" TEXT="Inclusive Educator/ Supports diverse learning needs/ individualized instruction "/>
+<node CREATED="1738256134946" ID="ID_1066489550" MODIFIED="1738298008062" TEXT="Skill Developer/ FO practical &amp; vocational skills/ &#x9;Project-based learning, hands-on activities"/>
+<node CREATED="1738256146010" ID="ID_1697112965" MODIFIED="1738298060729" TEXT="Classroom Manager/ Maintains discipline &amp; engagement/ stu participation strategies, Active monitoring"/>
+<node CREATED="1738256160395" ID="ID_604154439" MODIFIED="1738298274593" TEXT="Evaluator/ Measures student progress &amp; understanding/ Formative assessments, peer evaluations"/>
+<node CREATED="1738256173634" ID="ID_1861463904" MODIFIED="1738298379327" TEXT="Lifelong Learner/ Upgrades knowledge &amp; pedagogy regularly/ Attends workshops, collaborates with peers"/>
+<node CREATED="1738256184218" ID="ID_1152976379" MODIFIED="1738298664032" TEXT="Effective Communicator/ Ensures clear &amp; engaging instruction/ Clarity in speech, use of multiple teaching aids"/>
 </node>
-<node CREATED="1711398755422" FOLDED="true" ID="ID_712888689" MODIFIED="1738257714202" TEXT="role of teacher in maintaining quality">
-<node CREATED="1738256408682" FOLDED="true" ID="ID_1718745568" MODIFIED="1738257714186" TEXT="Aspect">
+<node CREATED="1711398755422" FOLDED="true" ID="ID_712888689" MODIFIED="1738299508472" TEXT="role of teacher in maintaining quality">
+<node CREATED="1738256408682" ID="ID_1718745568" MODIFIED="1738298916003" TEXT="Aspect">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1738256432698" ID="ID_778189940" MODIFIED="1738256434243" TEXT="Teacher&#x2019;s Role&#x9;Key Strategies&#x9;Expected Outcome">
+<node CREATED="1738256432698" ID="ID_778189940" MODIFIED="1738298934677" TEXT="Teacher&#x2019;s Role/ Key Strategies/ Expected Outcome">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1738256329713" FOLDED="true" ID="ID_1230016786" MODIFIED="1738257714186" TEXT="Curriculum Delivery">
-<node CREATED="1738256436419" ID="ID_1636259368" MODIFIED="1738256447651" TEXT="Ensures syllabus is well-taught&#x9;Uses student-centered methods, real-life examples&#x9;Improved conceptual understanding"/>
+<node CREATED="1738256329713" ID="ID_1230016786" MODIFIED="1738298815977" TEXT="Curriculum Delivery">
+<node CREATED="1738256436419" ID="ID_1636259368" MODIFIED="1738298913644" TEXT="Ensures syll is well-taught/ Use stu-centered meth, real-life eg/ Improved conceptual understndng"/>
 </node>
-<node CREATED="1738256337955" FOLDED="true" ID="ID_416867628" MODIFIED="1738257714186" TEXT="Assessment &amp; Evaluation">
-<node CREATED="1738256457547" MODIFIED="1738256457547" TEXT="Tracks student progress        Uses formative &amp; summative assessments        Better learning outcomes"/>
+<node CREATED="1738256337955" ID="ID_416867628" MODIFIED="1738299055561" TEXT="Assessment &amp; Evaluation">
+<node CREATED="1738256457547" ID="ID_856544089" MODIFIED="1738299080146" TEXT="Tracks stu progress/ Uses FA &amp; SA/ Better learning outcomes"/>
 </node>
-<node CREATED="1738256345378" FOLDED="true" ID="ID_940129057" MODIFIED="1738257714186" TEXT="Classroom Management">
-<node CREATED="1738256465851" MODIFIED="1738256465851" TEXT="Maintains discipline &amp; engagement        Implements interactive activities, structured rules        Positive learning environment"/>
+<node CREATED="1738256345378" ID="ID_940129057" MODIFIED="1738299081881" TEXT="Classroom Management">
+<node CREATED="1738256465851" ID="ID_105890107" MODIFIED="1738299123638" TEXT="Maintains disci/ Implements interactive activities/ Positive learning environment"/>
 </node>
-<node CREATED="1738256353866" FOLDED="true" ID="ID_1149600700" MODIFIED="1738257714202" TEXT="Use of Technology">
-<node CREATED="1738256476523" MODIFIED="1738256476523" TEXT="Enhances digital learning        Uses smart classes, e-learning tools        Modernized &amp; effective teaching"/>
+<node CREATED="1738256353866" ID="ID_1149600700" MODIFIED="1738299125170" TEXT="Use of Technology">
+<node CREATED="1738256476523" ID="ID_1786453414" MODIFIED="1738299170506" TEXT="Enhances digi learng/ Uses smart classes, e-learning tools/ effective teaching"/>
 </node>
-<node CREATED="1738256361762" FOLDED="true" ID="ID_874399838" MODIFIED="1738257714202" TEXT="Skill-Based Education">
-<node CREATED="1738256485163" MODIFIED="1738256485163" TEXT="Focuses on employability &amp; life skills        Introduces vocational training, hands-on projects        Practical skill development"/>
+<node CREATED="1738256361762" ID="ID_874399838" MODIFIED="1738299171748" TEXT="Skill-Based Education">
+<node CREATED="1738256485163" ID="ID_79856827" MODIFIED="1738299206166" TEXT="FO employability &amp; life skills/   Introduces vocational traing, Prac skill dev "/>
 </node>
-<node CREATED="1738256368010" FOLDED="true" ID="ID_1785669730" MODIFIED="1738257714202" TEXT="Inclusive Education">
-<node CREATED="1738256499098" MODIFIED="1738256499098" TEXT="Supports diverse student needs        Adopts special education methods, personalized instruction        Equal learning opportunities"/>
+<node CREATED="1738256368010" ID="ID_1785669730" MODIFIED="1738299207493" TEXT="Inclusive Education">
+<node CREATED="1738256499098" ID="ID_146373554" MODIFIED="1738299290276" TEXT="Supports indivi learng needs/ Adopts, personalized instruction/ Equal learning oppor"/>
 </node>
-<node CREATED="1738256374554" FOLDED="true" ID="ID_909608888" MODIFIED="1738257714202" TEXT="Teacher Development">
-<node CREATED="1738256507682" MODIFIED="1738256507682" TEXT="Keeps updating knowledge &amp; skills        Attends workshops, continuous training        Higher teaching effectiveness"/>
+<node CREATED="1738256374554" ID="ID_909608888" MODIFIED="1738299291551" TEXT="Teacher Development">
+<node CREATED="1738256507682" ID="ID_1327155912" MODIFIED="1738299326740" TEXT="Keeps updating knowl &amp; skills/ Attends workshops, peer collab/ Higher teaching effectivenes"/>
 </node>
-<node CREATED="1738256380059" FOLDED="true" ID="ID_1350534495" MODIFIED="1738257714202" TEXT="Ethical &amp; Moral Guidance">
-<node CREATED="1738256516058" MODIFIED="1738256516058" TEXT="Inculcates values &amp; ethics        Uses storytelling, debates, and discussions        Responsible &amp; aware citizens"/>
+<node CREATED="1738256380059" ID="ID_1350534495" MODIFIED="1738299328992" TEXT="Ethical &amp; Moral Guidance">
+<node CREATED="1738256516058" ID="ID_1168877976" MODIFIED="1738299398497" TEXT="practices values &amp; ethics/ Uses storytelling, debates, discussions/ Responsible citizens"/>
 </node>
-<node CREATED="1738256386874" FOLDED="true" ID="ID_902292753" MODIFIED="1738257714202" TEXT="Collaboration &amp; Feedback">
-<node CREATED="1738256523579" MODIFIED="1738256523579" TEXT="Engages with parents, peers, and students        Regular PTMs, peer discussions, feedback mechanisms        Stronger learning support system"/>
+<node CREATED="1738256386874" ID="ID_902292753" MODIFIED="1738299400022" TEXT="Collaboration &amp; Feedback">
+<node CREATED="1738256523579" ID="ID_247485518" MODIFIED="1738299452550" TEXT="Engages with parents, peers, stu/ Regular PTMs, feedb mechanism/ Stronger learng support sys"/>
 </node>
-<node CREATED="1738256394178" FOLDED="true" ID="ID_1830461832" MODIFIED="1738257714202" TEXT="Policy Implementation">
-<node CREATED="1738256531459" MODIFIED="1738256531459" TEXT="Ensures compliance with education reforms        Follows RTE Act, NEP guidelines, continuous policy updates        Standardized education quality"/>
+<node CREATED="1738256394178" ID="ID_1830461832" MODIFIED="1738299455029" TEXT="Policy Implementation">
+<node CREATED="1738256531459" ID="ID_534034120" MODIFIED="1738299506469" TEXT="Ensures compliance with ed reform/ Follows RTE Act, NEP guideline, policy updates/ Std ed quality"/>
 </node>
 </node>
-<node CREATED="1711398766982" FOLDED="true" ID="ID_1137308087" MODIFIED="1738257714202" TEXT="role of teacher in national integn">
+<node CREATED="1711398766982" FOLDED="true" ID="ID_1137308087" MODIFIED="1738299878988" TEXT="role of teacher in national integn">
 <node CREATED="1738256670778" ID="ID_1528306174" MODIFIED="1738256674418" TEXT="Aspect        Teacher&#x2019;s Role        Key Strategies">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1738256684322" MODIFIED="1738256684322" TEXT="Promoting Unity        Fosters a sense of national identity        Celebrates national festivals, teaches unity in diversity"/>
-<node CREATED="1738256691346" MODIFIED="1738256691346" TEXT="Cultural Awareness        Encourages respect for all cultures        Organizes cultural exchange programs, discussions on diversity"/>
-<node CREATED="1738256699235" MODIFIED="1738256699235" TEXT="Social Harmony        Bridges social divides        Promotes group activities, cooperative learning"/>
-<node CREATED="1738256704915" MODIFIED="1738256704915" TEXT="National Values        Instills values of democracy, equality        Teaches about constitutional rights, justice, and duties"/>
-<node CREATED="1738256714114" MODIFIED="1738256714114" TEXT="Patriotism        Builds love for the nation        Uses history lessons, storytelling, and national heroes"/>
-<node CREATED="1738256727152" MODIFIED="1738256727152" TEXT="Inclusive Education        Promotes equality in education        Provides equal opportunities for all students"/>
-<node CREATED="1738256733842" MODIFIED="1738256733842" TEXT="Peace Building        Teaches conflict resolution skills        Introduces group discussions, peer mediation"/>
-<node CREATED="1738256740746" MODIFIED="1738256740746" TEXT="Environmental Awareness        Encourages environmental responsibility        Conducts eco-friendly initiatives, awareness programs"/>
-<node CREATED="1738256747930" MODIFIED="1738256747930" TEXT="Community Service        Encourages social responsibility        Organizes community outreach programs"/>
-<node CREATED="1738256754402" MODIFIED="1738256754402" TEXT="Role Model        Sets an example of national integration        Exhibits unity, respect, and patriotism in actions"/>
+<node CREATED="1738256684322" ID="ID_1651747471" MODIFIED="1738299553484" TEXT="Promote Unity/ Fosters a sense of nat identity/ Celebrates nat festivals, teaches unity in diversity"/>
+<node CREATED="1738256691346" ID="ID_120362764" MODIFIED="1738299607802" TEXT="Cultural Awareness/ Prom respect for all cultures/ Organizes cultural exchange programs, discusn"/>
+<node CREATED="1738256699235" ID="ID_1720909488" MODIFIED="1738299651343" TEXT="Social Harmony/ Bridges social divides/ Promotes group activities, cooperative learning"/>
+<node CREATED="1738256704915" ID="ID_1746436008" MODIFIED="1738299704159" TEXT="Nat Values/ Instills values of democracy, equality, constitutional rights, duties/ aware citizen"/>
+<node CREATED="1738256714114" ID="ID_1137562570" MODIFIED="1738299733451" TEXT="Patriotism/ Builds love for the nation/ Uses history lessons- storytelling, and national heroes"/>
+<node CREATED="1738256727152" ID="ID_515510627" MODIFIED="1738299751179" TEXT="Inclusive Education/ Promotes equality in education/ Provides equal opportunities for all students"/>
+<node CREATED="1738256733842" ID="ID_1822055694" MODIFIED="1738299781327" TEXT="Peace Building/ Teaches conflict resolution skills/ Introduces group discussions, peer mediation"/>
+<node CREATED="1738256740746" ID="ID_1774946774" MODIFIED="1738299831390" TEXT="Environmental Awareness/ Prom env responsibility/ Conducts eco-friendly initiatives, awarenes prog"/>
+<node CREATED="1738256747930" ID="ID_1182863712" MODIFIED="1738299857457" TEXT="Community Service/ Prom social responsibility/ Organizes community outreach programs"/>
+<node CREATED="1738256754402" ID="ID_1830008343" MODIFIED="1738299878218" TEXT="Role Model/ Sets an example of nat integration/ Exhibits unity, respect, and patriotism in actions"/>
 </node>
-<node CREATED="1711398784887" FOLDED="true" ID="ID_1699540140" MODIFIED="1738257714202" TEXT="t&apos;s role in inculcating all types of values">
+<node CREATED="1711398784887" FOLDED="true" ID="ID_1699540140" MODIFIED="1738299882868" TEXT="t&apos;s role in inculcating all types of values">
 <node CREATED="1738256962266" ID="ID_1196576084" MODIFIED="1738256965482" TEXT="Aspect        Teacher&#x2019;s Role        Key Strategies">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
