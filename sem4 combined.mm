@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1711397906764" ID="ID_640741513" MODIFIED="1738257732424" TEXT="sem4">
-<node CREATED="1711400283366" FOLDED="true" ID="ID_1125908194" MODIFIED="1738343811974" POSITION="right" TEXT="401_challenges &amp; issues of ed in india">
+<node CREATED="1711400283366" FOLDED="true" ID="ID_1125908194" MODIFIED="1738562599220" POSITION="right" TEXT="401_challenges &amp; issues of ed in india">
 <node CREATED="1713703312427" FOLDED="true" ID="ID_1816654061" MODIFIED="1738331141249" TEXT="intro">
 <node CREATED="1713703317258" ID="ID_937694441" MODIFIED="1713703400331" TEXT="access to quality ed; socio-economic disparity; t shortage; less training; high dropout rate"/>
 <node CREATED="1713703400779" ID="ID_475119770" MODIFIED="1738092655938" TEXT="poor infra; outdate curr &amp; trg method; gender; ltd access to higher ed; low quality ed; corruptn"/>
@@ -430,7 +430,7 @@
 <node CREATED="1738255788099" ID="ID_1011621907" MODIFIED="1738297753285" TEXT="Regional Disparities/ Quality gap between urban &amp; rural areas/ Special rural teacher training programs"/>
 </node>
 </node>
-<node CREATED="1711398721358" FOLDED="true" ID="ID_1471198733" MODIFIED="1738331141296" TEXT="unit 4: issues in educatn &amp; teacher">
+<node CREATED="1711398721358" ID="ID_1471198733" MODIFIED="1738562577676" TEXT="unit 4: issues in educatn &amp; teacher">
 <node CREATED="1711398749983" FOLDED="true" ID="ID_1884234682" MODIFIED="1738331141296" TEXT="role &amp; strategies">
 <node CREATED="1738256051219" ID="ID_588190890" MODIFIED="1738256067947" TEXT="Aspect/ Role of Teacher/ Strategies Employed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -499,7 +499,7 @@
 <node CREATED="1738256747930" ID="ID_1182863712" MODIFIED="1738299857457" TEXT="Community Service/ Prom social responsibility/ Organizes community outreach programs"/>
 <node CREATED="1738256754402" ID="ID_1830008343" MODIFIED="1738299878218" TEXT="Role Model/ Sets an example of nat integration/ Exhibits unity, respect, and patriotism in actions"/>
 </node>
-<node CREATED="1711398784887" FOLDED="true" ID="ID_1699540140" MODIFIED="1738331141296" TEXT="t&apos;s role in inculcating all types of values">
+<node CREATED="1711398784887" FOLDED="true" ID="ID_1699540140" MODIFIED="1738562586788" TEXT="t&apos;s role in inculcating all types of values">
 <node CREATED="1738256962266" ID="ID_1196576084" MODIFIED="1738256965482" TEXT="Aspect        Teacher&#x2019;s Role        Key Strategies">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -514,7 +514,7 @@
 <node CREATED="1738257034617" ID="ID_1598622713" MODIFIED="1738330679694" TEXT="Environmental Awareness/ Encourages env responsibility/ Conducts eco-friendly initiatives, awareness prog"/>
 <node CREATED="1738257042066" ID="ID_1096703341" MODIFIED="1738330699040" TEXT="Role Model/ Sets an example of all values/ Exhibits unity, respect, ethical behavior in actions"/>
 </node>
-<node CREATED="1711398804048" FOLDED="true" ID="ID_679418818" MODIFIED="1738331141296" TEXT="teaching in diverse classes &amp; maintaing harmony">
+<node CREATED="1711398804048" FOLDED="true" ID="ID_679418818" MODIFIED="1738562596299" TEXT="teaching in diverse classes &amp; maintaing harmony">
 <node CREATED="1738257525841" ID="ID_417382986" MODIFIED="1738330764219" TEXT="defn: learning env where stu from diff backgrounds, cultures, abilities, perspectives come together to study"/>
 <node CREATED="1738257476569" ID="ID_102629987" MODIFIED="1738257530609" TEXT="Aspect        Teacher&#x2019;s Role        Key Strategies">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -913,17 +913,115 @@
 <node CREATED="1711398878438" ID="ID_1817143972" MODIFIED="1738344661174" POSITION="right" TEXT="403_gender, school &amp; society">
 <node CREATED="1711398883831" ID="ID_1828284508" MODIFIED="1738344664757" TEXT="unit 1: sex &amp; gender">
 <node CREATED="1738344905724" ID="ID_960080935" MODIFIED="1738344911013" TEXT="Sex vs Gender&#x9;Sex: biological (male/female). Gender: social roles and identity"/>
-<node CREATED="1711399661991" ID="ID_244814867" MODIFIED="1711399676492" TEXT="psychological &amp; sociological perspectives"/>
-<node CREATED="1711399681254" FOLDED="true" ID="ID_1603427272" MODIFIED="1738257732424" TEXT="radical feminism">
-<node CREATED="1711399694803" ID="ID_1775347343" MODIFIED="1711399696309" TEXT="gender"/>
-<node CREATED="1711399696542" ID="ID_1971430372" MODIFIED="1711399699580" TEXT="patriarchy"/>
-<node CREATED="1711399699791" ID="ID_249969610" MODIFIED="1711399708284" TEXT="reproductive technology"/>
-<node CREATED="1711399708526" ID="ID_1913700674" MODIFIED="1711399712956" TEXT="motherhood"/>
+<node CREATED="1711399661991" FOLDED="true" ID="ID_244814867" MODIFIED="1738564077234" TEXT="psychological &amp; sociological perspectives">
+<node CREATED="1738562710567" FOLDED="true" ID="ID_126620573" MODIFIED="1738564074811" TEXT="psychological perspective">
+<node CREATED="1738562891766" ID="ID_1294790324" MODIFIED="1738562896369" TEXT="defn: it is an approach to understanding thoughts, emotions, and behavior."/>
+<node CREATED="1738563212092" ID="ID_1812291350" MODIFIED="1738563213919" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1711399717543" FOLDED="true" ID="ID_1365904295" MODIFIED="1738257732424" TEXT="socialist feminism">
-<node CREATED="1711399722487" ID="ID_1967228560" MODIFIED="1711399729221" TEXT="class"/>
+<node CREATED="1738563221526" ID="ID_1733287734" MODIFIED="1738563230551" TEXT="Sex vs. Gender        Sex &#x2013; Biological traits; Gender &#x2013; Social identity "/>
+<node CREATED="1738563962006" MODIFIED="1738563962006" TEXT="Gender Identity        Internal sense of being male/female, influenced by environment and cognition"/>
+<node CREATED="1738563968647" MODIFIED="1738563968647" TEXT="Sexual Identity        Acceptance of biological sex and its connection to gender identity"/>
+<node CREATED="1738563974863" MODIFIED="1738563974863" TEXT="Cognitive Development        Gender and sex roles understood through cognitive stages (Kohlberg)"/>
+<node CREATED="1738563980430" MODIFIED="1738563980430" TEXT="Social Learning        Gender and sex roles learned through observation and reinforcement (Bandura)"/>
+<node CREATED="1738563986871" MODIFIED="1738563986871" TEXT="Gender Schema        Behavior shaped by societal expectations (Bem)"/>
+<node CREATED="1738563993519" MODIFIED="1738563993519" TEXT="Psychodynamic Theory        Gender and sexual identity shaped by early family dynamics (Freud)"/>
+<node CREATED="1738564002102" MODIFIED="1738564002102" TEXT="Impact on Education        Stereotypes affect participation, choices, and teacher-student interactions"/>
+<node CREATED="1738564006912" MODIFIED="1738564006912" TEXT="Inclusive Classrooms        Promoting equality by challenging gender and sex stereotypes"/>
+</node>
+<node CREATED="1738562725957" FOLDED="true" ID="ID_1645117268" MODIFIED="1738563887462" TEXT="sociological perspective">
+<node CREATED="1738562938863" ID="ID_1299103219" MODIFIED="1738562941676" TEXT="defn: examines how society shapes human behavior and interactions."/>
+<node CREATED="1738563714318" ID="ID_956842702" MODIFIED="1738563715791" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738563802089" MODIFIED="1738563802089" TEXT="Sex vs. Gender        Sex &#x2013; Biological traits; Gender &#x2013; Social roles and norms"/>
+<node CREATED="1738563808378" MODIFIED="1738563808378" TEXT="Socialization        Both sex and gender roles are learned from family, media, and society"/>
+<node CREATED="1738563814275" MODIFIED="1738563814275" TEXT="Gender Roles        Society assigns specific roles based on sex; influences behavior and expectations"/>
+<node CREATED="1738563819841" MODIFIED="1738563819841" TEXT="Structural Functionalism        Gender roles essential for social stability, based on sex differences (Parsons)"/>
+<node CREATED="1738563827169" MODIFIED="1738563827169" TEXT="Conflict Theory        Gender inequality results from power struggles, often favoring males (Marxist view)"/>
+<node CREATED="1738563834827" MODIFIED="1738563834827" TEXT="Symbolic Interactionism        Gender identity formed through social interactions and the meanings attached to them"/>
+<node CREATED="1738563839987" MODIFIED="1738563839987" TEXT="Social Constructionism        Both sex and gender are influenced by social contexts; they are not biologically determined"/>
+<node CREATED="1738563846154" MODIFIED="1738563846154" TEXT="Impact on Education        Gender and sex stereotypes shape classroom dynamics, participation, and opportunities"/>
+<node CREATED="1738563851027" MODIFIED="1738563851027" TEXT="Inclusive Classrooms        Gender-neutral teaching methods ensure equality and challenge traditional sex-based norms"/>
+</node>
+</node>
+<node CREATED="1738568313627" ID="ID_1674376898" MODIFIED="1738568321395" TEXT="feminism">
+<node CREATED="1738568324501" ID="ID_935581481" MODIFIED="1738568394404" TEXT="defn: movt; advocates for equal rights and opportunities for all genders"/>
+<node CREATED="1738568326964" ID="ID_583390722" MODIFIED="1738568406398" TEXT="eg: Fighting for equal pay for men and women"/>
+<node CREATED="1738568330468" ID="ID_1896080201" MODIFIED="1738568332875" TEXT="types">
+<node CREATED="1711399681254" FOLDED="true" ID="ID_1603427272" MODIFIED="1738568580821" TEXT="radical feminism">
+<node CREATED="1738568409056" ID="ID_1997125954" MODIFIED="1738568552433" TEXT="defn: movt; fights patriarchy as the root of oppression  by challenging deep-rooted social structures and insti"/>
+<node CREATED="1738568438800" ID="ID_683416803" MODIFIED="1738568452319" TEXT="eg: Advocating for the abolition of gender roles and systemic reforms to end male dominance"/>
+<node CREATED="1711399694803" FOLDED="true" ID="ID_1775347343" MODIFIED="1738564724056" TEXT="gender">
+<node CREATED="1738564363788" ID="ID_1651669643" MODIFIED="1738564365197" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738564371909" MODIFIED="1738564371909" TEXT="Gender Definition        Social construct used to oppress women, rooted in patriarchy"/>
+<node CREATED="1738564377388" MODIFIED="1738564377388" TEXT="Patriarchy        Gender inequality driven by male domination and power structures"/>
+<node CREATED="1738564384036" MODIFIED="1738564384036" TEXT="Women&apos;s Oppression        Gender roles systematically oppress women, limiting freedom and equality"/>
+<node CREATED="1738564389259" MODIFIED="1738564389259" TEXT="Tool of Control        Gender roles enforce social norms that subjugate women"/>
+<node CREATED="1738564394772" MODIFIED="1738564394772" TEXT="Sexuality        Gender norms exploit women&#x2019;s sexuality and objectify them"/>
+<node CREATED="1738564401517" MODIFIED="1738564401517" TEXT="Rejecting Traditional Roles        Advocates for dismantling traditional gender roles and power dynamics"/>
+<node CREATED="1738564406780" MODIFIED="1738564406780" TEXT="Structural Change        Focus on transforming gender norms for equality"/>
+<node CREATED="1738564412653" ID="ID_1337172642" MODIFIED="1738564412653" TEXT="Intersectionality        Gender oppression intersects with race, class, and other forms of inequality"/>
+</node>
+<node CREATED="1711399696542" FOLDED="true" ID="ID_1971430372" MODIFIED="1738564725910" TEXT="patriarchy">
+<node CREATED="1738564593155" ID="ID_1733539204" MODIFIED="1738564594257" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738564599858" MODIFIED="1738564599858" TEXT="Definition        Male-dominated system oppressing women across all spheres"/>
+<node CREATED="1738564605204" MODIFIED="1738564605204" TEXT="Male Domination        Reinforces male control, marginalizes women"/>
+<node CREATED="1738564612772" MODIFIED="1738564612772" TEXT="Gender Roles        Creates rigid roles to sustain male authority"/>
+<node CREATED="1738564621524" MODIFIED="1738564621524" TEXT="Economic Exploitation        Undervalues and exploits women&#x2019;s labor"/>
+<node CREATED="1738564626757" MODIFIED="1738564626757" TEXT="Reproduction        Controls women&#x2019;s reproductive rights"/>
+<node CREATED="1738564632432" MODIFIED="1738564632432" TEXT="Cultural Norms        Social norms uphold male dominance"/>
+<node CREATED="1738564637483" MODIFIED="1738564637483" TEXT="Oppression        Uses violence, law, tradition to maintain power"/>
+<node CREATED="1738564641981" MODIFIED="1738564641981" TEXT="Response        Radical change to dismantle patriarchy"/>
+</node>
+<node CREATED="1711399699791" FOLDED="true" ID="ID_249969610" MODIFIED="1738564776704" TEXT="reproductive technology">
+<node CREATED="1738564713336" ID="ID_976253066" MODIFIED="1738564716239" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738564735272" MODIFIED="1738564735272" TEXT="Definition        Medical technologies related to conception and reproductive rights"/>
+<node CREATED="1738564741600" MODIFIED="1738564741600" TEXT="Control Over Women        Often used to control women&#x2019;s reproduction and reinforce patriarchy"/>
+<node CREATED="1738564748609" MODIFIED="1738564748609" TEXT="Access &amp; Autonomy        Women&#x2019;s right to choose and access reproductive technologies"/>
+<node CREATED="1738564754569" MODIFIED="1738564754569" TEXT="Commercialization        Exploitation of women&#x2019;s bodies for profit, e.g., surrogacy"/>
+<node CREATED="1738564760665" MODIFIED="1738564760665" TEXT="Gendered Impact        Unequal access and ethical concerns, with women bearing the brunt of exploitation"/>
+<node CREATED="1738564767999" MODIFIED="1738564767999" TEXT="Critique of Medicalization        Medical system&#x2019;s role in controlling women&#x2019;s bodies and reproduction"/>
+<node CREATED="1738564774640" MODIFIED="1738564774640" TEXT="Empowerment        Calls for women to have full autonomy and control over reproductive choices"/>
+</node>
+<node CREATED="1711399708526" FOLDED="true" ID="ID_1913700674" MODIFIED="1738568139528" TEXT="motherhood">
+<node CREATED="1738568076171" ID="ID_379102316" MODIFIED="1738568077619" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738568089617" MODIFIED="1738568089617" TEXT="Definition        Socially constructed role of women as caregivers and mothers"/>
+<node CREATED="1738568097149" MODIFIED="1738568097149" TEXT="Patriarchal Expectations        Women are expected to prioritize motherhood over personal goals"/>
+<node CREATED="1738568104182" MODIFIED="1738568104182" TEXT="Reproductive Role        Motherhood used as a tool for maintaining women&#x2019;s subordination"/>
+<node CREATED="1738568111133" MODIFIED="1738568111133" TEXT="Social Pressure        Mothers are judged based on traditional roles of nurturing and caregiving"/>
+<node CREATED="1738568117165" MODIFIED="1738568117165" TEXT="Economic Exploitation        Women&#x2019;s unpaid labor in child-rearing is undervalued"/>
+<node CREATED="1738568123991" MODIFIED="1738568123991" TEXT="Empowerment        Radical feminism calls for freedom from societal pressures on motherhood"/>
+<node CREATED="1738568131471" MODIFIED="1738568131471" TEXT="Redefining Motherhood        Advocates for recognizing diverse forms of motherhood beyond the traditional norm"/>
+</node>
+</node>
+<node CREATED="1711399717543" ID="ID_1365904295" MODIFIED="1738568344676" TEXT="socialist feminism">
+<node CREATED="1738568497417" ID="ID_1076145409" MODIFIED="1738568577069" TEXT="defn: targets both patriarchy and capitalism (e.g., demanding equal pay and labor rights)"/>
+<node CREATED="1711399722487" FOLDED="true" ID="ID_1967228560" MODIFIED="1738569020900" TEXT="class">
+<node CREATED="1738568715449" ID="ID_1584282825" MODIFIED="1738568719073" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738568970153" MODIFIED="1738568970153" TEXT="Definition        Division based on wealth, power, and economic status"/>
+<node CREATED="1738568978218" MODIFIED="1738568978218" TEXT="Class Structure        Ruling class vs working class"/>
+<node CREATED="1738568983999" MODIFIED="1738568983999" TEXT="Class &amp; Gender        Women&#x2019;s oppression is worsened by class position"/>
+<node CREATED="1738568989971" MODIFIED="1738568989971" TEXT="Class Exploitation        Capitalism exploits working-class women&#x2019;s labor"/>
+<node CREATED="1738568995514" MODIFIED="1738568995514" TEXT="Double Oppression        Women face both economic and gender oppression"/>
+<node CREATED="1738569000986" MODIFIED="1738569000986" TEXT="Class Solidarity        Women and workers must unite against capitalism"/>
+<node CREATED="1738569009289" MODIFIED="1738569009289" TEXT="Wealth Redistribution        Calls for equal access to resources"/>
+<node CREATED="1738569016607" MODIFIED="1738569016607" TEXT="Role of Education        Raise awareness of class struggles"/>
+</node>
 <node CREATED="1711399729463" ID="ID_1665218647" MODIFIED="1711399731604" TEXT="gender"/>
 <node CREATED="1711399731830" ID="ID_294329223" MODIFIED="1711399734029" TEXT="division"/>
+</node>
+</node>
 </node>
 <node CREATED="1711399736911" FOLDED="true" ID="ID_861493445" MODIFIED="1738257732424" TEXT="indian women">
 <node CREATED="1711399741511" ID="ID_223068974" MODIFIED="1711399746180" TEXT="family"/>
