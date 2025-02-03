@@ -910,11 +910,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1711398878438" ID="ID_1817143972" MODIFIED="1738344661174" POSITION="right" TEXT="403_gender, school &amp; society">
-<node CREATED="1711398883831" ID="ID_1828284508" MODIFIED="1738344664757" TEXT="unit 1: sex &amp; gender">
+<node CREATED="1711398878438" FOLDED="true" ID="ID_1817143972" MODIFIED="1738609669254" POSITION="right" TEXT="403_gender, school &amp; society">
+<node CREATED="1711398883831" FOLDED="true" ID="ID_1828284508" MODIFIED="1738602753191" TEXT="unit 1: sex &amp; gender">
 <node CREATED="1738344905724" ID="ID_960080935" MODIFIED="1738344911013" TEXT="Sex vs Gender&#x9;Sex: biological (male/female). Gender: social roles and identity"/>
-<node CREATED="1711399661991" FOLDED="true" ID="ID_244814867" MODIFIED="1738564077234" TEXT="psychological &amp; sociological perspectives">
-<node CREATED="1738562710567" FOLDED="true" ID="ID_126620573" MODIFIED="1738564074811" TEXT="psychological perspective">
+<node CREATED="1711399661991" ID="ID_244814867" MODIFIED="1738602735672" TEXT="psychological &amp; sociological perspectives">
+<node CREATED="1738562710567" ID="ID_126620573" MODIFIED="1738602736799" TEXT="psychological perspective">
 <node CREATED="1738562891766" ID="ID_1294790324" MODIFIED="1738562896369" TEXT="defn: it is an approach to understanding thoughts, emotions, and behavior."/>
 <node CREATED="1738563212092" ID="ID_1812291350" MODIFIED="1738563213919" TEXT="Aspect        Key Points">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -929,7 +929,7 @@
 <node CREATED="1738564002102" MODIFIED="1738564002102" TEXT="Impact on Education        Stereotypes affect participation, choices, and teacher-student interactions"/>
 <node CREATED="1738564006912" MODIFIED="1738564006912" TEXT="Inclusive Classrooms        Promoting equality by challenging gender and sex stereotypes"/>
 </node>
-<node CREATED="1738562725957" FOLDED="true" ID="ID_1645117268" MODIFIED="1738563887462" TEXT="sociological perspective">
+<node CREATED="1738562725957" ID="ID_1645117268" MODIFIED="1738602741239" TEXT="sociological perspective">
 <node CREATED="1738562938863" ID="ID_1299103219" MODIFIED="1738562941676" TEXT="defn: examines how society shapes human behavior and interactions."/>
 <node CREATED="1738563714318" ID="ID_956842702" MODIFIED="1738563715791" TEXT="Aspect        Key Points">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -945,7 +945,7 @@
 <node CREATED="1738563851027" MODIFIED="1738563851027" TEXT="Inclusive Classrooms        Gender-neutral teaching methods ensure equality and challenge traditional sex-based norms"/>
 </node>
 </node>
-<node CREATED="1738568313627" ID="ID_1674376898" MODIFIED="1738568321395" TEXT="feminism">
+<node CREATED="1738568313627" ID="ID_1674376898" MODIFIED="1738602712713" TEXT="feminism">
 <node CREATED="1738568324501" ID="ID_935581481" MODIFIED="1738568394404" TEXT="defn: movt; advocates for equal rights and opportunities for all genders"/>
 <node CREATED="1738568326964" ID="ID_583390722" MODIFIED="1738568406398" TEXT="eg: Fighting for equal pay for men and women"/>
 <node CREATED="1738568330468" ID="ID_1896080201" MODIFIED="1738568332875" TEXT="types">
@@ -1005,7 +1005,7 @@
 </node>
 <node CREATED="1711399717543" ID="ID_1365904295" MODIFIED="1738568344676" TEXT="socialist feminism">
 <node CREATED="1738568497417" ID="ID_1076145409" MODIFIED="1738568577069" TEXT="defn: targets both patriarchy and capitalism (e.g., demanding equal pay and labor rights)"/>
-<node CREATED="1711399722487" FOLDED="true" ID="ID_1967228560" MODIFIED="1738569020900" TEXT="class">
+<node CREATED="1711399722487" FOLDED="true" ID="ID_1967228560" MODIFIED="1738602319930" TEXT="class">
 <node CREATED="1738568715449" ID="ID_1584282825" MODIFIED="1738568719073" TEXT="Aspect        Key Points">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -1018,106 +1018,409 @@
 <node CREATED="1738569009289" MODIFIED="1738569009289" TEXT="Wealth Redistribution        Calls for equal access to resources"/>
 <node CREATED="1738569016607" MODIFIED="1738569016607" TEXT="Role of Education        Raise awareness of class struggles"/>
 </node>
-<node CREATED="1711399729463" ID="ID_1665218647" MODIFIED="1711399731604" TEXT="gender"/>
-<node CREATED="1711399731830" ID="ID_294329223" MODIFIED="1711399734029" TEXT="division"/>
+<node CREATED="1711399729463" ID="ID_1665218647" MODIFIED="1711399731604" TEXT="gender">
+<node CREATED="1738602377556" ID="ID_1691134733" MODIFIED="1738602379376" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738602386983" MODIFIED="1738602386983" TEXT="Definition        Gender is socially constructed, tied to class and economic systems"/>
+<node CREATED="1738602394046" MODIFIED="1738602394046" TEXT="Patriarchy &amp; Capitalism        Capitalism and patriarchy work together to oppress women"/>
+<node CREATED="1738602401544" MODIFIED="1738602401544" TEXT="Economic Exploitation        Women&#x2019;s labor, both at home and work, is exploited for capitalist gain"/>
+<node CREATED="1738602407633" MODIFIED="1738602407633" TEXT="Class and Gender Link        Women&#x2019;s oppression is rooted in both gender and class inequality"/>
+<node CREATED="1738602420039" MODIFIED="1738602420039" TEXT="Liberation        Gender liberation requires dismantling capitalism and patriarchy"/>
+<node CREATED="1738602425888" MODIFIED="1738602425888" TEXT="Social Change        Advocates for a society where gender equality and class equity coexist"/>
+</node>
+<node CREATED="1711399731830" ID="ID_294329223" MODIFIED="1711399734029" TEXT="division">
+<node CREATED="1738602436975" ID="ID_1097728394" MODIFIED="1738602440215" TEXT="Aspect        Key Points">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738602450135" MODIFIED="1738602450135" TEXT="Definition        Division is based on both class and gender oppression"/>
+<node CREATED="1738602461783" MODIFIED="1738602461783" TEXT="Labor Division        Women are confined to unpaid domestic work and low-wage jobs"/>
+<node CREATED="1738602468103" MODIFIED="1738602468103" TEXT="Economic Inequality        Capitalism creates a gendered wage gap and exploits women&#x2019;s labor"/>
+<node CREATED="1738602475200" MODIFIED="1738602475200" TEXT="Social Hierarchy        Women are placed in a subordinate role in both home and workplace"/>
+<node CREATED="1738602480879" MODIFIED="1738602480879" TEXT="Intersectionality        Class, race, and gender divisions deepen women&#x2019;s oppression"/>
+<node CREATED="1738602491119" MODIFIED="1738602491119" TEXT="Solution        Dismantling both capitalism and patriarchy for true equality"/>
 </node>
 </node>
 </node>
-<node CREATED="1711399736911" FOLDED="true" ID="ID_861493445" MODIFIED="1738257732424" TEXT="indian women">
-<node CREATED="1711399741511" ID="ID_223068974" MODIFIED="1711399746180" TEXT="family"/>
-<node CREATED="1711399749695" ID="ID_1260371706" MODIFIED="1711399751332" TEXT="class"/>
-<node CREATED="1711399746421" ID="ID_1782956917" MODIFIED="1711399747964" TEXT="caste"/>
-<node CREATED="1711399752310" ID="ID_547176016" MODIFIED="1711399753980" TEXT="culture"/>
-<node CREATED="1711399754238" ID="ID_1979819354" MODIFIED="1711399759356" TEXT="religion"/>
-<node CREATED="1711399759598" ID="ID_1787488337" MODIFIED="1711399762285" TEXT="social system"/>
+</node>
+<node CREATED="1711399736911" ID="ID_861493445" MODIFIED="1738602504879" TEXT="indian women">
+<node CREATED="1738602651071" ID="ID_1255694167" MODIFIED="1738602653247" TEXT="Aspect        Key Points        Example">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738602664391" MODIFIED="1738602664391" TEXT="Family        Patriarchal, expects women to prioritize home over career        Women quitting jobs post-marriage"/>
+<node CREATED="1738602670695" MODIFIED="1738602670695" TEXT="Class        Poor women face double oppression&#x2014;economic + gender bias        Female domestic workers underpaid"/>
+<node CREATED="1738602681583" MODIFIED="1738602681583" TEXT="Caste        Dalit women face triple oppression&#x2014;caste, class, gender        Manual scavenging by Dalit women"/>
+<node CREATED="1738602687376" MODIFIED="1738602687376" TEXT="Culture        Traditions reinforce male dominance, limiting autonomy        Preference for male heirs"/>
+<node CREATED="1738602694856" MODIFIED="1738602694856" TEXT="Religion        Some norms restrict women&#x2019;s rights, reinforcing roles        Ban on temple entry for women"/>
+<node CREATED="1738602701167" MODIFIED="1738602701167" TEXT="Social System        Deeply hierarchical, slowing gender equality        Few women in leadership roles"/>
 </node>
 </node>
-<node CREATED="1711398883831" FOLDED="true" ID="ID_824211144" MODIFIED="1738257732424" TEXT="unit 2: social constructn of gender">
-<node CREATED="1711399778903" ID="ID_1035826794" MODIFIED="1711399790964" TEXT="socializatn"/>
-<node CREATED="1711399791222" ID="ID_504685505" MODIFIED="1711399793717" TEXT="family"/>
-<node CREATED="1711399793998" FOLDED="true" ID="ID_1566859833" MODIFIED="1738257732424" TEXT="gender identity">
-<node CREATED="1711399827606" ID="ID_870387051" MODIFIED="1711399830325" TEXT="the media"/>
-<node CREATED="1711399830775" ID="ID_1927339875" MODIFIED="1711399843011" TEXT="gender roles &amp; stereotypes"/>
-<node CREATED="1711399843271" ID="ID_825903293" MODIFIED="1711399849831" TEXT="class"/>
-<node CREATED="1711399850351" ID="ID_28081124" MODIFIED="1711399851837" TEXT="caste"/>
-<node CREATED="1711399852078" ID="ID_106815203" MODIFIED="1711399854589" TEXT="community"/>
-<node CREATED="1711399855014" ID="ID_61386666" MODIFIED="1711399858501" TEXT="gender relations"/>
+<node CREATED="1711398883831" FOLDED="true" ID="ID_824211144" MODIFIED="1738604110038" TEXT="unit 2: social constructn of gender">
+<node CREATED="1738603175886" ID="ID_1174683602" MODIFIED="1738603182022" TEXT="I">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738603164751" ID="ID_1606701767" MODIFIED="1738603183791" TEXT="Aspect        Key Points        Example">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1711399865511" ID="ID_1126372571" MODIFIED="1711399870793" TEXT="women education and law"/>
-<node CREATED="1711399881374" ID="ID_1270896984" MODIFIED="1711399898621" TEXT="women access to and participation in formal educatn"/>
-<node CREATED="1711399898903" ID="ID_82413985" MODIFIED="1711399910957" TEXT="women and non-formal educatn"/>
-<node CREATED="1711399911222" ID="ID_1538797613" MODIFIED="1711399917340" TEXT="media and women"/>
-<node CREATED="1711399917597" ID="ID_1379044886" MODIFIED="1711399930604" TEXT="national effort to protect women&apos;s right"/>
+<node CREATED="1738603202055" MODIFIED="1738603202055" TEXT="Socialization        Shapes gender norms from birth        Boys given cars, girls given dolls"/>
+<node CREATED="1738603208742" MODIFIED="1738603208742" TEXT="Family        Assigns roles &amp; expectations        Sons inheri"/>
+<node CREATED="1738603214381" MODIFIED="1738603214381" TEXT="Gender Identity        Formed through societal influences        Girls discouraged from aggressive behavior"/>
+<node CREATED="1738603219878" MODIFIED="1738603219878" TEXT="Media        Reinforces stereotypes through representation        Movies show men as strong, women as emotional"/>
+<node CREATED="1738603226022" MODIFIED="1738603226022" TEXT="Gender Roles        Defines tasks based on sex        Men as breadwinners, women as caregivers"/>
+<node CREATED="1738603232350" MODIFIED="1738603232350" TEXT="Stereotypes        Fixes rigid traits for genders        &#x201c;Men don&#x2019;t cry,&#x201d; &#x201c;Women are weak&#x201d;"/>
+<node CREATED="1738603238414" MODIFIED="1738603238414" TEXT="Class        Affects access to gender equality        Poor women face more job discrimination"/>
+<node CREATED="1738603245494" MODIFIED="1738603245494" TEXT="Caste        Limits mobility based on gender        Dalit women face double discrimination"/>
+<node CREATED="1738603251630" MODIFIED="1738603251630" TEXT="Community        Enforces local gender norms        Rural girls denied higher education"/>
+<node CREATED="1738603257134" MODIFIED="1738603257134" TEXT="Gender Relations        Defines power &amp; interactions between genders        Women earn less for same work as men"/>
 </node>
-<node CREATED="1711398883831" FOLDED="true" ID="ID_1509528127" MODIFIED="1738257732424" TEXT="unit 3: gender inequalities in schooling">
-<node CREATED="1711400061815" ID="ID_1860613756" MODIFIED="1711400067346" TEXT="organisatn of schooling"/>
-<node CREATED="1711400067622" ID="ID_423824679" MODIFIED="1711400076028" TEXT="gender bias in textbooks"/>
-<node CREATED="1711400076294" FOLDED="true" ID="ID_123020354" MODIFIED="1738257732424" TEXT="curricular choices &amp; hidden curriculum">
-<node CREATED="1711400096718" ID="ID_647712008" MODIFIED="1711400100308" TEXT="teacher attitude"/>
-<node CREATED="1711400100558" ID="ID_59753530" MODIFIED="1711400104301" TEXT="class interaction"/>
-<node CREATED="1711400104534" ID="ID_1070575752" MODIFIED="1711400109252" TEXT="peer culture"/>
+<node CREATED="1738603178798" ID="ID_847855295" MODIFIED="1738603182022" TEXT="II">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1711399865511" FOLDED="true" ID="ID_1126372571" MODIFIED="1738603417174" TEXT="women education and law">
+<node CREATED="1738603344686" ID="ID_200295725" MODIFIED="1738603347633" TEXT="Aspect        Key Points        Example">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1711400121726" FOLDED="true" ID="ID_978620725" MODIFIED="1738257732424" TEXT="gender &amp; schooling">
-<node CREATED="1711400135767" ID="ID_1121647224" MODIFIED="1711400144418" TEXT="educatn for gender equity"/>
+<node CREATED="1738603354996" MODIFIED="1738603354996" TEXT="Right to Education        Ensures equal access        RTE Act (2009)"/>
+<node CREATED="1738603361702" MODIFIED="1738603361702" TEXT="Gender Equality Laws        Protects education rights        Article 15 (No discrimination)"/>
+<node CREATED="1738603368246" MODIFIED="1738603368246" TEXT="Reservation        Increases female participation        33% seats in local bodies"/>
+<node CREATED="1738603374806" MODIFIED="1738603374806" TEXT="Safety in Education        Laws against harassment        POSH Act (2013)"/>
+<node CREATED="1738603382006" MODIFIED="1738603382006" TEXT="Marriage &amp; Education        Prevents early dropout        Prohibition of Child Marriage Act"/>
+<node CREATED="1738603388822" MODIFIED="1738603388822" TEXT="Workplace &amp; Skill Training        Promotes career growth        National Policy for Skill Dev."/>
+<node CREATED="1738603395630" MODIFIED="1738603395630" TEXT="Financial Aid        Supports women&#x2019;s education        Beti Bachao Beti Padhao"/>
+<node CREATED="1738603402374" MODIFIED="1738603402374" TEXT="STEM &amp; Higher Ed.        Encourages female representation        UGC scholarships for women"/>
+<node CREATED="1738603409262" MODIFIED="1738603409262" TEXT="Social Barriers        Tackles cultural restrictions        Awareness campaigns"/>
+<node CREATED="1738603415799" MODIFIED="1738603415799" TEXT="Legal Awareness        Empowers women through knowledge        Legal literacy programs"/>
 </node>
-<node CREATED="1711400145678" ID="ID_1306357328" MODIFIED="1711400162244" TEXT="case studies for interventn in school educatn"/>
-<node CREATED="1711400167430" ID="ID_9188716" MODIFIED="1711400181597" TEXT="reflectns from the field &amp; strategies for change"/>
+<node CREATED="1738603497022" FOLDED="true" ID="ID_1914670672" MODIFIED="1738604025077" TEXT="other">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1738603505637" ID="ID_727079435" MODIFIED="1738603509358" TEXT="Aspect        Key Points        Example">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1711398883831" FOLDED="true" ID="ID_1483221814" MODIFIED="1738257732424" TEXT="unit 4: educatn &amp; empowerment of women">
-<node CREATED="1711400212023" ID="ID_1148797476" MODIFIED="1711400216901" TEXT="concept &amp; importance"/>
-<node CREATED="1711400219990" ID="ID_1936084780" MODIFIED="1711400227200" TEXT="women &amp; sustainable developmnt"/>
-<node CREATED="1711400227454" ID="ID_1666053044" MODIFIED="1711400241366" TEXT="special role of women as protector of enivronment"/>
-<node CREATED="1711400241613" ID="ID_727120177" MODIFIED="1711400250205" TEXT="waste mgt &amp; women"/>
-<node CREATED="1711400250446" ID="ID_1579183994" MODIFIED="1711400255636" TEXT="women as workers"/>
+<node CREATED="1738603517478" MODIFIED="1738603517478" TEXT="Women&#x2019;s Access to Formal Education        Legal provisions ensure equal opportunity        RTE Act (2009), SSA"/>
+<node CREATED="1738603524046" MODIFIED="1738603524046" TEXT="Participation in Formal Education        Enrollment rising but dropout rates persist        NEP 2020 focus on gender inclusion"/>
+<node CREATED="1738603530326" ID="ID_1625272917" MODIFIED="1738603530326" TEXT="Barriers to Education        Social norms, financial constraints, early marriage        Rural areas have lower literacy rates"/>
+<node CREATED="1738603536526" FOLDED="true" ID="ID_370147267" MODIFIED="1738603878510" TEXT="Women &amp; Non-Formal Education        Alternative learning for dropouts &amp; workers        Adult literacy programs, Open Schools">
+<node CREATED="1738603806627" ID="ID_1961538929" MODIFIED="1738603874152" TEXT="Saakshar Bharat (2009) &#x2013; Focuses on women&#x2019;s literacy, especially in rural areas,"/>
+<node CREATED="1738603874669" ID="ID_1292004724" MODIFIED="1738603875575" TEXT=" Jan Shikshan Sansthan (JSS) &#x2013; Provides skill-based and vocational training for adult women. "/>
+<node CREATED="1738603867765" ID="ID_1197496442" MODIFIED="1738603868890" TEXT="Adult Education Programme (AEP) &#x2013; Promotes basic literacy for adults, especially wome"/>
+<node CREATED="1738603837773" ID="ID_1724126674" MODIFIED="1738603838524" TEXT="National Literacy Mission (NLM, 1988) &#x2013; Aims to improve adult literacy, including women."/>
+<node CREATED="1738603858693" ID="ID_1571309203" MODIFIED="1738603859428" TEXT="Mahila Samakhya Program (1989) &#x2013; Empowers women through education and awareness."/>
+</node>
+<node CREATED="1738603543582" ID="ID_1385002314" MODIFIED="1738603543582" TEXT="Skill Development        Vocational training &amp; digital literacy        PMKVY, Skill India Mission"/>
+<node CREATED="1711399911222" FOLDED="true" ID="ID_1538797613" MODIFIED="1738603995437" TEXT="media and women">
+<node CREATED="1738603550326" ID="ID_742697693" MODIFIED="1738603990997" TEXT="Media &amp; Women&#x2019;s Representation        Shapes public perception of women&#x2019;s roles        Biased portrayal in films &amp; ads"/>
+<node CREATED="1738603561782" ID="ID_833133727" MODIFIED="1738603990981" TEXT="Women Empowerment via Media        Spreads awareness &amp; promotes positive change        Beti Bachao ads, Digital campaigns"/>
+<node CREATED="1738603569182" ID="ID_824186533" MODIFIED="1738603990981" TEXT="Challenges in Media        Objectification, gender stereotypes        Few women in leadership roles"/>
 </node>
 </node>
-<node CREATED="1711425351558" FOLDED="true" ID="ID_1252565446" MODIFIED="1738257732424" POSITION="right" TEXT="404B_environmental ed">
-<node CREATED="1713700751365" FOLDED="true" ID="ID_905334321" MODIFIED="1738257732424" TEXT="1 env ed">
+<node CREATED="1711399917597" FOLDED="true" ID="ID_1379044886" MODIFIED="1738604106486" TEXT="national effort to protect women&apos;s right">
+<node CREATED="1738604034229" ID="ID_92636066" MODIFIED="1738604036870" TEXT="Aspect        Key Points        Govt Schemes">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738604044229" MODIFIED="1738604044229" TEXT="Legal Rights        Equality, no discrimination        Article 15, POSH Act"/>
+<node CREATED="1738604050605" MODIFIED="1738604050605" TEXT="Education        Literacy &amp; skill training        Beti Bachao Beti Padhao, PMKVY"/>
+<node CREATED="1738604057374" MODIFIED="1738604057374" TEXT="Economic Empowerment        Loans, jobs, entrepreneurship        MUDRA Yojana, Stand-Up India"/>
+<node CREATED="1738604065941" MODIFIED="1738604065941" TEXT="Workplace Rights        Safety, equal pay, maternity benefits        Maternity Benefit Act, POSH Act"/>
+<node CREATED="1738604076182" MODIFIED="1738604076182" TEXT="Health &amp; Nutrition        Maternal care, reproductive health        Janani Suraksha Yojana, PMMVY"/>
+<node CREATED="1738604081958" MODIFIED="1738604081958" TEXT="Safety &amp; Security        Fast-track courts, helplines        Nirbhaya Fund, One Stop Centres"/>
+<node CREATED="1738604088949" MODIFIED="1738604088949" TEXT="Political Participation        Reservation, leadership roles        33% Reservation in Panchayats"/>
+<node CREATED="1738604095806" MODIFIED="1738604095806" TEXT="Property Rights        Equal inheritance laws        Hindu Succession Act"/>
+<node CREATED="1738604105285" MODIFIED="1738604105285" TEXT="Social Awareness        Campaigns, digital literacy        Sakhi Centres, Safe City Project"/>
+</node>
+</node>
+</node>
+<node CREATED="1711398883831" FOLDED="true" ID="ID_1509528127" MODIFIED="1738606038035" TEXT="unit 3: gender inequalities in schooling">
+<node CREATED="1711400061815" FOLDED="true" ID="ID_1860613756" MODIFIED="1738604857468" TEXT="organisatn of schooling">
+<node CREATED="1738604514461" ID="ID_579478092" MODIFIED="1738604516021" TEXT="Aspect        Gender Inequality Issues        Examples">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738604684892" MODIFIED="1738604684892" TEXT="Access to Education        Girls face dropouts due to safety, poverty        Lower female literacy in rural areas"/>
+<node CREATED="1738604691868" MODIFIED="1738604691868" TEXT="Curriculum &amp; Textbooks        Gender bias in content, lack of female role models        Textbooks show women as homemakers, not leaders"/>
+<node CREATED="1738604710316" MODIFIED="1738604710316" TEXT="Curricular Choices        Gendered subjects; girls in arts, boys in STEM        Girls discouraged from science &amp; engineering fields"/>
+<node CREATED="1738604718868" MODIFIED="1738604718868" TEXT="Classroom Dynamics        Teachers favor boys; girls discouraged in STEM        Fewer girls in math &amp; science streams"/>
+<node CREATED="1738604726212" MODIFIED="1738604726212" TEXT="Hidden Curriculum        Reinforcement of gender stereotypes        Boys in leadership, girls in caregiving roles"/>
+<node CREATED="1738604732909" MODIFIED="1738604732909" TEXT="Teacher Attitude        Bias towards boys in participation &amp; leadership        Boys praised, girls expected to be quiet"/>
+<node CREATED="1738604739372" MODIFIED="1738604739372" TEXT="Class Interaction        Boys dominate, girls&apos; voices sidelined        Boys active, girls passive in discussions"/>
+<node CREATED="1738604745604" MODIFIED="1738604745604" TEXT="Peer Culture        Peer pressure reinforces gender roles        Girls teased for assertiveness, boys for emotional behavior"/>
+<node CREATED="1738604754316" MODIFIED="1738604754316" TEXT="Gender &amp; Schooling        Tool for promoting gender equality        Gender-sensitive curricula and policies"/>
+<node CREATED="1738604761300" MODIFIED="1738604761300" TEXT="Gender Bias in Textbooks        Stereotyped roles for women in content &amp; images        Women as homemakers, men as leaders"/>
+<node CREATED="1738604768165" MODIFIED="1738604768165" TEXT="School Policies        Restrictions limit girls&apos; participation        Dress codes, fewer sports opportunities for girls"/>
+<node CREATED="1738604774828" MODIFIED="1738604774828" TEXT="Vocational Training        Gendered career guidance        Girls pushed towards teaching, boys towards engineering"/>
+<node CREATED="1738604782708" MODIFIED="1738604782708" TEXT="Teachers &amp; Gender Bias        Reinforcement of traditional roles in teaching        Boys encouraged to lead, girls discouraged from competing"/>
+<node CREATED="1738604790548" MODIFIED="1738604790548" TEXT="Intervention Efforts        Gender-sensitive training, programs for equality        KGBV, Beti Bachao Beti Padhao"/>
+</node>
+<node CREATED="1711400121726" ID="ID_978620725" MODIFIED="1738604340316" TEXT="gender &amp; schooling">
+<node CREATED="1711400135767" FOLDED="true" ID="ID_1121647224" MODIFIED="1738605364851" TEXT="educatn for gender equity">
+<node CREATED="1738605282707" ID="ID_1744539972" MODIFIED="1738605285164" TEXT="Aspect        Role in Gender Equity        Examples">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738605292843" MODIFIED="1738605292843" TEXT="Curriculum        Promotes equal roles, opportunities, and breaks stereotypes        Textbooks featuring girls as scientists, boys in caregiving roles"/>
+<node CREATED="1738605300212" MODIFIED="1738605300212" TEXT="Teacher Training        Empowers teachers to identify and counter gender biases        Gender-sensitivity workshops for educators"/>
+<node CREATED="1738605306828" MODIFIED="1738605306828" TEXT="Classroom Environment        Ensures equal participation and respect for all students        Encouraging equal involvement from boys and girls in class discussions"/>
+<node CREATED="1738605317891" MODIFIED="1738605317891" TEXT="Extracurricular Activities        Equal participation in sports, leadership, and clubs        Girls leading school councils, boys participating in dance club"/>
+<node CREATED="1738605324451" MODIFIED="1738605324451" TEXT="Policies &amp; Facilities        Gender-sensitive infrastructure and policies        Separate toilets, equal access to sports facilities"/>
+<node CREATED="1738605331195" MODIFIED="1738605331195" TEXT="Awareness Campaigns        Educates students about gender equality        Programs like &quot;Beti Bachao Beti Padhao&quot; in schools"/>
+<node CREATED="1738605339939" ID="ID_1952966673" MODIFIED="1738605347707" TEXT="Role Models        Provides visible gender-neutral role models        Female scientists, male nurses, portrayed in school materials"/>
+<node CREATED="1738605357476" MODIFIED="1738605357476" TEXT="Inclusive Language        Promotes non-discriminatory language in school settings        Textbooks using gender-neutral terms"/>
+<node CREATED="1738605363395" MODIFIED="1738605363395" TEXT="Safe Environment        Ensures a safe, inclusive space for all genders        Anti-bullying policies addressing gender-based harassment"/>
+</node>
+</node>
+<node CREATED="1711400145678" FOLDED="true" ID="ID_1306357328" MODIFIED="1738605733315" TEXT="case studies for interventn in school educatn">
+<node CREATED="1738605487156" ID="ID_671392514" MODIFIED="1738605490187" TEXT="Case Study        Intervention        Impact">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738605496924" ID="ID_1897747613" MODIFIED="1738605496924" TEXT="Project &quot;Akshara&quot; (Karnataka)">
+<node CREATED="1738605573292" ID="ID_952939352" MODIFIED="1738605593584" TEXT="Focused on improving basic literacy and numeracy skills for marginalized children.        "/>
+<node CREATED="1738605595019" ID="ID_1615707013" MODIFIED="1738605595894" TEXT="Significant improvement in reading and math skills among underprivileged students."/>
+</node>
+<node CREATED="1738605503932" ID="ID_447972647" MODIFIED="1738605503932" TEXT="Padhe Bharat Badhe Bharat">
+<node CREATED="1738605604331" MODIFIED="1738605604331" TEXT="Aimed at enhancing early literacy through interactive reading and writing programs."/>
+<node CREATED="1738605610827" MODIFIED="1738605610827" TEXT="Increased literacy rates and better engagement among children in rural areas."/>
+</node>
+<node CREATED="1738605510052" ID="ID_1629577948" MODIFIED="1738605510052" TEXT="Kasturba Gandhi Balika Vidyalayas">
+<node CREATED="1738605619971" MODIFIED="1738605619971" TEXT="Residential schools for girls in backward areas to promote education among marginalized communities."/>
+<node CREATED="1738605625419" ID="ID_776508919" MODIFIED="1738605625419" TEXT="Increased enrollment and retention of girls, especially in remote areas."/>
+</node>
+<node CREATED="1738605516092" ID="ID_978844820" MODIFIED="1738605516092" TEXT="National Curriculum Framework (NCF) 2005">
+<node CREATED="1738605635611" MODIFIED="1738605635611" TEXT="Revamped curriculum focusing on inclusive education and child-centered learning methods."/>
+<node CREATED="1738605642404" MODIFIED="1738605642404" TEXT="More personalized, participatory learning leading to improved student engagement."/>
+</node>
+<node CREATED="1738605523620" ID="ID_1909693823" MODIFIED="1738605523620" TEXT="The &quot;Disha&quot; Project (Madhya Pradesh)">
+<node CREATED="1738605651452" MODIFIED="1738605651452" TEXT="Focused on bridging the gender gap in education by encouraging girls&#x2019; enrollment and retention"/>
+<node CREATED="1738605657739" MODIFIED="1738605657739" TEXT="Higher girl enrollment rates, reduced dropout rates among girls."/>
+</node>
+<node CREATED="1738605530403" ID="ID_1116963287" MODIFIED="1738605530403" TEXT="Mid-Day Meal Scheme">
+<node CREATED="1738605669316" MODIFIED="1738605669316" TEXT="to provide free meals to students, aimed at reducing hunger and encouraging school attendance."/>
+<node CREATED="1738605674579" MODIFIED="1738605674579" TEXT="Increased school attendance and nutritional benefits, especially for low-income children."/>
+</node>
+<node CREATED="1738605543628" ID="ID_793175328" MODIFIED="1738605543628" TEXT="The &quot;Gyanodaya&quot; Project">
+<node CREATED="1738605683131" MODIFIED="1738605683131" TEXT="Uses technology to support rural education by providing digital learning tools in schools."/>
+<node CREATED="1738605689123" MODIFIED="1738605689123" TEXT="Enhanced learning outcomes through interactive digital content in rural areas."/>
+</node>
+<node CREATED="1738605550971" ID="ID_36161144" MODIFIED="1738605550971" TEXT="Integrated Child Development Services (ICDS)">
+<node CREATED="1738605696635" MODIFIED="1738605696635" TEXT="Focused on early childhood care and education (ECCE) through anganwadis and schools."/>
+<node CREATED="1738605702346" MODIFIED="1738605702346" TEXT="Improved cognitive and social skills development in young children."/>
+</node>
+<node CREATED="1738605557596" ID="ID_738822433" MODIFIED="1738605557596" TEXT="The &quot;Shiksha Ka Haq&quot; Campaign">
+<node CREATED="1738605708395" MODIFIED="1738605708395" TEXT="Campaign to ensure free and compulsory education for all children under the Right to Education Act (RTE)."/>
+<node CREATED="1738605720851" MODIFIED="1738605720851" TEXT="Greater awareness and implementation of RTE, ensuring children&#x2019;s right to education is protected."/>
+</node>
+</node>
+<node CREATED="1711400167430" ID="ID_9188716" MODIFIED="1711400181597" TEXT="reflectns from the field &amp; strategies for change">
+<node CREATED="1738605879730" ID="ID_679849790" MODIFIED="1738605927699" TEXT="Area of Reflection        Observation ({hidden}; short explantn of reflection)        Strategy for Change">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738605914635" MODIFIED="1738605914635" TEXT="Gender Bias        Gender-neutral teaching &amp; inclusive classroom practices."/>
+<node CREATED="1738605940339" MODIFIED="1738605940339" TEXT="Irrelevant Curriculum        Revise for inclusivity &amp; real-life context"/>
+<node CREATED="1738605953427" MODIFIED="1738605953427" TEXT="Teacher Training        Continuous professional development for teachers."/>
+<node CREATED="1738605961947" MODIFIED="1738605961947" TEXT="Unequal Participation        Encourage equal participation from all students."/>
+<node CREATED="1738605968587" MODIFIED="1738605968587" TEXT="Girls&apos; Dropout Rates        Scholarships, uniforms, transport for girls"/>
+<node CREATED="1738605975547" MODIFIED="1738605975547" TEXT="Poor Infrastructure        Improve facilities, especially in rural areas"/>
+<node CREATED="1738605983050" MODIFIED="1738605983050" TEXT="Community Engagement        Strengthen school-community partnerships."/>
+<node CREATED="1738605990035" MODIFIED="1738605990035" TEXT="Cultural Insensitivity        Include local culture &amp; languages in curriculum."/>
+<node CREATED="1738605997164" MODIFIED="1738605997164" TEXT="Student Empowerment        Implement student councils &amp; leadership roles."/>
+<node CREATED="1738606005747" MODIFIED="1738606005747" TEXT="Parental Involvement        Increase parent-teacher interactions &amp; awareness programs"/>
+</node>
+</node>
+<node CREATED="1711398883831" FOLDED="true" ID="ID_1483221814" MODIFIED="1738609668550" TEXT="unit 4: educatn &amp; empowerment of women">
+<node CREATED="1711400212023" FOLDED="true" ID="ID_1148797476" MODIFIED="1738606395354" TEXT="concept &amp; importance">
+<node CREATED="1738606301274" ID="ID_410643433" MODIFIED="1738606313714" TEXT="Women Empowerment: enabling women to control their lives, access opportunities, and make impactful decisions."/>
+<node CREATED="1738606329571" ID="ID_700219367" MODIFIED="1738606331602" TEXT="Aspect        Importance">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738606341459" MODIFIED="1738606341459" TEXT="Knowledge &amp; Skills        Boosts confidence and competence for opportunities."/>
+<node CREATED="1738606346946" MODIFIED="1738606346946" TEXT="Economic Independence        Leads to financial stability and job creation."/>
+<node CREATED="1738606353322" MODIFIED="1738606353322" TEXT="Social Change        Challenges norms and reduces discrimination."/>
+<node CREATED="1738606359714" MODIFIED="1738606359714" TEXT="Political Participation        Enables informed decision-making and civic engagement."/>
+<node CREATED="1738606368227" MODIFIED="1738606368227" TEXT="Health &amp; Well-being        Promotes informed choices for better outcomes."/>
+<node CREATED="1738606375650" MODIFIED="1738606375650" TEXT="Breaking Stereotypes        Defies traditional roles and fosters equality."/>
+<node CREATED="1738606384946" MODIFIED="1738606384946" TEXT="Leadership &amp; Community Impact        Empowers women to lead and uplift society."/>
+</node>
+<node CREATED="1711400219990" ID="ID_1936084780" MODIFIED="1738608566516" TEXT="women &amp; sustainable developmnt">
+<node CREATED="1738608399951" ID="ID_871634211" MODIFIED="1738608402311" TEXT="Aspect        Details        Example">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738608474463" ID="ID_1536929999" MODIFIED="1738608474463" TEXT="Policy Advocacy">
+<node CREATED="1738608491695" MODIFIED="1738608491695" TEXT="Women advocating for eco-friendly policies leads to positive changes."/>
+<node CREATED="1738608497775" MODIFIED="1738608497775" TEXT="Women activists in &#x201c;Save Aarey&#x201d; movement against deforestation."/>
+</node>
+<node CREATED="1738608507687" ID="ID_1762941960" MODIFIED="1738608507687" TEXT="Economic Stability">
+<node CREATED="1738608514751" ID="ID_1698847428" MODIFIED="1738608514751" TEXT="Educated women can create sustainable local economies."/>
+<node CREATED="1738608532783" MODIFIED="1738608532783" TEXT="Women entrepreneurs in organic farming in Rajasthan"/>
+</node>
+<node CREATED="1738608544231" ID="ID_1247018326" MODIFIED="1738608544231" TEXT="Health">
+<node CREATED="1738608552159" MODIFIED="1738608552159" TEXT="Empowered women contribute to family health and well-being."/>
+<node CREATED="1738608558439" MODIFIED="1738608558439" TEXT="Women in Kerala promoting sanitation awareness."/>
+</node>
+<node CREATED="1738608565727" ID="ID_1416531965" MODIFIED="1738608565727" TEXT="Cultural Influence">
+<node CREATED="1738608573011" MODIFIED="1738608573011" TEXT="Women influence cultural practices that affect the environment."/>
+<node CREATED="1738608579695" MODIFIED="1738608579695" TEXT="Women-led traditional rainwater harvesting."/>
+</node>
+<node CREATED="1738608587415" ID="ID_317473195" MODIFIED="1738608587415" TEXT="Social Awareness">
+<node CREATED="1738608597063" MODIFIED="1738608597063" TEXT="Educating women on climate change encourages sustainable living"/>
+<node CREATED="1738608602920" MODIFIED="1738608602920" TEXT="&#x201c;Women for Climate Action&#x201d; campaign in India."/>
+</node>
+<node CREATED="1738608612375" ID="ID_775453399" MODIFIED="1738608612375" TEXT="FO on Women&#x2019;s Empowerment">
+<node CREATED="1738608622423" MODIFIED="1738608622423" TEXT="FO on empowering women helps them lead sustainable practices."/>
+<node CREATED="1738608630575" MODIFIED="1738608630575" TEXT="Women in leadership roles at UN Women promoting green projects."/>
+</node>
+<node CREATED="1738608636951" ID="ID_1655408042" MODIFIED="1738608636951" TEXT="Access to Resources">
+<node CREATED="1738608648095" MODIFIED="1738608648095" TEXT="Women&#x2019;s access to resources (water, education) leads to better outcomes."/>
+<node CREATED="1738608653391" MODIFIED="1738608653391" TEXT="SEWA providing microloans for eco-friendly businesses."/>
+</node>
+<node CREATED="1738608664879" ID="ID_113819353" MODIFIED="1738608664879" TEXT="Environmental Impact">
+<node CREATED="1738608675047" MODIFIED="1738608675047" TEXT="Women play a key role in sustainable farming and conservation."/>
+<node CREATED="1738608679831" MODIFIED="1738608679831" TEXT="Self-Help Groups in rural India conserving water."/>
+</node>
+<node CREATED="1738608689415" ID="ID_289131143" MODIFIED="1738608689415" TEXT="Leadership">
+<node CREATED="1738608697143" MODIFIED="1738608697143" TEXT="Women leaders in environmental fields drive long-term sustainability."/>
+<node CREATED="1738608703751" MODIFIED="1738608703751" TEXT="Vandana Shiva&#x2019;s work on seed sovereignty and sustainability"/>
+</node>
+</node>
+<node CREATED="1711400227454" FOLDED="true" ID="ID_1666053044" MODIFIED="1738609220055" TEXT="special role of women as protector of enivronment">
+<node CREATED="1738609118759" ID="ID_1506967407" MODIFIED="1738609121118" TEXT="Movement        Location        Focus        Highlights">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738609128182" ID="ID_257195633" MODIFIED="1738609128182" TEXT="Chipko Movement        Uttarakhand        Preventing deforestation by hugging trees">
+<node CREATED="1738609176847" MODIFIED="1738609176847" TEXT="W protested against logging, leading to a ban on tree cutting in some areas."/>
+</node>
+<node CREATED="1738609134854" ID="ID_552393463" MODIFIED="1738609134854" TEXT="Appiko Movement        Karnataka        Protecting forests by engaging communities">
+<node CREATED="1738609183238" MODIFIED="1738609183238" TEXT="W hugged trees to prevent deforestation, inspired by the Chipko movement."/>
+</node>
+<node CREATED="1738609142878" ID="ID_594026804" MODIFIED="1738609142878" TEXT="Save Narmada Movement        Madhya Pradesh, Gujarat, Maharashtra        Opposing large dams affecting local communities">
+<node CREATED="1738609190214" MODIFIED="1738609190214" TEXT="W, including Medha Patkar, led protests against the Narmada River dam project."/>
+</node>
+<node CREATED="1738609152726" ID="ID_914345340" MODIFIED="1738609152726" TEXT="Bodoland Movement        Assam        Fighting for indigenous people&apos;s rights &amp; environmental protection">
+<node CREATED="1738609197598" MODIFIED="1738609197598" TEXT="W advocated for land rights and forest protection in the region."/>
+</node>
+<node CREATED="1738609160222" ID="ID_920148368" MODIFIED="1738609160222" TEXT="Silent Valley Movement        Kerala        Protecting Silent Valley forest from deforestation">
+<node CREATED="1738609206742" MODIFIED="1738609206742" TEXT="W led protests, saving the forest from destruction due to a proposed hydroelectric project."/>
+</node>
+<node CREATED="1738609167095" ID="ID_1216296243" MODIFIED="1738609167095" TEXT="Ralegan Siddhi Movement        Maharashtra        Water conservation &amp; sustainable farming">
+<node CREATED="1738609213774" MODIFIED="1738609213774" TEXT="W played key roles in implementing water conservation techniques and improving agriculture practices in the village."/>
+</node>
+</node>
+<node CREATED="1711400241613" ID="ID_727120177" MODIFIED="1711400250205" TEXT="waste mgt &amp; women">
+<node CREATED="1738609407414" ID="ID_1291695057" MODIFIED="1738609409710" TEXT="Aspect        Details        Example">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738609418142" MODIFIED="1738609418142" TEXT="W&apos;s Role in Waste        W handle waste at home, sorting and recycling.        Rural W sort waste for composting and recycling."/>
+<node CREATED="1738609425061" MODIFIED="1738609425061" TEXT="W&apos;s Role in Waste        W handle waste at home, sorting and recycling.        Rural W sort waste for composting and recycling."/>
+<node CREATED="1738609432110" MODIFIED="1738609432110" TEXT="Barriers Faced by W        W lack resources and support for waste management work.        Lack of training and tools for waste management."/>
+<node CREATED="1738609444277" MODIFIED="1738609444277" TEXT="Impact of W&apos;s Work        W&#x2019;s work in waste management makes areas cleaner and more eco-friendly.        W reduce waste through recycling and promoting eco-friendly practices."/>
+<node CREATED="1738609452735" MODIFIED="1738609452735" TEXT="Need for Support        W need more training and resources to manage waste effectively.        Government programs can help train W in sustainable waste practices."/>
+</node>
+<node CREATED="1711400250446" ID="ID_1579183994" MODIFIED="1711400255636" TEXT="women as workers">
+<node CREATED="1738609620070" ID="ID_1514138737" MODIFIED="1738609621598" TEXT="Aspect        Details        Example">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1738609628581" MODIFIED="1738609628581" TEXT="Work Roles        W work in various sectors: agriculture, industry, services.        W in farms, factories, domestic work"/>
+<node CREATED="1738609635998" MODIFIED="1738609635998" TEXT="Challenges        W face low pay, poor conditions, and fewer job options.        W in factories earn less than men; poor working hours"/>
+<node CREATED="1738609650254" MODIFIED="1738609650254" TEXT="Legal Rights        Laws exist but are weakly enforced.        Minimum wage laws but lack of proper implementation"/>
+<node CREATED="1738609656093" MODIFIED="1738609656093" TEXT="Support Needed        Need better wages, work safety, and career growth.        Equal pay for equal work, career training programs."/>
+<node CREATED="1738609662133" MODIFIED="1738609662133" TEXT="Impact        W&apos;s work is vital but undervalued and underpaid.        W in textiles and agriculture help economy, but face inequality."/>
+</node>
+</node>
+</node>
+<node CREATED="1738610302444" FOLDED="true" ID="ID_1441342027" MODIFIED="1738610798465" POSITION="right" TEXT="404A_health and phe">
+<node CREATED="1738610335821" ID="ID_474116967" MODIFIED="1738610773243" TEXT="1 ">
+<node CREATED="1738610444037" ID="ID_595823026" MODIFIED="1738610497758" TEXT="I health ed">
+<node CREATED="1738610344924" ID="ID_729197070" MODIFIED="1738610450129" TEXT="concept of wellness"/>
+<node CREATED="1738610353996" ID="ID_181716071" MODIFIED="1738610450114" TEXT="aims and obj of health education"/>
+<node CREATED="1738610362685" ID="ID_1826911864" MODIFIED="1738610450114" TEXT="factors influencing health"/>
+<node CREATED="1738610372092" ID="ID_921486233" MODIFIED="1738610450114" TEXT="school health programs"/>
+<node CREATED="1738610390964" ID="ID_1771044645" MODIFIED="1738610450114" TEXT="school health services"/>
+<node CREATED="1738610401364" ID="ID_1808299955" MODIFIED="1738610450114" TEXT="role of t in school health programs"/>
+</node>
+<node CREATED="1738610428685" ID="ID_1365328980" MODIFIED="1738610440077" TEXT="II physical ed">
+<node CREATED="1738610440077" ID="ID_1826949679" MODIFIED="1738610443309" TEXT="concept"/>
+<node CREATED="1738610460924" ID="ID_814855038" MODIFIED="1738610466174" TEXT="misconceptions"/>
+<node CREATED="1738610466453" ID="ID_1200532675" MODIFIED="1738610471734" TEXT="aims &amp; objectives"/>
+<node CREATED="1738610474468" ID="ID_1005564997" MODIFIED="1738610480469" TEXT="relation with general ed"/>
+</node>
+</node>
+<node CREATED="1738610506452" ID="ID_510286710" MODIFIED="1738610773243" TEXT="2 nutrition and balanced diet">
+<node CREATED="1738610526380" ID="ID_170558185" MODIFIED="1738610535411" TEXT="components of balanced diet"/>
+<node CREATED="1738610538012" ID="ID_754145802" MODIFIED="1738610541637" TEXT="functions"/>
+<node CREATED="1738610541908" ID="ID_460684415" MODIFIED="1738610546236" TEXT="major sources"/>
+<node CREATED="1738610547812" ID="ID_604590119" MODIFIED="1738610552639" TEXT="malnutrition"/>
+</node>
+<node CREATED="1738610560028" ID="ID_1214371481" MODIFIED="1738610773259" TEXT="3 posture">
+<node CREATED="1738610564300" ID="ID_460254805" MODIFIED="1738610573127" TEXT="concept &amp; values"/>
+<node CREATED="1738610579188" ID="ID_1234781677" MODIFIED="1738610591384" TEXT="postural deformities &amp; their mgt"/>
+<node CREATED="1738610594708" ID="ID_571669938" MODIFIED="1738610599050" TEXT="personal hygiene"/>
+<node CREATED="1738610599333" ID="ID_1698781355" MODIFIED="1738610605239" TEXT="environmental hygiene"/>
+<node CREATED="1738610605556" ID="ID_1669942351" MODIFIED="1738610615622" TEXT="pollution &amp; global warming"/>
+</node>
+<node CREATED="1738610627180" ID="ID_862428613" MODIFIED="1738610629188" TEXT="4">
+<node CREATED="1738610629188" ID="ID_1913560408" MODIFIED="1738610636300" TEXT="communicable dieases">
+<node CREATED="1738610636300" ID="ID_670197796" MODIFIED="1738610638305" TEXT="mode"/>
+<node CREATED="1738610638876" ID="ID_1066293719" MODIFIED="1738610643173" TEXT="control"/>
+<node CREATED="1738610643444" ID="ID_580909896" MODIFIED="1738610646119" TEXT="prevention"/>
+</node>
+<node CREATED="1738610654684" ID="ID_830298787" MODIFIED="1738610681045" TEXT="physical fitness">
+<node CREATED="1738610681045" ID="ID_1781433332" MODIFIED="1738610683076" TEXT="meaning"/>
+<node CREATED="1738610683332" ID="ID_1702955277" MODIFIED="1738610685066" TEXT="elements"/>
+<node CREATED="1738610685373" ID="ID_1899504807" MODIFIED="1738610687820" TEXT="importance"/>
+</node>
+<node CREATED="1738610689069" ID="ID_97030883" MODIFIED="1738610692116" TEXT="first aid">
+<node CREATED="1738610692116" ID="ID_503248110" MODIFIED="1738610714841" TEXT="hammaerage"/>
+<node CREATED="1738610715131" ID="ID_346123762" MODIFIED="1738610717615" TEXT="laceration"/>
+<node CREATED="1738610722556" ID="ID_533718754" MODIFIED="1738610725650" TEXT="contortion"/>
+<node CREATED="1738610725923" ID="ID_1617575360" MODIFIED="1738610729158" TEXT="dislocation"/>
+<node CREATED="1738610729444" ID="ID_91727929" MODIFIED="1738610735393" TEXT="fracture"/>
+<node CREATED="1738610735716" ID="ID_479974288" MODIFIED="1738610741458" TEXT="cuts"/>
+<node CREATED="1738610741707" ID="ID_1899082824" MODIFIED="1738610743411" TEXT="wounds"/>
+<node CREATED="1738610743700" ID="ID_1309338261" MODIFIED="1738610751183" TEXT="bites of insects"/>
+<node CREATED="1738610751452" ID="ID_96857853" MODIFIED="1738610764744" TEXT="sprain and strain"/>
+</node>
+</node>
+</node>
+<node CREATED="1711425351558" ID="ID_1252565446" MODIFIED="1738610799902" POSITION="right" TEXT="404B_environmental ed">
+<node CREATED="1713700751365" ID="ID_905334321" MODIFIED="1738609828322" TEXT="1 env ed">
 <node CREATED="1713700786485" ID="ID_119810314" MODIFIED="1713700790551" TEXT="meaning"/>
 <node CREATED="1713700791084" ID="ID_761381555" MODIFIED="1713700793087" TEXT="scope"/>
 <node CREATED="1713700793356" ID="ID_716564087" MODIFIED="1713700795759" TEXT="nature"/>
 <node CREATED="1713700818556" ID="ID_242307288" MODIFIED="1713700827117" TEXT="threats to our env"/>
-<node CREATED="1713700872076" FOLDED="true" ID="ID_316227814" MODIFIED="1738257732424" TEXT="environmental polln">
+<node CREATED="1713700872076" ID="ID_316227814" MODIFIED="1738609828338" TEXT="environmental polln">
 <node CREATED="1713700885036" ID="ID_529713806" MODIFIED="1713700886880" TEXT="defn"/>
 <node CREATED="1713700891860" ID="ID_811072214" MODIFIED="1713700905302" TEXT="types"/>
 <node CREATED="1713700887124" ID="ID_1289010561" MODIFIED="1713700889601" TEXT="remedies"/>
 </node>
 </node>
-<node CREATED="1713700834900" FOLDED="true" ID="ID_1506900279" MODIFIED="1738257732424" TEXT="2">
-<node CREATED="1713700843501" FOLDED="true" ID="ID_1790582325" MODIFIED="1738257732424" TEXT="environmental hazards">
+<node CREATED="1713700834900" ID="ID_1506900279" MODIFIED="1738609824014" TEXT="2">
+<node CREATED="1713700843501" ID="ID_1790582325" MODIFIED="1738609828338" TEXT="environmental hazards">
 <node CREATED="1713700854484" ID="ID_1483273092" MODIFIED="1713700856703" TEXT="defn"/>
 <node CREATED="1713700856940" ID="ID_626705747" MODIFIED="1713700858465" TEXT="causes"/>
 <node CREATED="1713700858725" ID="ID_489457441" MODIFIED="1713700862677" TEXT="effects"/>
-<node CREATED="1713700863076" FOLDED="true" ID="ID_104340915" MODIFIED="1738257732424" TEXT="types">
+<node CREATED="1713700863076" ID="ID_104340915" MODIFIED="1738609828338" TEXT="types">
 <node CREATED="1713700865580" ID="ID_1243593930" MODIFIED="1713700867284" TEXT="local"/>
 <node CREATED="1713700867532" ID="ID_1733535673" MODIFIED="1713700869431" TEXT="global"/>
 </node>
 </node>
 <node CREATED="1713700929876" ID="ID_784803924" MODIFIED="1713700938799" TEXT="greenhouse effect"/>
-<node CREATED="1713700939044" FOLDED="true" ID="ID_37547027" MODIFIED="1738257732424" TEXT="ozone layer depletion">
+<node CREATED="1713700939044" ID="ID_37547027" MODIFIED="1738609828338" TEXT="ozone layer depletion">
 <node CREATED="1713700944756" ID="ID_1840053576" MODIFIED="1713700960489" TEXT="environmental (envtal) theft"/>
 <node CREATED="1713700960804" ID="ID_238308855" MODIFIED="1713700969648" TEXT="acid rain"/>
 <node CREATED="1713700969900" ID="ID_1191662852" MODIFIED="1713700973754" TEXT="pillar melting"/>
-<node CREATED="1713700974012" FOLDED="true" ID="ID_1267470286" MODIFIED="1738257732424" TEXT="rise of sea level">
+<node CREATED="1713700974012" ID="ID_1267470286" MODIFIED="1738609828338" TEXT="rise of sea level">
 <node CREATED="1713700983732" ID="ID_927314412" MODIFIED="1713700989591" TEXT="defn"/>
 <node CREATED="1713700989828" ID="ID_1363209392" MODIFIED="1713700993214" TEXT="implication"/>
 </node>
 </node>
 </node>
-<node CREATED="1713701070340" FOLDED="true" ID="ID_230370098" MODIFIED="1738257732424" TEXT="3">
-<node CREATED="1713701071292" FOLDED="true" ID="ID_1714152263" MODIFIED="1738257732424" TEXT="environmental awareness">
+<node CREATED="1713701070340" ID="ID_230370098" MODIFIED="1738609807275" TEXT="3">
+<node CREATED="1713701071292" ID="ID_1714152263" MODIFIED="1738609808613" TEXT="environmental awareness">
 <node CREATED="1713701085380" ID="ID_751256081" MODIFIED="1713701086833" TEXT="defn"/>
 <node CREATED="1713701087108" ID="ID_513445595" MODIFIED="1713701114106" TEXT="its salient features through ed programs at secondary level"/>
 <node CREATED="1713701121644" ID="ID_186123789" MODIFIED="1713701144969" TEXT="programs of envtal ed for attitude changes among children"/>
 <node CREATED="1713701145508" ID="ID_1440247854" MODIFIED="1713701162754" TEXT="role of school in environmental conservan and sustainable dev"/>
 </node>
 </node>
-<node CREATED="1713701168908" FOLDED="true" ID="ID_442678873" MODIFIED="1738257732424" TEXT="4">
-<node CREATED="1713701170348" FOLDED="true" ID="ID_1284781582" MODIFIED="1738257732424" TEXT="biodiversity">
+<node CREATED="1713701168908" ID="ID_442678873" MODIFIED="1738609810519" TEXT="4">
+<node CREATED="1713701170348" ID="ID_1284781582" MODIFIED="1738609811425" TEXT="biodiversity">
 <node CREATED="1713701191645" ID="ID_1166150026" MODIFIED="1713701193363" TEXT="defn"/>
 <node CREATED="1713701193796" ID="ID_1369623002" MODIFIED="1713701194952" TEXT="eg"/>
 <node CREATED="1713701396212" ID="ID_581846448" MODIFIED="1713701406035" TEXT="ecosystem"/>
-<node CREATED="1713701195204" FOLDED="true" ID="ID_1823211134" MODIFIED="1738257732424" TEXT="consrvn of genetic diversity">
+<node CREATED="1713701195204" ID="ID_1823211134" MODIFIED="1738609813951" TEXT="consrvn of genetic diversity">
 <node CREATED="1713701210780" ID="ID_1405251752" MODIFIED="1713701212932" TEXT="meaning"/>
 <node CREATED="1713701213301" ID="ID_364687148" MODIFIED="1713701226374" TEXT="importance"/>
 </node>
